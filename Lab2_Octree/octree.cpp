@@ -6,11 +6,13 @@
 #include <limits>
 #include <algorithm>
 #include <sstream>
+#include <functional>
 using namespace std;
 
 //Funciones extra
-int determinar_octante(Point bottomleft, double h, Point p){
-    Point centro(bottomleft.x + h/2,bottomleft.y + h/2, bottomleft.z + h/2);
+//Funcion que determina el octante en el que debe estar un punto
+int determinar_octante(Point bottomleft, double h, Point p) {
+    Point centro(bottomleft.x + h / 2, bottomleft.y + h / 2, bottomleft.z + h / 2);
     int x_bit = (p.x >= centro.x) ? 1 : 0;
     int y_bit = (p.y >= centro.y) ? 1 : 0;
     int z_bit = (p.z >= centro.z) ? 1 : 0;
@@ -18,19 +20,20 @@ int determinar_octante(Point bottomleft, double h, Point p){
     return octante;
 }
 
+//Funciones dadas
 //Contructor
-Octree::Octree(const Point &p, double height, int capacity){
+Octree::Octree(const Point& p, double height, int capacity) {
     bottomLeft = p;
     h = height;
     nPoints = capacity;
 
-    for (int i = 0; i < 8; i++){children[i] = nullptr;}
+    for (int i = 0; i < 8; i++) { children[i] = nullptr; }
     Point(50, 60, 70);
 };
 
-//Funciones dadas
+//Funcion que verifica si un punto existe en el octree
 bool Octree::exist(const Point& p) {
-    if (esHoja()){
+    if (esHoja()) {
         for (const auto& pt : puntos) {
             if (pt.x == p.x && pt.y == p.y && pt.z == p.z)
                 return true;
@@ -44,14 +47,16 @@ bool Octree::exist(const Point& p) {
     return false;
 }
 
-void Octree::insert(const Point& p){
+//Funcion que inserta un punto en el octree
+void Octree::insert(const Point& p) {
     if (exist(p)) return;
-    
+
     if (esHoja()) {
         if (puntos.size() < nPoints) {
             puntos.push_back(p);
             return;
-        } else {
+        }
+        else {
             subdividir();
             for (const auto& point : puntos) {
                 int octante = determinar_octante(bottomLeft, h, point);
@@ -60,9 +65,9 @@ void Octree::insert(const Point& p){
             puntos.clear();
         }
     }
-    
+
     int octante = determinar_octante(bottomLeft, h, p);
-    if (children[octante] ==nullptr){
+    if (children[octante] == nullptr) {
         double h1 = h / 2;
         int x_offset = (octante & 4) ? h1 : 0;
         int y_offset = (octante & 2) ? h1 : 0;
@@ -73,21 +78,59 @@ void Octree::insert(const Point& p){
     children[octante]->insert(p);
 }
 
-//Point Octree::find_closest(const Point&, int radius){}
+//Funcion que busca el punto mas cercano a un punto dado
+Point Octree::find_closest(const Point& target, int radius) {
+    Point closest;
+    double min_dist = numeric_limits<double>::max();
+    double radius_squared = radius * radius;
+
+    function<void(Octree*)> search = [&](Octree* node) {
+        if (!node) return;
+
+        // Revisar los puntos en este nodo
+        for (const auto& p : node->puntos) {
+            double dist_squared = pow(p.x - target.x, 2) + pow(p.y - target.y, 2) + pow(p.z - target.z, 2);
+            if (dist_squared < min_dist && dist_squared <= radius_squared) {
+                min_dist = dist_squared;
+                closest = p;
+            }
+        }
+
+        // Buscar en los nodos hijos
+        for (int i = 0; i < 8; i++) {
+            if (node->children[i]) {
+                search(node->children[i]);
+            }
+        }
+        };
+
+    search(this);
+
+    // Si no se encontró un punto dentro del radio, devolver un punto inválido
+    if (min_dist == numeric_limits<double>::max()) {
+        cout << "No se encontró un punto dentro del radio especificado.\n";
+        return Point(-1, -1, -1);  // Valor indicativo de que no se encontró
+    }
+
+    return closest;
+}
+
 
 //Funciones creadas
-bool Octree::esHoja(){
-    for (int i = 0; i < 8; i++){
-        if (children[i] != nullptr){
+//Funcion que determina si un nodo es hoja o no
+bool Octree::esHoja() {
+    for (int i = 0; i < 8; i++) {
+        if (children[i] != nullptr) {
             return false;
         }
     }
     return true;
 }
 
-void Octree::subdividir(){
+//Funcion que subdivide el octree, cuando se llena el nodo
+void Octree::subdividir() {
     double h1 = h / 2;
-    for (int i = 0; i < 8; i++){
+    for (int i = 0; i < 8; i++) {
         int x_offset = (i & 4) ? h1 : 0;
         int y_offset = (i & 2) ? h1 : 0;
         int z_offset = (i & 1) ? h1 : 0;
@@ -96,18 +139,20 @@ void Octree::subdividir(){
     }
 }
 
-void Octree::nueva_cant_nPoint (int newnPoint){
+//Funcion que cambia la cantidad de puntos para un nodo
+void Octree::nueva_cant_nPoint(int newnPoint) {
     nPoints = newnPoint;
-    if (!esHoja()){
-        for (int i = 0; i < 8; i++){
-            if (children[i] != nullptr){
-                children[i] -> nueva_cant_nPoint(newnPoint);
+    if (!esHoja()) {
+        for (int i = 0; i < 8; i++) {
+            if (children[i] != nullptr) {
+                children[i]->nueva_cant_nPoint(newnPoint);
             }
         }
     }
 }
 
-vector<Point> leer_csv(const string& filename) {
+//Funcion que lee el .csv
+static vector<Point> leer_csv(const string& filename) {
     vector<Point> puntos;
     ifstream file(filename);
     string line;
@@ -122,33 +167,39 @@ vector<Point> leer_csv(const string& filename) {
     return puntos;
 }
 
+//Funcion para imprimir el Octree
 void Octree::imprimir(int nivel) {
-    for (int i = 0; i < nivel; i++) cout << "  ";
-    cout << "Nodo en (" << bottomLeft.x << ", " << bottomLeft.y << ", " << bottomLeft.z << ") con h = " << h << "\n";
-    for (const auto& p : puntos) {
-        for (int i = 0; i < nivel + 1; i++) cout << "  ";
-        cout << "Punto: (" << p.x << ", " << p.y << ", " << p.z << ")\n";
+    string indent(nivel * 2, ' ');
+    cout << indent << " Nodo (BottomLeft: " << bottomLeft.x << ", " << bottomLeft.y << ", " << bottomLeft.z << ") - h: " << h << "\n";
+
+    if (!puntos.empty()) {
+        cout << indent << " Puntos en este nodo: \n";
+        for (const auto& p : puntos) {
+            cout << indent << "    - (" << p.x << ", " << p.y << ", " << p.z << ")\n";
+        }
     }
+
     for (int i = 0; i < 8; i++) {
         if (children[i] != nullptr) {
+            cout << indent << " Octante " << i << "\n";
             children[i]->imprimir(nivel + 1);
         }
     }
 }
 
-int main(){
+int main() {
     vector<Point> puntos = leer_csv("points1.csv");
-    
+
     if (puntos.empty()) {
         cout << "No se encontraron puntos en el archivo CSV." << endl;
         return 1;
     }
-    
+
     int x_min = numeric_limits<int>::max(), x_max = numeric_limits<int>::min();
     int y_min = numeric_limits<int>::max(), y_max = numeric_limits<int>::min();
     int z_min = numeric_limits<int>::max(), z_max = numeric_limits<int>::min();
 
-    for (const auto& p : puntos){
+    for (const auto& p : puntos) {
         x_min = min(x_min, p.x);
         x_max = max(x_max, p.x);
         y_min = min(y_min, p.y);
@@ -158,20 +209,34 @@ int main(){
     }
 
     Point bottomLeft(x_min, y_min, z_min);
-    double h = max({x_max - x_min, y_max - y_min, z_max - z_min});
+    double h = max({ x_max - x_min, y_max - y_min, z_max - z_min });
     Octree miOctree(bottomLeft, h, 5);
 
     for (const auto& p : puntos) {
         miOctree.insert(p);
     }
-    
-    miOctree.imprimir(0);
+
+	//miOctree.nueva_cant_nPoint(8);  //Cambia la cantidad de puntos para un nodo
+    //miOctree.imprimir(0);  //Funcion imprimir Octree
 
     cout << "BottomLeft: (" << miOctree.getbottomleft().x << ", " << miOctree.getbottomleft().y << ", " << miOctree.getbottomleft().z << ")\n";
     cout << "Altura " << miOctree.getH() << "\n";
 
+    //Funcion para encontrar el punto mas cercano
+    /*
+	Point target(-1, -1, -1);
+	int radio = 300;
+    Point closest = miOctree.find_closest(target, radio);
+
+    if (closest.x != -1) {
+        cout << "El punto mas cercano a (" << target.x << ", " << target.y << ", " << target.z << ") dentro del radio "
+            << radio << " es (" << closest.x << ", " << closest.y << ", " << closest.z << ")\n";
+    }
     
+    */
 
-    return 0;
+    Point _buscar(76, 15, -29);
+	bool buscarexiste = miOctree.exist(_buscar);
+	cout << "El punto (" << _buscar.x << ", " << _buscar.y << ", " << _buscar.z << ") existe en el Octree? " << (buscarexiste ? "Si" : "No") << "\n";
+	return 0;
 }
-
