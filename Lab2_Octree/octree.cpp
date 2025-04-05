@@ -217,14 +217,14 @@ int main() {
     }
 
 	//miOctree.nueva_cant_nPoint(8);  //Cambia la cantidad de puntos para un nodo
-    //miOctree.imprimir(0);  //Funcion imprimir Octree
+    miOctree.imprimir(0);  //Funcion imprimir Octree
 
     cout << "BottomLeft: (" << miOctree.getbottomleft().x << ", " << miOctree.getbottomleft().y << ", " << miOctree.getbottomleft().z << ")\n";
     cout << "Altura " << miOctree.getH() << "\n";
 
     //Funcion para encontrar el punto mas cercano
-    /*
-	Point target(-1, -1, -1);
+    
+	Point target(-54, -12, -123);
 	int radio = 300;
     Point closest = miOctree.find_closest(target, radio);
 
@@ -233,7 +233,7 @@ int main() {
             << radio << " es (" << closest.x << ", " << closest.y << ", " << closest.z << ")\n";
     }
     
-    */
+    
 
     Point _buscar(76, 15, -29);
 	bool buscarexiste = miOctree.exist(_buscar);
