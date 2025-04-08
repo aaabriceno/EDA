@@ -1,7 +1,7 @@
-# Curso de Estructuras de Datos Avanzada (ADA)
+# Curso de Estructuras de Datos Avanzada (EDA)
 
 ## Información del curso
-- **Materia:** Estructuras de Datos Avanzada (ADA)
+- **Materia:** Estructuras de Datos Avanzada (EDA)
 - **Semestre:** VI
 - **Año:** 2025 - 1
 

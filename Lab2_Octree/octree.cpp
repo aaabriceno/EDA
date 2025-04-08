@@ -28,7 +28,6 @@ Octree::Octree(const Point& p, double height, int capacity) {
     nPoints = capacity;
 
     for (int i = 0; i < 8; i++) { children[i] = nullptr; }
-    Point(50, 60, 70);
 };
 
 //Funcion que verifica si un punto existe en el octree
@@ -55,14 +54,8 @@ void Octree::insert(const Point& p) {
         if (puntos.size() < nPoints) {
             puntos.push_back(p);
             return;
-        }
-        else {
-            subdividir();
-            for (const auto& point : puntos) {
-                int octante = determinar_octante(bottomLeft, h, point);
-                children[octante]->insert(point);
-            }
-            puntos.clear();
+        } else {
+            subdividir(); 
         }
     }
 
@@ -77,6 +70,7 @@ void Octree::insert(const Point& p) {
     }
     children[octante]->insert(p);
 }
+
 
 //Funcion que busca el punto mas cercano a un punto dado
 Point Octree::find_closest(const Point& target, int radius) {
@@ -130,13 +124,30 @@ bool Octree::esHoja() {
 //Funcion que subdivide el octree, cuando se llena el nodo
 void Octree::subdividir() {
     double h1 = h / 2;
+    cout << "Subdividiendo nodo en (" << bottomLeft.x << ", " << bottomLeft.y << ", " << bottomLeft.z << ") con h = " << h << "\n";
+
     for (int i = 0; i < 8; i++) {
         int x_offset = (i & 4) ? h1 : 0;
         int y_offset = (i & 2) ? h1 : 0;
         int z_offset = (i & 1) ? h1 : 0;
         Point newBottomLeft(bottomLeft.x + x_offset, bottomLeft.y + y_offset, bottomLeft.z + z_offset);
         children[i] = new Octree(newBottomLeft, h1, nPoints);
+        cout << "  Nodo hijo " << i << " creado en (" << newBottomLeft.x << ", " << newBottomLeft.y << ", " << newBottomLeft.z << ")\n";
     }
+
+    vector<Point> puntos_a_redistribuir = puntos;
+    puntos.clear();
+
+    for (const auto& point : puntos_a_redistribuir) {
+        int octante = determinar_octante(bottomLeft, h, point);
+        cout << "  Redistribuyendo punto (" << point.x << ", " << point.y << ", " << point.z << ") al octante " << octante << "\n";
+        if (children[octante] != nullptr) {
+            children[octante]->puntos.push_back(point); // ¡más directo y eficiente!
+        } else {
+            cout << "Error: Nodo hijo " << octante << " no inicializado.\n";
+        }
+    }
+    
 }
 
 //Funcion que cambia la cantidad de puntos para un nodo
@@ -188,8 +199,7 @@ void Octree::imprimir(int nivel) {
 }
 
 int main() {
-    vector<Point> puntos = leer_csv("points1.csv");
-
+    vector<Point> puntos = leer_csv("points0.csv");
     if (puntos.empty()) {
         cout << "No se encontraron puntos en el archivo CSV." << endl;
         return 1;
@@ -210,22 +220,22 @@ int main() {
 
     Point bottomLeft(x_min, y_min, z_min);
     double h = max({ x_max - x_min, y_max - y_min, z_max - z_min });
-    Octree miOctree(bottomLeft, h, 5);
+    Octree miOctree(bottomLeft, h, 1);
 
     for (const auto& p : puntos) {
         miOctree.insert(p);
     }
 
 	//miOctree.nueva_cant_nPoint(8);  //Cambia la cantidad de puntos para un nodo
-    //miOctree.imprimir(0);  //Funcion imprimir Octree
+    miOctree.imprimir(0);  //Funcion imprimir Octree
 
     cout << "BottomLeft: (" << miOctree.getbottomleft().x << ", " << miOctree.getbottomleft().y << ", " << miOctree.getbottomleft().z << ")\n";
     cout << "Altura " << miOctree.getH() << "\n";
 
     //Funcion para encontrar el punto mas cercano
-    /*
-	Point target(-1, -1, -1);
-	int radio = 300;
+    
+	Point target(18, 69, -179);
+	int radio = 10;
     Point closest = miOctree.find_closest(target, radio);
 
     if (closest.x != -1) {
@@ -233,10 +243,5 @@ int main() {
             << radio << " es (" << closest.x << ", " << closest.y << ", " << closest.z << ")\n";
     }
     
-    */
-
-    Point _buscar(76, 15, -29);
-	bool buscarexiste = miOctree.exist(_buscar);
-	cout << "El punto (" << _buscar.x << ", " << _buscar.y << ", " << _buscar.z << ") existe en el Octree? " << (buscarexiste ? "Si" : "No") << "\n";
 	return 0;
 }
