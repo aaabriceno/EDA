@@ -199,7 +199,7 @@ void Octree::imprimir(int nivel) {
 }
 
 int main() {
-    vector<Point> puntos = leer_csv("points0.csv");
+    vector<Point> puntos = leer_csv("points2.csv");
     if (puntos.empty()) {
         cout << "No se encontraron puntos en el archivo CSV." << endl;
         return 1;
@@ -220,7 +220,7 @@ int main() {
 
     Point bottomLeft(x_min, y_min, z_min);
     double h = max({ x_max - x_min, y_max - y_min, z_max - z_min });
-    Octree miOctree(bottomLeft, h, 1);
+    Octree miOctree(bottomLeft, h, 20);
 
     for (const auto& p : puntos) {
         miOctree.insert(p);
