@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/">
+
+    <title>15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms</title>
+    
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/haiku.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/pygments.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/JSAV.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/odsaMOD-min.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.ui.min.css" type="text/css">
+    <link rel="stylesheet" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/odsaStyle-min.css" type="text/css">
+    
+  <script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+      URL_ROOT:    './',
+      VERSION:     '0.4.1',
+      COLLAPSE_INDEX: false,
+      FILE_SUFFIX: '.html',
+      HAS_SOURCE:  true
+    };
+  </script>
+
+  <script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": {
+        scale: "80"
+      }
+    });
+  </script>
+    <link rel="index" title="Index" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/genindex.html">
+    <link rel="search" title="Search" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/search.html">
+    <link rel="index" title="CS3 Data Structures &amp; Algorithms" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html">
+    <link rel="next" title="4. KD Trees" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/KDtree.html">
+    <link rel="prev" title="2. Spatial Data Structures" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Spatial.html">
+
+  <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Main-bold; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Main-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Math-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.1') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+  <body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+
+
+      <div class="header">
+        
+  
+      <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.min.js.descarga"></script>
+      <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.migrate.min.js.descarga"></script>
+      <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/MathJax.js.descarga"></script>
+      <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/localforage.min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.scrolldepth.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/timeme.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.ui.min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/jquery.transit.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/raphael.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/JSAV-min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/config.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/timeme-min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/odsaUtils-min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/odsaMOD-min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/d3.min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/d3-selection-multi.v1.min.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/dataStructures.js.descarga"></script>
+    <script type="text/javascript" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/conceptMap.js.descarga"></script>
+
+        
+<a id="username-link" style="float:right;color:red;margin:10px 20px auto; display: none" class="username-link" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Gradebook.html"></a>
+<a id="login-link" style="float: right; color: red; margin: 10px 20px auto; display: none;" class="login-link" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#"><macro 'login'=""></macro></a>
+<div id="login-box" class="login-popup">
+  <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#" class="close"><img src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/close_pop.png" class="btn_close" title="Close Window" alt="Close"></a>
+  <form method="post" class="signin" action="https:/#">
+    <fieldset class="textbox">
+      <label class="username">
+        <span>Username</span>
+        <input id="username" value="" type="text" autocomplete="on" placeholder="Username" tabindex="1">
+      </label>
+      <label class="password">
+        <span>Password</span>
+        <input id="password" value="" type="password" placeholder="Password" tabindex="2">
+        <span><a id="forgot" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#">Forgot your password?</a></span>
+      </label>
+
+      <p>
+        <input type="submit" id="login-submit-button" value="Sign in" tabindex="3">
+      </p>
+      <p>
+        <input type="button" id="register-button" value="Register" tabindex="4">
+      </p>
+    </fieldset>
+  </form>
+</div>
+
+        
+<a id="registration-link" style="float: right; color: red; margin: 10px 20px auto; display: none;" class="registration-link" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#">Register</a>
+<div id="registration-box" class="registration-popup ">
+  <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#" class="close"><img src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/close_pop.png" class="btn_close" title="Close Window" alt="Close Window"></a>
+  <form method="post" class="signin" action="https:/#">
+    <fieldset class="textbox">
+      <div id="register_error" class="error"></div>
+      <label class="username">
+        <span>Username:</span>
+        <input type="text" id="user" placeholder="Username">
+      </label>
+
+      <label class="password">
+        <span>Password</span>
+        <input id="pass" type="password" placeholder="Password">
+      </label>
+
+      <label class="password">
+        <span>Confirm Password</span>
+        <input id="rpass" type="password" placeholder="Confirm Password">
+      </label>
+
+      <label class="email">
+        <span>Email:</span>
+        <input type="text" id="email" placeholder="Email">
+      </label>
+
+      <p>
+        <input type="submit" id="register-submit-button" value="Register →">
+      </p>
+    </fieldset>
+  </form>
+</div>
+<img class="leftlogo" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/OpenDSALogoT64.png" alt=""><div class="title-wrapper">
+          <div class="title-inbetween" style="display: table-cell; vertical-align: middle;">
+            <div class="title-content">
+              <h1 class="heading"><a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html">
+                <span>CS3 Data Structures &amp; Algorithms</span></a></h1>
+              <h2 class="heading"><span>Chapter 15 Advanced Data Structures</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="topnav">
+        <p>
+            <a style="float:left;color:blue;" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/source/PRquadtree.rst.rst" target="_blank" rel="nofollow">Show Source | </a>&nbsp;&nbsp;
+            <a class="abt" style="float:left;color:blue;" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#" rel="nofollow">| About</a>&nbsp;&nbsp;
+
+          
+        «&nbsp;&nbsp;<a id="prevmod" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Spatial.html">15.<span class="section-number">2. </span>Spatial Data Structures</a>
+        &nbsp;&nbsp;::&nbsp;&nbsp;
+        <a class="uplink" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html">Contents</a>
+        &nbsp;&nbsp;::&nbsp;&nbsp;
+        <a id="nextmod" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/KDtree.html">15.<span class="section-number">4. </span>KD Trees</a>&nbsp;&nbsp;»
+
+
+        </p>
+      </div>
+       
+      <div class="content">
+        
+  <blockquote>
+<div><script type="text/javascript">
+ $(function () {
+   var moduleName = "the-pr-quadtree";
+   var sections = [];
+   TimeMe.initialize({
+     idleTimeoutInSeconds: 10
+   });
+   sections.forEach(function (section, i) {
+     TimeMe.trackTimeOnElement(section);
+   });
+   var timeObj = {};
+   setInterval(function () {
+     timeObj[moduleName.substring(0, 5)] = TimeMe.getTimeOnCurrentPageInSeconds().toFixed(2);
+     sections.forEach(function (section, i) {
+       timeObj[i + "-" + section.substring(0, 5)] = TimeMe.getTimeOnElementInSeconds(section).toFixed(2);
+     });
+     for (var sec of sections) {
+     }
+     console.log(JSON.stringify(timeObj))
+   }, 2000);
+ });
+</script></div></blockquote>
+<script>ODSA.SETTINGS.DISP_MOD_COMP = true;ODSA.SETTINGS.MODULE_NAME = "PRquadtree";ODSA.SETTINGS.MODULE_LONG_NAME = "The PR Quadtree";ODSA.SETTINGS.MODULE_CHAPTER = "Advanced Data Structures"; ODSA.SETTINGS.BUILD_DATE = "2024-10-25 14:02:04"; ODSA.SETTINGS.BUILD_CMAP = true;JSAV_OPTIONS['lang']='en';JSAV_EXERCISE_OPTIONS['code']='java';</script><section id="the-pr-quadtree">
+<h1>15.<span class="section-number">3. </span>The PR Quadtree<a class="headerlink" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#the-pr-quadtree" title="Permalink to this heading">¶</a></h1>
+<section id="id1">
+<h2>15.<span class="section-number">3.1. </span>The PR Quadtree<a class="headerlink" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#id1" title="Permalink to this heading">¶</a></h2>
+<p>In the <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-point-region-quadtree" target="_parent"><span class="xref std std-term">Point-Region quadtree</span></a>
+(hereafter referred to as the <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-PR-quadtree" target="_parent"><span class="xref std std-term">PR quadtree</span></a>)
+each node either has exactly four children or is a leaf.
+That is, the PR quadtree is a full four-way branching
+(4-ary) tree in shape.
+The PR quadtree represents a collection of data points in two
+dimensions by decomposing the region containing the data points
+into four equal quadrants, subquadrants, and so on, until no leaf node
+contains more than a single point.
+In other words, if a region contains zero or one data points, then it
+is represented by a PR quadtree consisting of a single leaf node.
+If the region contains more than a single data point, then the region
+is split into four equal quadrants.
+The corresponding PR quadtree then contains an internal node and four
+subtrees, each subtree representing a single quadrant of the region,
+which might in turn be split into subquadrants.
+Each internal node of a PR quadtree represents a single split
+of the two-dimensional region.
+The four quadrants of the region (or equivalently, the corresponding
+subtrees) are designated (in order) NW, NE, SW, and SE.
+Each quadrant containing more than a single point would
+in turn be recursively divided into subquadrants until each leaf of
+the corresponding PR quadtree contains at most one point.</p>
+<figure class="align-center" id="id2" style="width: 90%">
+<span id="prexamp"></span><a class="reference internal image-reference" href="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/PRexamp.png" target="_parent"><img alt="Example of a PR quadtree" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/PRexamp.png" style="width: 500px;"></a>
+<figcaption>
+<p><span class="caption-text"> Figure 15.3.1: Example of a PR quadtree.
+(a) A map of data points.
+We define the region to be square with origin at the upper-left-hand
+corner and sides of length 128.
+(b) The PR quadtree for the points in (a).
+(a) also shows the block decomposition imposed by the PR quadtree for
+this region.</span><a class="headerlink" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>For example, consider the region of Figure <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#prexamp">15.3.1</a> (a)
+and the corresponding PR quadtree in
+Figure <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#prexamp">15.3.1</a> (b).
+The decomposition process demands a fixed key range.
+In this example, the region is assumed to be of size
+<span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;128&lt;/mn&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mn&gt;128&lt;/mn&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 4.055em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.199em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.378em, 1004.13em, 2.463em, -999.996em); top: -2.239em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mn" id="MathJax-Span-3" style="font-family: MathJax_Main;">128</span><span class="mo" id="MathJax-Span-4" style="font-family: MathJax_Main; padding-left: 0.221em;">×</span><span class="mn" id="MathJax-Span-5" style="font-family: MathJax_Main; padding-left: 0.221em;">128</span></span><span style="display: inline-block; width: 0px; height: 2.246em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.066em; border-left: 0px solid; width: 0px; height: 0.837em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>128</mn><mo>×</mo><mn>128</mn></math></span></span><script type="math/tex" id="MathJax-Element-1">128 \times 128</script></span>.
+Note that the internal nodes of the PR quadtree are used solely to
+indicate decomposition of the region; internal nodes do not store data
+records.
+Because the decomposition lines are predetermined (i.e, key-space
+decomposition is used), the PR quadtree is a trie.</p>
+<p>Search for a record matching point <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-6" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-7"><span class="mi" id="MathJax-Span-8" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">Q</script></span> in the PR quadtree is
+straightforward.
+Beginning at the root, we continuously branch to the quadrant that
+contains <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-9" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-10"><span class="mi" id="MathJax-Span-11" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-3">Q</script></span> until our search reaches a leaf node.
+If the root is a leaf, then just check to see if the node’s data
+record matches point <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-12" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-13"><span class="mi" id="MathJax-Span-14" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">Q</script></span>.
+If the root is an internal node, proceed to the child that contains
+the search coordinate.
+For example, the NW quadrant of Figure <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#prexamp">15.3.1</a> contains
+points whose <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-15" style="width: 0.582em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.582em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.523em, 1000.51em, 2.391em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-16"><span class="mi" id="MathJax-Span-17" style="font-family: MathJax_Math-italic;">x</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.066em; border-left: 0px solid; width: 0px; height: 0.559em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math></span></span><script type="math/tex" id="MathJax-Element-5">x</script></span> and <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-18" style="width: 0.51em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.51em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.523em, 1000.51em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-19"><span class="mi" id="MathJax-Span-20" style="font-family: MathJax_Math-italic;">y<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.004em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.767em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">y</script></span> values each fall in the range 0 to 63.
+The NE quadrant contains points whose <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-21" style="width: 0.582em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.582em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.523em, 1000.51em, 2.391em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-22"><span class="mi" id="MathJax-Span-23" style="font-family: MathJax_Math-italic;">x</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.066em; border-left: 0px solid; width: 0px; height: 0.559em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math></span></span><script type="math/tex" id="MathJax-Element-7">x</script></span> value falls in the range
+64 to 127, and whose <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-24" style="width: 0.51em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.51em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.523em, 1000.51em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-25"><span class="mi" id="MathJax-Span-26" style="font-family: MathJax_Math-italic;">y<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.004em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.767em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math></span></span><script type="math/tex" id="MathJax-Element-8">y</script></span> value falls in the range 0 to 63.
+If the root’s child is a leaf node, then that child is checked to see
+if <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-27" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-28"><span class="mi" id="MathJax-Span-29" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-9">Q</script></span> has been found.
+If the child is another internal node, the search process continues
+through the tree until a leaf node is found.
+If this leaf node stores a record whose position matches <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-30" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-31"><span class="mi" id="MathJax-Span-32" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-10">Q</script></span> then
+the query is successful; otherwise <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-11-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-33" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-34"><span class="mi" id="MathJax-Span-35" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-11">Q</script></span> is not in the tree.</p>
+<p>Here is a visualization of the PR quadtree that should help you to
+understand how insert a point or removing a point works.</p>
+<div id="PRquadtreeAV" class="embedContainer" data-exer-name="PRquadtreeAV" data-long-name="PRquadtreeAV" data-short-name="PRquadtreeAV" data-frame-src="../../../AV/Spatial/PRquadtreeAV.html?localMode=true&amp;module=PRquadtree&amp;selfLoggingEnabled=false&amp;JOP-lang=en&amp;JXOP-code=java" data-frame-width="950" data-frame-height="650" data-vertical-scrolling="no" data-external="false" data-points="0.0" data-required="False" data-showhide="show" data-threshold="1" data-type="ss" data-exer-id="">
+  
+  <div class="center">
+    <iframe id="PRquadtreeAV_iframe" aria-label="PRquadtreeAV" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/PRquadtreeAV.html" class="embeddedExercise" width="950" height="650" data-showhide="show" scrolling="no" style="width: 100%; height: 612px; position: relative; top: 0px;">Your browser does not support iframes.</iframe>
+  </div>
+</div>
+<p>Note that there is no particular reason why the tree should split when
+there is more than one point in a node.
+This spliting criteria could be anything that the implementor wants.</p>
+<div id="PRquadtree2ptAV" class="embedContainer" data-exer-name="PRquadtree2ptAV" data-long-name="PRquadtree2ptAV" data-short-name="PRquadtree2ptAV" data-frame-src="../../../AV/Spatial/PRquadtree2ptAV.html?localMode=true&amp;module=PRquadtree&amp;selfLoggingEnabled=false&amp;JOP-lang=en&amp;JXOP-code=java" data-frame-width="950" data-frame-height="650" data-vertical-scrolling="no" data-external="false" data-points="0.0" data-required="False" data-showhide="show" data-threshold="1" data-type="ss" data-exer-id="">
+  
+  <div class="center">
+    <iframe id="PRquadtree2ptAV_iframe" aria-label="PRquadtree2ptAV" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/PRquadtree2ptAV.html" class="embeddedExercise" width="950" height="650" data-showhide="show" scrolling="no" style="width: 100%; height: 612px; position: relative; top: 0px;">Your browser does not support iframes.</iframe>
+  </div>
+</div>
+<p>Here is an interactive visualization of the PR quadtree.
+You can build your own example by adding or removing points.
+See if you can create a tree with the same shape as the one in the
+picture at the top of this page.</p>
+<p>The interactive visualization below will let you use a different split
+value if you want.
+How would the tree look if it had the same points as the figure in the
+top of the page, but a node was allowed to have two points?</p>
+<div id="PRquadtreeInter" class="embedContainer" data-exer-name="PRquadtreeInter" data-long-name="PRquadtreeInter" data-short-name="PRquadtreeInter" data-frame-src="../../../AV/Spatial/PRquadtreeInter.html?localMode=true&amp;module=PRquadtree&amp;selfLoggingEnabled=false&amp;JOP-lang=en&amp;JXOP-code=java" data-frame-width="950" data-frame-height="650" data-vertical-scrolling="no" data-external="false" data-points="0.0" data-required="False" data-showhide="show" data-threshold="1" data-type="ss" data-exer-id="">
+  
+  <div class="center">
+    <iframe id="PRquadtreeInter_iframe" aria-label="PRquadtreeInter" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/PRquadtreeInter.html" class="embeddedExercise" width="950" height="650" data-showhide="show" scrolling="no" style="width: 100%; height: 612px; position: relative; top: 0px;">Your browser does not support iframes.</iframe>
+  </div>
+</div>
+<p>Region search is easily performed with the PR quadtree.
+To locate all points within radius <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-12-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-36" style="width: 0.438em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.438em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.523em, 1000.44em, 2.391em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-37"><span class="mi" id="MathJax-Span-38" style="font-family: MathJax_Math-italic;">r</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.066em; border-left: 0px solid; width: 0px; height: 0.559em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi></math></span></span><script type="math/tex" id="MathJax-Element-12">r</script></span> of query
+point <span class="math notranslate nohighlight"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-13-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;Q&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-39" style="width: 0.799em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.799em; height: 0px; font-size: 96%;"><span style="position: absolute; clip: rect(1.233em, 1000.73em, 2.608em, -999.996em); top: -2.167em; left: 0em;"><span class="mrow" id="MathJax-Span-40"><span class="mi" id="MathJax-Span-41" style="font-family: MathJax_Math-italic;">Q</span></span><span style="display: inline-block; width: 0px; height: 2.174em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.274em; border-left: 0px solid; width: 0px; height: 0.976em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi></math></span></span><script type="math/tex" id="MathJax-Element-13">Q</script></span>, begin at the root.
+If the root is an empty leaf node, then no data points are found.
+If the root is a leaf containing a data record, then the location of
+the data point is examined to determine if it falls within the
+circle.
+If the root is an internal node, then the process is performed
+recursively, but <em>only</em> on those subtrees containing some part
+of the search circle.</p>
+<p>Let us now consider how the structure of the PR quadtree affects the
+design of its node representation.
+The PR quadtree is actually a <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-trie" target="_parent"><span class="xref std std-term">trie</span></a>.
+Decomposition takes place at the mid-points for internal nodes,
+regardless of where the data points actually fall.
+The placement of the data points does determine <em>whether</em> a
+decomposition for a node takes place, but not <em>where</em> the
+decomposition for the node takes place.
+Internal nodes of the PR quadtree are quite different from leaf nodes,
+in that internal nodes have children (leaf nodes do not) and leaf
+nodes have data fields (internal nodes do not).
+Thus, it is likely to be beneficial to represent internal nodes
+differently from leaf nodes.
+Finally, there is the fact that approximately half of the leaf nodes
+will contain no data field.</p>
+<p>Another issue to consider is: How does a routine traversing the
+PR quadtree get the coordinates for the square represented by the
+current PR quadtree node?
+One possibility is to store with each node its spatial description
+(such as upper-left corner and width).
+However, this will take a lot of space—perhaps as much as the
+space needed for the data records, depending on what information is
+being stored.</p>
+<p>Another possibility is to pass in the coordinates when the recursive
+call is made.
+For example, consider the search process.
+Initially, the search visits the root node of the tree, which has
+origin at (0, 0), and whose width is the full size of the space being
+covered.
+When the appropriate child is visited, it is a simple matter for the
+search routine to determine the origin for the child, and the width of
+the square is simply half that of the parent.
+Not only does passing in the size and position information for a node
+save considerable space, but avoiding storing such information
+in the nodes enables a good design choice for
+empty leaf nodes, as discussed next.</p>
+<p>How should we represent empty leaf nodes?
+On average, half of the leaf nodes in a PR quadtree are empty
+(i.e., do not store a data point).
+One implementation option is to use a NULL pointer in internal
+nodes to represent empty nodes.
+This will solve the problem of excessive space requirements.
+There is an unfortunate side effect that using a NULL pointer requires
+the PR quadtree processing methods to understand this convention.
+In other words, you are breaking encapsulation on the node
+representation because the tree now must know things about how the
+nodes are implemented.
+This is not too horrible for this particular application, because the
+node class can be considered private to the tree class, in which case
+the node implementation is completely invisible to the outside world.
+However, it is undesirable if there is another reasonable alternative.</p>
+<p>Fortunately, there is a good alternative.
+It is called the <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-flyweight" target="_parent"><span class="xref std std-term">Flyweight</span></a> <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-design-pattern" target="_parent"><span class="xref std std-term">design pattern</span></a>.
+In the PR quadtree, a flyweight is a single empty leaf node that
+is reused in all places where an empty leaf node is needed.
+You simply have <em>all</em> of the internal nodes with empty leaf
+children point to the same node object.
+This node object is created once at the beginning of the program,
+and is never removed.
+The node class recognizes from the pointer value that the flyweight is
+being accessed, and acts accordingly.</p>
+<p>Note that when using the Flyweight design pattern, you <em>cannot</em>
+store coordinates for the node in the node.
+This is an example of the concept of intrinsic versus extrinsic state.
+Intrinsic state for an object is state information stored in the object.
+If you stored the coordinates for a node in the node object, those
+coordinates would be intrinsic state.
+Extrinsic state is state information about an object stored elsewhere
+in the environment, such as in global variables or passed to the
+method.
+If your recursive calls that process the tree pass in the coordinates
+for the current node, then the coordinates will be extrinsic state.
+A flyweight can have in its intrinsic state <em>only</em>
+information that is accurate for <em>all</em> instances of the
+flyweight.
+Clearly coordinates do not qualify, because each empty
+leaf node has its own location.
+So, if you want to use a flyweight, you must pass in coordinates.</p>
+<p>Another design choice is: Who controls the work, the node
+class or the tree class?
+For example, on an insert operation, you could have the tree class
+control the flow down the tree, looking at (querying) the nodes to see
+their type and reacting accordingly.
+This is the typical approach used by the BST implementation.
+An alternate approach is to have the node class do the work.
+That is, you have an insert method for the nodes.
+If the node is internal, it passes the city record to the appropriate
+child (recursively).
+If the node is a flyweight, it replaces itself with a new leaf node.
+If the node is a full node, it replaces itself with a subtree.
+This is an example of the <a class="reference internal" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Glossary.html#term-Composite-design-pattern" target="_parent"><span class="xref std std-term">Composite design pattern</span></a>.
+Use of the composite design would be difficult if NULL pointers are
+used to represent empty leaf nodes.
+It turns out that the PR quadtree insert and delete methods are easier
+to implement when using the composite design.</p>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav">
+      <p><span class="email_div" style="display:inline;"><a id="contact_us" class="contact" style="float:left;color:blue;" rel="nofollow" href="mailto:opendsa%40cs.vt.edu">Contact Us |</a><a style="float:left;color:blue;" rel="nofollow" href="https://opendsa-server.cs.vt.edu/ODSA/lib/Privacy.html" target="_blank">| Privacy |</a> <a style="float:left;color:blue;" rel="nofollow" href="https://opendsa-server.cs.vt.edu/ODSA/lib/license.html" target="_blank">| License</a></span>&nbsp;&nbsp;
+      
+        «&nbsp;&nbsp;<a id="prevmod1" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Spatial.html">15.<span class="section-number">2. </span>Spatial Data Structures</a>
+        &nbsp;&nbsp;::&nbsp;&nbsp;
+        <a class="uplink" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html">Contents</a>
+        &nbsp;&nbsp;::&nbsp;&nbsp;
+        <a id="nextmod1" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/KDtree.html">15.<span class="section-number">4. </span>KD Trees</a>&nbsp;&nbsp;»
+
+</p>
+      </div>
+      <img style="float:right;" src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/nsf1.gif" height="62" width="62" alt="">
+
+
+    <div class="footer">
+      <p>
+        <span class="email_div" style="display:inline;">
+          <a id="contact_us" class="contact" style="float:left;color:blue;" rel="nofollow" href="mailto:">Contact Us |</a>
+          <a id="bugreport-link" style="float:left;color:blue;" class="bugreport-link" href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#">| Report a bug</a>
+        </span>
+      </p>
+        © Copyright 2011-2023 by OpenDSA Project Contributors and distributed under an MIT license.
+      Last updated on Oct 25, 2024.
+      Created using <a target="_blank" href="http://sphinx.pocoo.org/">Sphinx</a> 5.2.1.
+    </div>
+    
+<div id="bugreport-box" class="bugreport-popup ">
+  <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/PRquadtree.html#" class="close"><img src="./15.3. The PR Quadtree — CS3 Data Structures &amp; Algorithms_files/close_pop.png" class="btn_close" title="Close Window" alt="Close Window"></a>
+  <form method="post" class="report" action="https:/#">
+    <fieldset class="textbox">
+      <div id="bug_error" class="error"></div>
+      <label>
+        <span>Summary*:</span>
+        <input type="text" id="b_title" placeholder="Summary">
+      </label>
+
+      <label class="os">
+        <span>Operating system*:</span>
+        <select id="b_os">
+          <option value="windows">Windows</option>
+          <option value="macos">Mac OS</option>
+          <option value="linux">Linux</option>
+          <option value="ios">iOS</option>
+          <option value="android">Android</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label class="browser">
+        <span>Browser*:</span>
+        <select id="b_browser">
+          <option value="chrome">Chrome</option>
+          <option value="safari">Safari</option>
+          <option value="internetexplorer">Internet Explorer</option>
+          <option value="opera">Opera</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label class="description">
+        <span>Description*:</span><br>
+        <textarea id="b_description" rows="5" cols="25" placeholder="***BUG** Please enter: (1) a consice description of the problem. (2) steps to reproduce bug. (3) the version of your browser and operating system."></textarea>
+      </label>
+
+      <label class="screenshot">
+        <span>Attach a screenshot (optional):</span>
+        <input type="file" id="b_screenshot" accept="image/*" placeholder="Attach a screenshot (optional)">
+      </label>
+
+      <p>
+        <input type="submit" id="bug-submit-button" value="Submit →">
+      </p>
+    </fieldset>
+  </form>
+</div>
+
+  
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-size-adjust: none; font-family: MathJax_Math-italic, sans-serif;"></div></div></body></html>
