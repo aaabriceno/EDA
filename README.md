@@ -9,7 +9,8 @@
 - Estructuras de Datos k-dimensionales
 
 ## Profesor
-- **Profesor:** Erick Mauricio Gomez Nieto
+- **Profesor de Cátedra:** Erick Mauricio Gomez Nieto
+- **Profesor de Lab.:** Rosa Juliana Paccotacya Yanque
 
 ## Contacto
 - **Correo:** anthony.briceno@ucsp.edu.pe
