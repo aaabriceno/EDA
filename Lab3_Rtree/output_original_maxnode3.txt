@@ -1,0 +1,170 @@
+inserting 2:  ( 20 , 59 )  ( 20 , 43 ) 
+inserting 2:  ( 50 , 58 )  ( 48 , 67 ) 
+inserting 2:  ( 105 , 68 )  ( 74 , 64 ) 
+inserting 2:  ( 83 , 40 )  ( 104 , 54 ) 
+inserting 2:  ( 12 , 28 )  ( 19 , 15 ) 
+inserting 2:  ( 40 , 29 )  ( 69 , 25 ) 
+inserting 2:  ( 70 , 28 )  ( 60 , 15 ) 
+ number of (objects) :2
+ number of polygons :3
+ number of points :2
+   point:20 | 43
+   point:50 | 67
+ number of points :2
+   point:74 | 40
+   point:105 | 68
+ number of points :2
+   point:12 | 15
+   point:70 | 29
+
+--------------------
+ number of polygons :7
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 58
+   point:50 | 67
+ number of points :2
+   point:74 | 64
+   point:105 | 68
+ number of points :2
+   point:83 | 40
+   point:104 | 54
+ number of points :2
+   point:12 | 15
+   point:19 | 28
+ number of points :2
+   point:40 | 25
+   point:69 | 29
+ number of points :2
+   point:60 | 15
+   point:70 | 28
+
+--------------------
+ INSERTING ONE MORE 
+inserting 2:  ( 53 , 4 )  ( 54 , 12 ) 
+ number of (objects) :3
+ number of polygons :2
+ number of points :2
+   point:20 | 40
+   point:105 | 68
+ number of points :2
+   point:12 | 4
+   point:70 | 29
+
+--------------------
+ number of polygons :4
+ number of points :2
+   point:20 | 43
+   point:50 | 67
+ number of points :2
+   point:74 | 40
+   point:105 | 68
+ number of points :2
+   point:12 | 15
+   point:19 | 28
+ number of points :2
+   point:40 | 4
+   point:70 | 29
+
+--------------------
+ number of polygons :8
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 58
+   point:50 | 67
+ number of points :2
+   point:74 | 64
+   point:105 | 68
+ number of points :2
+   point:83 | 40
+   point:104 | 54
+ number of points :2
+   point:12 | 15
+   point:19 | 28
+ number of points :2
+   point:40 | 25
+   point:69 | 29
+ number of points :2
+   point:60 | 15
+   point:70 | 28
+ number of points :2
+   point:53 | 4
+   point:54 | 12
+
+--------------------
+ REMOVING LAST INSERTED 
+ ( 53 , 4 )  ( 54 , 12 ) 
+ number of (objects) :3
+ number of polygons :2
+ number of points :2
+   point:20 | 40
+   point:105 | 68
+ number of points :2
+   point:12 | 15
+   point:70 | 29
+
+--------------------
+ number of polygons :4
+ number of points :2
+   point:20 | 43
+   point:50 | 67
+ number of points :2
+   point:74 | 40
+   point:105 | 68
+ number of points :2
+   point:12 | 15
+   point:19 | 28
+ number of points :2
+   point:40 | 15
+   point:70 | 29
+
+--------------------
+ number of polygons :7
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 58
+   point:50 | 67
+ number of points :2
+   point:74 | 64
+   point:105 | 68
+ number of points :2
+   point:83 | 40
+   point:104 | 54
+ number of points :2
+   point:12 | 15
+   point:19 | 28
+ number of points :2
+   point:40 | 25
+   point:69 | 29
+ number of points :2
+   point:60 | 15
+   point:70 | 28
+
+--------------------
+
+=== Probando Search ===
+Caso 1: Buscando en rect├íngulo (0,0) a (50,50)
+Se encontraron 3 objetos:
+Poligono:  ( 20 , 59 )  ( 20 , 43 ) 
+Poligono:  ( 12 , 28 )  ( 19 , 15 ) 
+Poligono:  ( 40 , 29 )  ( 69 , 25 ) 
+------------------------
+Caso 2: Buscando en rect├íngulo (1000,1000) a (2000,2000)
+Se encontraron 0 objetos:
+------------------------
+Caso 3: Buscando en rectangulo (0,0) a (200,200)
+Se encontraron 7 objetos:
+Poligono:  ( 20 , 59 )  ( 20 , 43 ) 
+Poligono:  ( 50 , 58 )  ( 48 , 67 ) 
+Poligono:  ( 105 , 68 )  ( 74 , 64 ) 
+Poligono:  ( 83 , 40 )  ( 104 , 54 ) 
+Poligono:  ( 12 , 28 )  ( 19 , 15 ) 
+Poligono:  ( 40 , 29 )  ( 69 , 25 ) 
+Poligono:  ( 70 , 28 )  ( 60 , 15 ) 
+------------------------

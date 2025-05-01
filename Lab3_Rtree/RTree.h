@@ -90,12 +90,13 @@ class RTree
 public:
 
 	RTree();
-	RTree(const RTree& other);
+	RTree(const RTree& other); //se llama cuando se quiere hacer una copia de un objeto
 	virtual ~RTree();
   	vector<vector<pair<int, int>>> mObjs;
 
-	void Insert(const int a_min[2], const int a_max[2], vector<pair<int, int>>& a_dataId);
+	void Insert(const int a_min[2], const int a_max[2], const vector<pair<int, int>>& a_dataId);
 	void Remove(const int a_min[2], const int a_max[2], const vector<pair<int, int>>& a_dataId);
+	int Search(const  pair<int, int> a_min,const pair<int, int> a_max, vector<vector<pair<int,int>>> &objs) const;
 	void RemoveAll();
 
 	/// Count the data elements in this container.  This is slow as no internal counter is maintained.
@@ -137,6 +138,7 @@ protected:
 	void RemoveAllRec(Node* a_node);
 	void Reset();
 	void CountRec(Node* a_node, int& a_count);
+	void SearchRec(Rect& a_rect, Node* a_node, vector<vector<pair<int, int>>>& objs) const;
 	
 	void CopyRec(Node* current, Node* other);
 	float m_unitSphereVolume;                 ///< Unit sphere constant for required number of dimensions

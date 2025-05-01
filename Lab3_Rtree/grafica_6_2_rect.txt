@@ -1,0 +1,82 @@
+Ejecutando pruebas con MAXNODES = 2
+Para probar otro valor de MAXNODES, edita RTree.h, cambia #define MAXNODES, y recompila.
+inserting 2:  ( 20 , 59 )  ( 20 , 43 ) 
+inserting 2:  ( 50 , 58 )  ( 48 , 67 ) 
+inserting 2:  ( 105 , 68 )  ( 74 , 64 ) 
+inserting 2:  ( 83 , 40 )  ( 104 , 54 ) 
+ number of (objects) :3
+ number of polygons :2
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 40
+   point:105 | 68
+
+--------------------
+ number of polygons :3
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 58
+   point:105 | 68
+ number of points :2
+   point:83 | 40
+   point:104 | 54
+
+--------------------
+ number of polygons :4
+ number of points :2
+   point:20 | 43
+   point:20 | 59
+ number of points :2
+   point:48 | 58
+   point:50 | 67
+ number of points :2
+   point:74 | 64
+   point:105 | 68
+ number of points :2
+   point:83 | 40
+   point:104 | 54
+
+--------------------
+
+=== Probando Search ===
+Caso 1: Buscando en rect├íngulo (0,0) a (25,25)
+Se encontraron 0 objetos:
+------------------------
+Caso 2: Buscando en rect├íngulo (1000,1000) a (2000,2000)
+Se encontraron 0 objetos:
+------------------------
+Caso 3: Buscando en rectangulo (0,0) a (200,200)
+Se encontraron 4 objetos:
+Poligono:  ( 20 , 59 )  ( 20 , 43 ) 
+Poligono:  ( 50 , 58 )  ( 48 , 67 ) 
+Poligono:  ( 105 , 68 )  ( 74 , 64 ) 
+Poligono:  ( 83 , 40 )  ( 104 , 54 ) 
+------------------------
+
+Datos para graficar vpoints:
+Inserted polygons (vpoints):
+Polygon: (20,59) (20,43) 
+Polygon: (50,58) (48,67) 
+Polygon: (105,68) (74,64) 
+Polygon: (83,40) (104,54) 
+Query rectangle: (0,0) to (25,25)
+Search results (Caso 1):
+Polygon: (20,59) (20,43) 
+Polygon: (50,58) (48,67) 
+Polygon: (105,68) (74,64) 
+Polygon: (83,40) (104,54) 
+MBRs:
+MBR: (20,43) to (20,59)
+MBR: (48,40) to (105,68)
+MBR: (20,43) to (20,59)
+MBR: (48,58) to (105,68)
+MBR: (83,40) to (104,54)
+MBR: (20,43) to (20,59)
+MBR: (48,58) to (50,67)
+MBR: (74,64) to (105,68)
+MBR: (83,40) to (104,54)
+Fin de datos para graficar vpoints

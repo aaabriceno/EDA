@@ -1,4 +1,5 @@
 #include <string>
+#include <random>
 #include <vector>
 #include <iostream>
 #include "RTree.h"
@@ -54,45 +55,133 @@ void print_pair(vector<pair<int, int>> output){
   {
     cout<<" ( "<<x.first<<" , "<<x.second<< " ) ";
   }
+}
+
+// Generar poligonos aleatorios
+// Generar polígonos aleatorios
+vector<vector<pair<int, int>>> generateRandomPolygons(int numPolygons, int minCoord = 0, int maxCoord = 50) {
+  vector<vector<pair<int, int>>> polygons;
+  random_device rd;
+  mt19937 gen(rd());
+  uniform_int_distribution<> coordDist(minCoord, maxCoord);
+  uniform_int_distribution<> sizeDist(2, 3);
+
+  for (int i = 0; i < numPolygons; ++i) {
+      int numPoints = sizeDist(gen);
+      vector<pair<int, int>> polygon;
+      for (int j = 0; j < numPoints; ++j) {
+          polygon.push_back({coordDist(gen), coordDist(gen)});
+      }
+      polygons.push_back(polygon);
   }
+  return polygons;
+}
+
+// Probar inserciones y Search
+void testInsertions(int numPolygons, const string& testName) {
+  cout << "\n=== " << testName << " (Poligonos: " << numPolygons << ", MAXNODES: " << MAXNODES << ") ===\n";
+  
+  vector<vector<pair<int, int>>> polygons = generateRandomPolygons(numPolygons);
+  RTree rtree;
+  
+  cout << "\nInsertando poligonos:\n";
+  for (const auto& poly : polygons) {
+      cout << "Insertando poligono de " << poly.size() << " puntos: ";
+      print_pair(poly);
+      Rect rect = rtree.MBR(poly);
+      vector<pair<int, int>> non_const_poly = poly; // Copia para evitar problemas de const
+      rtree.Insert(rect.m_min, rect.m_max, non_const_poly);
+      cout << endl;
+  }
+  
+  // Obtener e imprimir MBRs
+  cout << "Obteniendo MBRs...\n";
+  vector<vector<vector<pair<int, int>>>> objects_n;
+  string output;
+  rtree.getMBRs(objects_n);
+  cout << "\nEstructura del RTree:\n";
+  print(1, objects_n, output);
+  
+  // Prueba de Search con rectángulo (0,0) a (50,50)
+  cout << "\nProbando Search en (0,0) a (50,50):\n";
+  vector<vector<pair<int, int>>> search_results;
+  pair<int, int> search_min = {0, 0};
+  pair<int, int> search_max = {50, 50};
+  int num_results = rtree.Search(search_min, search_max, search_results);
+  cout << "Se encontraron " << num_results << " poligonos (esperados: " << numPolygons << "):\n";
+  for (const auto& obj : search_results) {
+      cout << "Poligono: ";
+      print_pair(obj);
+      cout << endl;
+  }
+  
+  // Exportar datos para graficar
+  cout << "\nDatos para graficar:\n";
+  cout << "Inserted polygons:\n";
+  for (const auto& poly : polygons) {
+      cout << "Polygon: ";
+      for (const auto& point : poly) {
+          cout << "(" << point.first << "," << point.second << ") ";
+      }
+      cout << endl;
+  }
+  cout << "Query rectangle: (" << search_min.first << "," << search_min.second << ") to (" << search_max.first << "," << search_max.second << ")\n";
+  cout << "Search results:\n";
+  for (const auto& poly : search_results) {
+      cout << "Polygon: ";
+      for (const auto& point : poly) {
+          cout << "(" << point.first << "," << point.second << ") ";
+      }
+      cout << endl;
+  }
+  cout << "Fin de datos para graficar\n";
+}
 
 int main(int argc, char *argv[])
 {
-	vector<vector<pair<int, int>>> vpoints;
-  
-    //   First Test
+  /*
+	  cout << "Ejecutando pruebas con MAXNODES = " << MAXNODES << "\n";
+    cout << "Para probar otro valor de MAXNODES, edita RTree.h, cambia #define MAXNODES, y recompila.\n";
+    
+    testInsertions(5, "Prueba con 5 poligonos");
+    testInsertions(12, "Prueba con 12 poligonos");
+    
+    cout << "\nPruebas completadas. Cambia MAXNODES en RTree.h y ejecuta de nuevo para comparar.\n";
+    return 0;
+  */
+  vector<vector<pair<int, int>>> vpoints;
+
+  //   First Test
   float coord[16] = {20, 59, 20, 43, 50, 58 , 48,67, 105, 68, 74, 64, 83, 40, 104, 54};
-  
   vector<pair<int, int>> points;
+  int a1=2;
   for(int i =0;i<16;i+=2){
     pair<int,int> A;
     A.first = coord[i];
     A.second = coord[i+1];
     points.push_back(A);          
   }
-  for (unsigned int i =0;i<8;i+=2){       
-    vector<pair<int, int>>  sub1(&points[i],&points[i+2]);
+  for (unsigned int i =0;i<8;i+=a1){       
+    vector<pair<int, int>>  sub1(&points[i],&points[i+a1]);
     vpoints.push_back(sub1);
-  
   }
 
-
+  /*
+  // Second Tsest
   float coord2[12] = {12, 28, 19,15, 40,29, 69,25, 70,28, 60,15}; // 54,12};
-  
   vector<pair<int, int>> points2;
+  int a2=2;
   for(int i =0;i<12;i+=2){
     pair<int,int> A;
     A.first = coord2[i];
     A.second = coord2[i+1];
     points2.push_back(A);          
   }
-  for (unsigned int i =0;i<6;i+=3){  
-    vector<pair<int, int>>  sub1(&points2[i],&points2[i+3]);
+  for (unsigned int i =0;i<6;i+=a2){  
+    vector<pair<int, int>>  sub1(&points2[i],&points2[i+a2]);
     vpoints.push_back(sub1);
-  
   }
-
-
+  */
   RTree rtree;
 
 	string output;
@@ -108,12 +197,12 @@ int main(int argc, char *argv[])
       rtree.Insert(rect.m_min, rect.m_max, x);
       cout<< endl;
     }  
- //Rect rect = rtree.MBR(vpoints[0]);
+  //Rect rect = rtree.MBR(vpoints[0]);
   //rtree.Insert(rect.m_min, rect.m_max, vpoints[0]);
   rtree.getMBRs(objects_n);
   print(1, objects_n, output);
 
-
+    /*
   //   Second Test
   // Adding one more region to get a bigger tree
   cout<< " INSERTING ONE MORE "<< endl;
@@ -149,5 +238,50 @@ int main(int argc, char *argv[])
   //rtree.Insert(rect.m_min, rect.m_max, vpoints[0]);
   rtree.getMBRs(objects_n);
   print(1, objects_n, output);
+*/
+  cout << "\n=== Probando Search ===\n";
+
+  // Caso 1: Superposición Parcial (0,0) a (50,50)
+  cout << "Caso 1: Buscando en rectángulo (0,0) a (50,50)\n";
+  vector<vector<pair<int, int>>> search_results;
+  pair<int, int> search_min = {0, 0};
+  pair<int, int> search_max = {25, 25};
+  int num_results = rtree.Search(search_min, search_max, search_results);
+  cout << "Se encontraron " << num_results << " objetos:\n";
+  for (const auto& obj : search_results) {
+      cout << "Poligono: ";
+      print_pair(obj);
+      cout << endl;
+  }
+  cout << "------------------------\n";
+
+  // Caso 2: Sin Superposición (1000,1000) a (2000,2000)
+  cout << "Caso 2: Buscando en rectángulo (1000,1000) a (2000,2000)\n";
+  search_results.clear();
+  search_min = {1000, 1000};
+  search_max = {2000, 2000};
+  num_results = rtree.Search(search_min, search_max, search_results);
+  cout << "Se encontraron " << num_results << " objetos:\n";
+  for (const auto& obj : search_results) {
+      cout << "Poligono: ";
+      print_pair(obj);
+      cout << endl;
+  }
+  cout << "------------------------\n";
+
+  // Caso 3: Superposición Total (0,0) a (200,200)
+  cout << "Caso 3: Buscando en rectangulo (0,0) a (200,200)\n";
+  search_results.clear();
+  search_min = {0, 0};
+  search_max = {200, 200};
+  num_results = rtree.Search(search_min, search_max, search_results);
+  cout << "Se encontraron " << num_results << " objetos:\n";
+  for (const auto& obj : search_results) {
+      cout << "Poligono: ";
+      print_pair(obj);
+      cout << endl;
+  }
+  cout << "------------------------\n";
 	return 0;
+  
 }

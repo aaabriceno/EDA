@@ -1,0 +1,283 @@
+Ejecutando pruebas con MAXNODES = 2
+Para probar otro valor de MAXNODES, edita RTree.h, cambia #define MAXNODES, y recompila.
+
+=== Prueba con 5 poligonos (Poligonos: 5, MAXNODES: 2) ===
+
+Insertando poligonos:
+Insertando poligono de 2 puntos:  ( 30 , 46 )  ( 18 , 26 ) 
+Insertando poligono de 3 puntos:  ( 43 , 26 )  ( 5 , 19 )  ( 3 , 2 ) 
+Insertando poligono de 2 puntos:  ( 14 , 4 )  ( 37 , 15 ) 
+Insertando poligono de 2 puntos:  ( 37 , 1 )  ( 41 , 43 ) 
+Insertando poligono de 2 puntos:  ( 1 , 6 )  ( 8 , 1 ) 
+Obteniendo MBRs...
+
+Estructura del RTree:
+ number of (objects) :4
+ number of polygons :2
+ number of points :2
+   point:18 | 26
+   point:30 | 46
+ number of points :2
+   point:1 | 1
+   point:43 | 43
+
+--------------------
+ number of polygons :3
+ number of points :2
+   point:18 | 26
+   point:30 | 46
+ number of points :2
+   point:37 | 1
+   point:41 | 43
+ number of points :2
+   point:1 | 1
+   point:43 | 26
+
+--------------------
+ number of polygons :4
+ number of points :2
+   point:18 | 26
+   point:30 | 46
+ number of points :2
+   point:37 | 1
+   point:41 | 43
+ number of points :2
+   point:3 | 2
+   point:43 | 26
+ number of points :2
+   point:1 | 1
+   point:8 | 6
+
+--------------------
+ number of polygons :5
+ number of points :2
+   point:18 | 26
+   point:30 | 46
+ number of points :2
+   point:37 | 1
+   point:41 | 43
+ number of points :2
+   point:3 | 2
+   point:43 | 26
+ number of points :2
+   point:14 | 4
+   point:37 | 15
+ number of points :2
+   point:1 | 1
+   point:8 | 6
+
+--------------------
+
+Probando Search en (0,0) a (50,50):
+Se encontraron 5 poligonos (esperados: 5):
+Poligono:  ( 30 , 46 )  ( 18 , 26 ) 
+Poligono:  ( 37 , 1 )  ( 41 , 43 ) 
+Poligono:  ( 43 , 26 )  ( 5 , 19 )  ( 3 , 2 ) 
+Poligono:  ( 14 , 4 )  ( 37 , 15 ) 
+Poligono:  ( 1 , 6 )  ( 8 , 1 ) 
+
+Datos para graficar:
+Inserted polygons:
+Polygon: (30,46) (18,26) 
+Polygon: (43,26) (5,19) (3,2) 
+Polygon: (14,4) (37,15) 
+Polygon: (37,1) (41,43) 
+Polygon: (1,6) (8,1) 
+Query rectangle: (0,0) to (50,50)
+Search results:
+Polygon: (30,46) (18,26) 
+Polygon: (37,1) (41,43) 
+Polygon: (43,26) (5,19) (3,2) 
+Polygon: (14,4) (37,15) 
+Polygon: (1,6) (8,1) 
+Fin de datos para graficar
+
+=== Prueba con 12 poligonos (Poligonos: 12, MAXNODES: 2) ===
+
+Insertando poligonos:
+Insertando poligono de 3 puntos:  ( 39 , 39 )  ( 44 , 15 )  ( 22 , 43 ) 
+Insertando poligono de 3 puntos:  ( 21 , 45 )  ( 16 , 50 )  ( 31 , 36 ) 
+Insertando poligono de 2 puntos:  ( 18 , 35 )  ( 43 , 17 ) 
+Insertando poligono de 2 puntos:  ( 28 , 8 )  ( 42 , 33 ) 
+Insertando poligono de 3 puntos:  ( 50 , 50 )  ( 9 , 40 )  ( 7 , 38 ) 
+Insertando poligono de 3 puntos:  ( 45 , 24 )  ( 28 , 0 )  ( 21 , 6 ) 
+Insertando poligono de 3 puntos:  ( 39 , 15 )  ( 50 , 33 )  ( 8 , 5 ) 
+Insertando poligono de 3 puntos:  ( 43 , 32 )  ( 8 , 7 )  ( 6 , 21 ) 
+Insertando poligono de 3 puntos:  ( 27 , 40 )  ( 45 , 24 )  ( 42 , 13 ) 
+Insertando poligono de 2 puntos:  ( 42 , 26 )  ( 28 , 34 ) 
+Insertando poligono de 3 puntos:  ( 31 , 25 )  ( 11 , 25 )  ( 26 , 38 ) 
+Insertando poligono de 3 puntos:  ( 9 , 11 )  ( 34 , 3 )  ( 15 , 11 ) 
+Obteniendo MBRs...
+
+Estructura del RTree:
+ number of (objects) :6
+ number of polygons :2
+ number of points :2
+   point:6 | 0
+   point:50 | 50
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+ number of polygons :3
+ number of points :2
+   point:7 | 36
+   point:50 | 50
+ number of points :2
+   point:6 | 0
+   point:50 | 43
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+ number of polygons :4
+ number of points :2
+   point:7 | 36
+   point:50 | 50
+ number of points :2
+   point:11 | 13
+   point:45 | 43
+ number of points :2
+   point:6 | 0
+   point:50 | 33
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+ number of polygons :6
+ number of points :2
+   point:7 | 36
+   point:50 | 50
+ number of points :2
+   point:18 | 13
+   point:45 | 43
+ number of points :2
+   point:11 | 25
+   point:31 | 38
+ number of points :2
+   point:21 | 0
+   point:45 | 24
+ number of points :2
+   point:6 | 5
+   point:50 | 33
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+ number of polygons :8
+ number of points :2
+   point:7 | 36
+   point:50 | 50
+ number of points :2
+   point:18 | 17
+   point:43 | 35
+ number of points :2
+   point:22 | 13
+   point:45 | 43
+ number of points :2
+   point:11 | 25
+   point:31 | 38
+ number of points :2
+   point:21 | 0
+   point:45 | 24
+ number of points :2
+   point:28 | 8
+   point:42 | 33
+ number of points :2
+   point:6 | 5
+   point:50 | 33
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+ number of polygons :12
+ number of points :2
+   point:16 | 36
+   point:31 | 50
+ number of points :2
+   point:7 | 38
+   point:50 | 50
+ number of points :2
+   point:18 | 17
+   point:43 | 35
+ number of points :2
+   point:28 | 26
+   point:42 | 34
+ number of points :2
+   point:22 | 15
+   point:44 | 43
+ number of points :2
+   point:27 | 13
+   point:45 | 40
+ number of points :2
+   point:11 | 25
+   point:31 | 38
+ number of points :2
+   point:21 | 0
+   point:45 | 24
+ number of points :2
+   point:28 | 8
+   point:42 | 33
+ number of points :2
+   point:8 | 5
+   point:50 | 33
+ number of points :2
+   point:6 | 7
+   point:43 | 32
+ number of points :2
+   point:9 | 3
+   point:34 | 11
+
+--------------------
+
+Probando Search en (0,0) a (50,50):
+Se encontraron 12 poligonos (esperados: 12):
+Poligono:  ( 21 , 45 )  ( 16 , 50 )  ( 31 , 36 ) 
+Poligono:  ( 50 , 50 )  ( 9 , 40 )  ( 7 , 38 ) 
+Poligono:  ( 18 , 35 )  ( 43 , 17 ) 
+Poligono:  ( 42 , 26 )  ( 28 , 34 ) 
+Poligono:  ( 39 , 39 )  ( 44 , 15 )  ( 22 , 43 ) 
+Poligono:  ( 27 , 40 )  ( 45 , 24 )  ( 42 , 13 ) 
+Poligono:  ( 31 , 25 )  ( 11 , 25 )  ( 26 , 38 ) 
+Poligono:  ( 45 , 24 )  ( 28 , 0 )  ( 21 , 6 ) 
+Poligono:  ( 28 , 8 )  ( 42 , 33 ) 
+Poligono:  ( 39 , 15 )  ( 50 , 33 )  ( 8 , 5 ) 
+Poligono:  ( 43 , 32 )  ( 8 , 7 )  ( 6 , 21 ) 
+Poligono:  ( 9 , 11 )  ( 34 , 3 )  ( 15 , 11 ) 
+
+Datos para graficar:
+Inserted polygons:
+Polygon: (39,39) (44,15) (22,43) 
+Polygon: (21,45) (16,50) (31,36) 
+Polygon: (18,35) (43,17) 
+Polygon: (28,8) (42,33) 
+Polygon: (50,50) (9,40) (7,38) 
+Polygon: (45,24) (28,0) (21,6) 
+Polygon: (39,15) (50,33) (8,5) 
+Polygon: (43,32) (8,7) (6,21) 
+Polygon: (27,40) (45,24) (42,13) 
+Polygon: (42,26) (28,34) 
+Polygon: (31,25) (11,25) (26,38) 
+Polygon: (9,11) (34,3) (15,11) 
+Query rectangle: (0,0) to (50,50)
+Search results:
+Polygon: (21,45) (16,50) (31,36) 
+Polygon: (50,50) (9,40) (7,38) 
+Polygon: (18,35) (43,17) 
+Polygon: (42,26) (28,34) 
+Polygon: (39,39) (44,15) (22,43) 
+Polygon: (27,40) (45,24) (42,13) 
+Polygon: (31,25) (11,25) (26,38) 
+Polygon: (45,24) (28,0) (21,6) 
+Polygon: (28,8) (42,33) 
+Polygon: (39,15) (50,33) (8,5) 
+Polygon: (43,32) (8,7) (6,21) 
+Polygon: (9,11) (34,3) (15,11) 
+Fin de datos para graficar
+
+Pruebas completadas. Cambia MAXNODES en RTree.h y ejecuta de nuevo para comparar.

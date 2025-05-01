@@ -20,7 +20,7 @@ RTree::~RTree()
 }
 
 // Initialize Branch with dataId
-void RTree::Insert(const int a_min[2], const int a_max[2], vector<pair<int, int>>& a_dataId)
+void RTree::Insert(const int a_min[2], const int a_max[2], const vector<pair<int, int>>& a_dataId)
 {
 	mObjs.push_back(a_dataId);
 
@@ -124,8 +124,45 @@ void RTree::Remove(const int a_min[2], const int a_max[2], const vector<pair<int
 	RemoveRect(&rect, a_dataId, &m_root);
 }
 
+void RTree::SearchRec(Rect& a_rect, Node* a_node, vector<vector<pair<int, int>>>& objs) const {
+    if (a_node->IsInternalNode()) {
+        // Nodo interno: verificar cada rama para superposición
+        for (int i = 0; i < a_node->m_count; ++i) {
+            // Pasar la dirección de a_rect directamente
+            if (Overlap(&a_rect, &a_node->m_branch[i].m_rect)) {
+                // Si el MBR de la rama se superpone, descender al nodo hijo
+                SearchRec(a_rect, a_node->m_branch[i].m_child, objs);
+            }
+        }
+    } else {
+        // Nodo hoja: verificar cada rama y recolectar datos
+        for (int i = 0; i < a_node->m_count; ++i) {
+            // Pasar la dirección de a_rect directamente
+            if (Overlap(&a_rect, &a_node->m_branch[i].m_rect)) {
+                // Si el MBR se superpone, agregar los datos (polígono) a los resultados
+                objs.push_back(a_node->m_branch[i].m_data);
+            }
+        }
+    }
+}
 
+int RTree::Search(const pair<int, int> a_min, const pair<int, int> a_max, vector<vector<pair<int, int>>>& objs) const {
+    // Limpiar el vector de salida para asegurar que esté vacío
+    objs.clear();
 
+    // Crear el rectángulo de consulta desde a_min y a_max
+    Rect query_rect;
+    query_rect.m_min[0] = a_min.first;
+    query_rect.m_min[1] = a_min.second;
+    query_rect.m_max[0] = a_max.first;
+    query_rect.m_max[1] = a_max.second;
+
+    // Iniciar búsqueda recursiva desde la raíz
+    SearchRec(query_rect, m_root, objs);
+
+    // Devolver el número de objetos encontrados
+    return objs.size();
+}
 
 int RTree::Count()
 {
@@ -213,7 +250,6 @@ void RTree::Reset()
 {
 	RemoveAllRec(m_root);
 }
-
 
 void RTree::RemoveAllRec(Node* a_node)
 {
@@ -642,7 +678,6 @@ bool RTree::RemoveRectRec(Rect* a_rect, const vector<pair<int, int>>& a_id, Node
 
 bool RTree::Overlap(Rect* a_rectA, Rect* a_rectB) const
 {
-
 	for (int index = 0; index < 2; ++index)
 	{
 		if (a_rectA->m_min[index] > a_rectB->m_max[index] ||
