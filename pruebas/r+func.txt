@@ -1,0 +1,324 @@
+1. Función Search (Búsqueda)
+Descripción: Busca todos los rectángulos en un R+-Tree que se superponen con una ventana de búsqueda (W). Es la operación principal para consultas espaciales, como consultas de puntos (encontrar objetos que contienen un punto) o de regiones (encontrar objetos que intersectan una región).
+
+Entrada:
+
+R: Nodo raíz del R+-Tree (nodo intermedio o hoja).
+W: Ventana de búsqueda (rectángulo, e.g., (x_low, x_high, y_low, y_high) en 2D).
+Salida:
+
+Conjunto de objetos (rectángulos) que se superponen con W.
+Método (Figura 3.6, Página 5):
+
+S1. Búsqueda en nodos intermedios:
+Si R no es un nodo hoja:
+Para cada entrada (p, RECT) en R:
+Verifica si RECT se superpone con W.
+Si hay superposición, llama a Search(CHILD, W ∩ RECT), donde CHILD es el nodo apuntado por p.
+S2. Búsqueda en nodos hoja:
+Si R es un nodo hoja:
+Verifica cada entrada (oid, RECT) en R y retorna los rectángulos que se superponen con W.
+Funciones llamadas:
+
+Search (recursiva): Se llama a sí misma para explorar nodos hijos (CHILD) cuando RECT se superpone con W. La recursión termina en nodos hoja.
+Propósito:
+
+Optimizar consultas espaciales al reducir los nodos visitados, aprovechando la propiedad de cero superposición en nodos intermedios.
+Ejemplo:
+
+Supongamos un R+-Tree con nodos intermedios A (cubre RECT_A) y B (cubre RECT_B). Si W solo se superpone con RECT_B, Search llama a Search(B, W ∩ RECT_B) y omite A, ahorrando un acceso a disco.
+Contexto de uso:
+
+Usada en cartografía (encontrar regiones en un mapa), CAD (buscar componentes en un diseño), o visión por computadora (detectar objetos en imágenes).
+Detalles:
+
+La Propiedad 2 (cero superposición en nodos intermedios, Página 5) asegura que cada región de búsqueda lleva a un solo subárbol, a diferencia de los R-Trees, donde la superposición obliga a explorar múltiples subárboles.
+2. Función Insert (Inserción)
+Descripción: Inserta un nuevo rectángulo (IR) en el R+-Tree, descendiendo hasta un nodo hoja y ajustando la estructura si es necesario.
+
+Entrada:
+
+R: Nodo raíz del R+-Tree.
+IR: Rectángulo a insertar (e.g., (x_low, x_high, y_low, y_high) en 2D).
+Salida:
+
+El nuevo R+-Tree tras la inserción de IR.
+Método (Figura 3.7, Página 6):
+
+I1. Búsqueda en nodos intermedios:
+Si R no es un nodo hoja:
+Para cada entrada (p, RECT) en R:
+Verifica si RECT se superpone con IR.
+Si hay superposición, llama a Insert(CHILD, IR), donde CHILD es el nodo apuntado por p.
+I2. Inserción en nodos hoja:
+Si R es un nodo hoja:
+Agrega (oid, IR) a R.
+Si R tiene más de M entradas (capacidad máxima), llama a SplitNode(R).
+Funciones llamadas:
+
+Insert (recursiva): Se llama a sí misma para descender hasta un nodo hoja.
+SplitNode: Se invoca si un nodo hoja excede M tras la inserción.
+Propósito:
+
+Permitir la inserción dinámica de nuevos objetos.
+Mantener las propiedades del R+-Tree (cero superposición en nodos intermedios, balanceo de altura).
+Ejemplo:
+
+Insertar IR en un R+-Tree con M=4. La función desciende hasta un nodo hoja con 4 entradas. Agregar IR causa un desbordamiento, por lo que SplitNode divide el nodo en dos.
+Contexto de uso:
+
+Usada en bases de datos espaciales para agregar nuevos objetos, como polígonos en un sistema GIS.
+Detalles:
+
+Si IR se superpone con múltiples nodos intermedios, puede dividirse en subrectángulos (manehado por SplitNode), aumentando el costo de espacio pero mejorando la búsqueda.
+3. Función Delete (Eliminación)
+Descripción: Elimina un rectángulo (IR) del R+-Tree, localizando y eliminando todas sus copias en nodos hoja.
+
+Entrada:
+
+R: Nodo raíz del R+-Tree.
+IR: Rectángulo a eliminar.
+Salida:
+
+El nuevo R+-Tree tras la eliminación de IR.
+Método (Figura 3.8, Página 6):
+
+D1. Búsqueda en nodos intermedios:
+Si R no es un nodo hoja:
+Para cada entrada (p, RECT) en R:
+Verifica si RECT se superpone con IR.
+Si hay superposición, llama a Delete(CHILD, IR), donde CHILD es el nodo apuntado por p.
+D2. Eliminación en nodos hoja:
+Si R es un nodo hoja:
+Elimina (oid, IR) de R.
+Ajusta el rectángulo padre para cubrir los rectángulos restantes.
+Funciones llamadas:
+
+Delete (recursiva): Se llama a sí misma para descender hasta los nodos hoja que contienen IR.
+Propósito:
+
+Permitir la eliminación dinámica de objetos.
+Mantener el balanceo y la cobertura correcta de los rectángulos padres.
+Ejemplo:
+
+Si IR fue dividido durante la inserción (e.g., en nodos hoja L1 y L2), Delete elimina IR de ambos. El rectángulo padre se ajusta para cubrir los rectángulos restantes en cada nodo.
+Contexto de uso:
+
+Usada para actualizar bases de datos espaciales, como eliminar un objeto obsoleto de un mapa.
+Detalles:
+
+Muchas eliminaciones pueden reducir la utilización del espacio. El documento sugiere reorganización periódica (referenciada en [5], no detallada aquí).
+4. Función SplitNode (División de Nodo)
+Descripción: Divide un nodo (hoja o intermedio) que excede su capacidad máxima (M) en dos nuevos nodos, propagando cambios hacia arriba y abajo.
+
+Entrada:
+
+R: Nodo a dividir (hoja o intermedio).
+Salida:
+
+El nuevo R+-Tree tras la división.
+Método (Figura 3.10, Página 7):
+
+SN1. Encontrar una partición:
+Llama a Partition para dividir R en dos subregiones (S1, S2).
+Crea dos nuevos nodos: n1 = (p1, RECT1) y n2 = (p2, RECT2), donde RECTi = RECT ∩ Si para i=1,2.
+SN2. Poblar los nuevos nodos:
+Coloca los nodos (pk, RECTk) de R en n1 o n2 si RECTk está completamente en RECT1 o RECT2.
+Para nodos que se superponen con ambas subregiones:
+Si R es un nodo hoja, coloca RECTk en ambos nodos.
+Si R es un nodo intermedio, llama a SplitNode recursivamente para dividir los nodos hijos, generando (pk1, RECTk1) y (pk2, RECTk2) para n1 y n2.
+SN3. Propagar la división hacia arriba:
+Si R es la raíz, crea una nueva raíz con n1 y n2 como hijos.
+De lo contrario, reemplaza R en su nodo padre (PR) con n1 y n2.
+Si PR excede M, llama a SplitNode(PR).
+Funciones llamadas:
+
+Partition: Divide el espacio en dos subregiones optimizadas.
+SplitNode (recursiva): Se llama para:
+Dividir nodos hijos en nodos intermedios si un rectángulo se superpone con ambas subregiones.
+Propagar la división hacia arriba si PR excede M.
+Propósito:
+
+Manejar el desbordamiento de nodos durante inserciones.
+Mantener el balanceo y la Propiedad 2 (cero superposición en nodos intermedios).
+Ejemplo:
+
+Un nodo hoja con M=4 tiene 4 entradas y recibe una quinta. SplitNode usa Partition para dividir el nodo en dos (e.g., 2 y 3 entradas). Un rectángulo que cruza la partición se duplica en ambos nodos hoja.
+Contexto de uso:
+
+Llamada por Insert cuando un nodo hoja excede M.
+Puede ser llamada por Pack si una partición causa divisiones en nodos no-hoja.
+Detalles:
+
+La propagación hacia abajo en nodos intermedios asegura la Propiedad 1 (rectángulos hijos completamente cubiertos por el rectángulo padre).
+5. Función Partition (Partición)
+Descripción: Divide un conjunto de rectángulos en dos subregiones, creando un nodo para la primera subregión y retornando los rectángulos restantes.
+
+Entrada:
+
+S: Conjunto de rectángulos a particionar.
+ff: Factor de llenado (número máximo de rectángulos en la primera subregión).
+Salida:
+
+R: Nodo con los rectángulos de la primera subregión.
+S': Conjunto de rectángulos en la segunda subregión.
+Método (Figura 4.1, Página 8):
+
+PA1. Sin partición necesaria:
+Si |S| ≤ ff, crea un nodo R con todos los rectángulos y retorna (R, empty).
+PA2. Calcular valores mínimos:
+Determina Ox y Oy, las coordenadas x e y más bajas de los rectángulos en S.
+PA3. Barrido en la dimensión x:
+Llama a Sweep("x", Ox, ff) para obtener el costo (Cx) y el punto de corte (x_cut).
+PA4. Barrido en la dimensión y:
+Llama a Sweep("y", Oy, ff) para obtener el costo (Cy) y el punto de corte (y_cut).
+PA5. Elegir un punto de partición:
+Selecciona el corte con menor costo (Cx o Cy).
+Divide el espacio, distribuye los rectángulos (dividiendo los que cruzan el corte), y crea un nodo R para la primera subregión.
+Retorna (R, S'), donde S' contiene los rectángulos de la segunda subregión.
+Funciones llamadas:
+
+Sweep: Calcula el costo y el punto de corte para un eje (x o y). Se llama dos veces.
+Propósito:
+
+Dividir el espacio optimizando criterios:
+Criterio 1: Vecinos más cercanos (minimizar distancia entre rectángulos).
+Criterio 2: Desplazamiento mínimo en x e y.
+Criterio 3: Cobertura mínima (reducir espacio muerto).
+Criterio 4: Mínimo número de divisiones (reducir fragmentación).
+Ejemplo:
+
+Para S con 10 rectángulos y ff=4, Partition evalúa cortes en x e y. Si el corte en x tiene menor costo (e.g., menor área cubierta), asigna 4 rectángulos a R y los 6 restantes (más subrectángulos de divisiones) a S'.
+Contexto de uso:
+
+Llamada por SplitNode para dividir nodos llenos.
+Llamada por Pack para organizar rectángulos durante la construcción del árbol.
+Detalles:
+
+Requiere ordenar los rectángulos por x e y, con una complejidad de O(N log N).
+Los rectángulos que cruzan el corte se dividen en dos subrectángulos para mantener la Propiedad 2.
+6. Función Sweep (Barrido)
+Descripción: Realiza un barrido en un eje (x o y) para determinar las propiedades de una subregión y el punto de corte óptimo.
+
+Entrada:
+
+axis: Eje de barrido ("x" o "y").
+Oxy: Punto de inicio del barrido (coordenada mínima en el eje).
+ff: Factor de llenado (número de rectángulos en la subregión).
+Salida:
+
+Cost: Costo de la partición (basado en los criterios de optimización).
+x_cut o y_cut: Punto de corte en el eje.
+Método (Figura 4.2, Página 8):
+
+SW1. Encontrar los primeros ff rectángulos:
+Ordena los rectángulos en S por el eje (x o y).
+Desde Oxy, selecciona los primeros ff rectángulos.
+SW2. Evaluar particiones:
+Calcula el costo (Cost) según criterios como:
+Criterio 3: Área total cubierta por los ff rectángulos.
+Criterio 4: Número de rectángulos divididos por la línea de barrido.
+Retorna (Cost, mayor coordenada x o y de los ff rectángulos).
+Funciones llamadas:
+
+Ninguna. Sweep es una función auxiliar que realiza cálculos internos.
+Propósito:
+
+Determinar el punto de corte óptimo para una subregión con ff rectángulos.
+Minimizar el costo de la partición para mejorar el rendimiento del árbol.
+Ejemplo:
+
+Para axis="x", Oxy=0, y ff=4, Sweep ordena los rectángulos por x, selecciona los primeros 4, y calcula el costo (e.g., área cubierta). Retorna (Cost, x_cut), donde x_cut es la mayor x de esos rectángulos.
+Contexto de uso:
+
+Llamada por Partition para evaluar particiones en x e y.
+Detalles:
+
+Evalúa criterios como cobertura mínima o número de divisiones, según la configuración.
+7. Algoritmo Pack (Empaquetado)
+Descripción: Construye un R+-Tree optimizado desde un conjunto de rectángulos, organizándolos recursivamente para minimizar la cobertura y el espacio muerto.
+
+Entrada:
+
+S: Conjunto de rectángulos a organizar.
+ff: Factor de llenado (número máximo de entradas por nodo).
+Salida:
+
+Un R+-Tree optimizado.
+Método (Figura 4.3, Página 9):
+
+P1. Sin empaquetado necesario:
+Si |S| ≤ ff:
+Crea un nodo raíz R con todos los rectángulos y retorna R.
+P2. Inicialización:
+Inicializa un conjunto vacío AN para almacenar los nodos del siguiente nivel.
+P3. Particionar espacio:
+Llama a Partition(S, ff) para obtener:
+Un nodo R con los rectángulos de la primera subregión.
+Un conjunto S' con los rectángulos restantes.
+Si se particionan nodos no-hoja y algunos rectángulos se dividen:
+Propaga las divisiones hacia abajo (usando SplitNode si es necesario).
+Propaga los cambios hacia arriba si afecta a nodos padres.
+Agrega R a AN.
+Repite P3 hasta que S' esté vacío.
+P4. Empaquetar nodos intermedios recursivamente:
+Llama a Pack(AN, ff) para organizar los nodos en AN en el siguiente nivel.
+Funciones llamadas:
+
+Partition: Divide el conjunto de rectángulos en una subregión y un conjunto restante. Se llama repetidamente en P3.
+SplitNode: Llamada implícitamente si una partición causa divisiones en nodos no-hoja.
+Pack (recursiva): Se llama en P4 para construir niveles superiores.
+Propósito:
+
+Construir un R+-Tree desde cero, optimizando la estructura para búsquedas eficientes.
+A diferencia de Insert, organiza todos los rectángulos de una vez.
+Ejemplo:
+
+Para S con 100 rectángulos y ff=10:
+Partition divide S en un nodo R con 10 rectángulos y S' con 90 rectángulos.
+Repite hasta que S' esté vacío, generando nodos en AN.
+Pack(AN, ff) organiza los nodos en AN en el siguiente nivel, formando el árbol.
+Contexto de uso:
+
+Usada para inicializar un R+-Tree o reconstruirlo, como en la carga inicial de datos en una base de datos espacial.
+Detalles:
+
+El criterio de mínimo número de divisiones (criterio 4) es clave para reducir el costo de las particiones.
+La complejidad es O(N log N) debido al ordenamiento en Partition.
+Flujo de Llamadas entre Funciones
+Resumen del flujo:
+
+Search:
+Llama a Search (recursiva).
+Usada para consultas espaciales.
+Insert:
+Llama a Insert (recursiva) → SplitNode → Partition → Sweep.
+Usada para agregar rectángulos.
+Delete:
+Llama a Delete (recursiva).
+Usada para eliminar rectángulos.
+SplitNode:
+Llama a Partition → Sweep.
+Llama a SplitNode (recursiva) para nodos hijos o padres.
+Llamada por Insert y Pack.
+Partition:
+Llama a Sweep (dos veces).
+Llamada por SplitNode y Pack.
+Sweep:
+No llama a otras funciones.
+Llamada por Partition.
+Pack:
+Llama a Partition → Sweep.
+Llama a SplitNode (si hay divisiones).
+Llama a Pack (recursiva).
+Usada para construir el árbol.
+
+
+Search → Search (recursiva)
+Insert → Insert (recursiva) → SplitNode → Partition → Sweep
+Delete → Delete (recursiva)
+SplitNode → Partition → Sweep
+          → SplitNode (recursiva)
+Pack → Partition → Sweep
+     → SplitNode (si hay divisiones)
+     → Pack (recursiva)
