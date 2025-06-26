@@ -1,0 +1,4898 @@
+Total puntos: 2400
+Punto 0: (0.37184, 208.935) indice: 0
+Punto 1: (1.04523, 215.324) indice: 1
+Punto 2: (1.12452, 216.371) indice: 2
+Punto 3: (1.36641, 11.4231) indice: 3
+Punto 4: (1.4675, 11.0078) indice: 4
+Punto 5: (1.54096, 16.5269) indice: 5
+Punto 6: (10.636, 214.958) indice: 6
+Punto 7: (10.7979, 207.04) indice: 7
+Punto 8: (10.9083, 219.359) indice: 8
+Punto 9: (10.9466, 214.614) indice: 9
+Punto 10: (101.149, 17.0744) indice: 10
+Punto 11: (101.974, 145.654) indice: 11
+Punto 12: (103.528, 108.135) indice: 12
+Punto 13: (104.556, 131.192) indice: 13
+Punto 14: (106.143, 18.3251) indice: 14
+Punto 15: (106.512, 116.426) indice: 15
+Punto 16: (108.052, 14.7029) indice: 16
+Punto 17: (11.0271, 207.291) indice: 17
+Punto 18: (11.9373, 88.6851) indice: 18
+Punto 19: (12.0145, 211.96) indice: 19
+Punto 20: (12.2418, 209.132) indice: 20
+Punto 21: (12.5713, 210.492) indice: 21
+Punto 22: (12.6331, 220.724) indice: 22
+Punto 23: (120.435, 12.7502) indice: 23
+Punto 24: (121.951, 20.3878) indice: 24
+Punto 25: (125.046, 190.882) indice: 25
+Punto 26: (125.065, 19.6427) indice: 26
+Punto 27: (125.271, 19.7021) indice: 27
+Punto 28: (125.548, 0.239732) indice: 28
+Punto 29: (125.874, 53.5898) indice: 29
+Punto 30: (126.699, 33.9067) indice: 30
+Punto 31: (126.734, 197.033) indice: 31
+Punto 32: (127.019, 9.67984) indice: 32
+Punto 33: (127.439, 181.55) indice: 33
+Punto 34: (127.461, 175.239) indice: 34
+Punto 35: (127.489, 37.5772) indice: 35
+Punto 36: (128.123, 50.2323) indice: 36
+Punto 37: (128.478, 10.4844) indice: 37
+Punto 38: (128.762, 8.83903) indice: 38
+Punto 39: (128.768, 30.5338) indice: 39
+Punto 40: (128.859, 188.595) indice: 40
+Punto 41: (128.875, 36.5189) indice: 41
+Punto 42: (128.886, 44.2019) indice: 42
+Punto 43: (128.975, 18.5371) indice: 43
+Punto 44: (129.095, 178.415) indice: 44
+Punto 45: (129.175, 200.331) indice: 45
+Punto 46: (129.213, 38.3009) indice: 46
+Punto 47: (129.267, 194.744) indice: 47
+Punto 48: (129.334, 292.325) indice: 48
+Punto 49: (129.36, 266.194) indice: 49
+Punto 50: (129.371, 10.2615) indice: 50
+Punto 51: (129.399, 53.2524) indice: 51
+Punto 52: (129.407, 267.947) indice: 52
+Punto 53: (129.497, 8.16052) indice: 53
+Punto 54: (129.609, 26.5415) indice: 54
+Punto 55: (129.86, 8.88122) indice: 55
+Punto 56: (129.862, 56.7015) indice: 56
+Punto 57: (129.921, 43.2116) indice: 57
+Punto 58: (129.977, 48.7746) indice: 58
+Punto 59: (13.1309, 63.8157) indice: 59
+Punto 60: (13.2741, 92.9471) indice: 60
+Punto 61: (13.337, 204.765) indice: 61
+Punto 62: (13.3431, 214.408) indice: 62
+Punto 63: (13.3742, 199.673) indice: 63
+Punto 64: (13.3883, 204.62) indice: 64
+Punto 65: (130.254, 188.902) indice: 65
+Punto 66: (130.301, 290.829) indice: 66
+Punto 67: (130.468, 275.7) indice: 67
+Punto 68: (130.51, 17.0412) indice: 68
+Punto 69: (130.528, 56.6923) indice: 69
+Punto 70: (130.637, 55.8495) indice: 70
+Punto 71: (130.664, 173.251) indice: 71
+Punto 72: (130.743, 33.5586) indice: 72
+Punto 73: (130.769, 276.35) indice: 73
+Punto 74: (130.988, 29.1227) indice: 74
+Punto 75: (131.017, 187.185) indice: 75
+Punto 76: (131.071, 22.5303) indice: 76
+Punto 77: (131.324, 43.0384) indice: 77
+Punto 78: (131.356, 37.2871) indice: 78
+Punto 79: (131.497, 183.269) indice: 79
+Punto 80: (131.607, 47.5113) indice: 80
+Punto 81: (131.686, 188.133) indice: 81
+Punto 82: (131.955, 45.5262) indice: 82
+Punto 83: (132.011, 277.944) indice: 83
+Punto 84: (132.132, 22.5901) indice: 84
+Punto 85: (132.143, 292.291) indice: 85
+Punto 86: (132.161, 32.489) indice: 86
+Punto 87: (132.315, 33.7951) indice: 87
+Punto 88: (132.358, 186.671) indice: 88
+Punto 89: (132.606, 27.7339) indice: 89
+Punto 90: (132.639, 70.7779) indice: 90
+Punto 91: (132.813, 6.82344) indice: 91
+Punto 92: (132.872, 9.95343) indice: 92
+Punto 93: (133.057, 51.6214) indice: 93
+Punto 94: (133.257, 49.7865) indice: 94
+Punto 95: (133.384, 29.0932) indice: 95
+Punto 96: (133.397, 10.3148) indice: 96
+Punto 97: (133.428, 19.6602) indice: 97
+Punto 98: (133.715, 22.6291) indice: 98
+Punto 99: (133.753, 54.0871) indice: 99
+Punto 100: (133.906, 178.582) indice: 100
+Punto 101: (134.27, 40.7098) indice: 101
+Punto 102: (134.278, 178.97) indice: 102
+Punto 103: (134.304, 24.7418) indice: 103
+Punto 104: (134.355, 66.8118) indice: 104
+Punto 105: (134.678, 8.34875) indice: 105
+Punto 106: (134.763, 49.5596) indice: 106
+Punto 107: (134.932, 9.05444) indice: 107
+Punto 108: (134.934, 186.626) indice: 108
+Punto 109: (134.964, 57.4932) indice: 109
+Punto 110: (134.989, 18.174) indice: 110
+Punto 111: (135.067, 28.8907) indice: 111
+Punto 112: (135.15, 8.10868) indice: 112
+Punto 113: (135.158, 42.27) indice: 113
+Punto 114: (135.229, 23.7206) indice: 114
+Punto 115: (135.256, 185.724) indice: 115
+Punto 116: (135.262, 284.548) indice: 116
+Punto 117: (135.476, 59.1237) indice: 117
+Punto 118: (135.609, 56.7994) indice: 118
+Punto 119: (135.618, 177.045) indice: 119
+Punto 120: (135.897, 173.159) indice: 120
+Punto 121: (135.903, 175.662) indice: 121
+Punto 122: (135.957, 38.2431) indice: 122
+Punto 123: (135.965, 13.5535) indice: 123
+Punto 124: (135.975, 55.8672) indice: 124
+Punto 125: (136.561, 65.136) indice: 125
+Punto 126: (136.786, 1.05015) indice: 126
+Punto 127: (136.862, 40.7958) indice: 127
+Punto 128: (137.037, 14.3447) indice: 128
+Punto 129: (137.23, 187.328) indice: 129
+Punto 130: (137.276, 14.8101) indice: 130
+Punto 131: (137.485, 184.142) indice: 131
+Punto 132: (137.576, 55.9651) indice: 132
+Punto 133: (137.636, 33.4401) indice: 133
+Punto 134: (137.881, 74.4621) indice: 134
+Punto 135: (137.959, 272.182) indice: 135
+Punto 136: (138.001, 287.616) indice: 136
+Punto 137: (138.2, 286.675) indice: 137
+Punto 138: (138.58, 56.2048) indice: 138
+Punto 139: (138.714, 40.5357) indice: 139
+Punto 140: (138.74, 55.3523) indice: 140
+Punto 141: (138.775, 40.0439) indice: 141
+Punto 142: (138.799, 196.176) indice: 142
+Punto 143: (138.803, 55.8698) indice: 143
+Punto 144: (138.825, 63.3845) indice: 144
+Punto 145: (138.891, 183.057) indice: 145
+Punto 146: (138.973, 162.453) indice: 146
+Punto 147: (139.011, 9.37074) indice: 147
+Punto 148: (139.037, 53.0848) indice: 148
+Punto 149: (139.067, 7.6391) indice: 149
+Punto 150: (139.493, 1.63575) indice: 150
+Punto 151: (139.537, 54.7895) indice: 151
+Punto 152: (139.669, 31.5994) indice: 152
+Punto 153: (139.732, 165.529) indice: 153
+Punto 154: (139.841, 200.778) indice: 154
+Punto 155: (139.985, 202.857) indice: 155
+Punto 156: (14.102, 215.723) indice: 156
+Punto 157: (14.318, 203.11) indice: 157
+Punto 158: (14.4555, 206.379) indice: 158
+Punto 159: (140.042, 178.956) indice: 159
+Punto 160: (140.063, 180.983) indice: 160
+Punto 161: (140.18, 191.531) indice: 161
+Punto 162: (140.383, 28.683) indice: 162
+Punto 163: (140.432, 295.023) indice: 163
+Punto 164: (140.487, 169.396) indice: 164
+Punto 165: (140.852, 191.352) indice: 165
+Punto 166: (140.898, 46.5544) indice: 166
+Punto 167: (141.254, 3.08677) indice: 167
+Punto 168: (141.714, 45.9416) indice: 168
+Punto 169: (141.905, 4.59203) indice: 169
+Punto 170: (142.167, 188.461) indice: 170
+Punto 171: (142.225, 32.2937) indice: 171
+Punto 172: (142.319, 3.98029) indice: 172
+Punto 173: (142.321, 25.8513) indice: 173
+Punto 174: (142.342, 45.6973) indice: 174
+Punto 175: (142.377, 18.4497) indice: 175
+Punto 176: (142.392, 155.539) indice: 176
+Punto 177: (142.445, 282.691) indice: 177
+Punto 178: (142.458, 286.78) indice: 178
+Punto 179: (142.66, 33.9026) indice: 179
+Punto 180: (142.685, 43.4272) indice: 180
+Punto 181: (142.76, 203.325) indice: 181
+Punto 182: (142.779, 2.50652) indice: 182
+Punto 183: (142.846, 22.0972) indice: 183
+Punto 184: (142.878, 292.268) indice: 184
+Punto 185: (142.955, 67.3232) indice: 185
+Punto 186: (143.099, 67.2754) indice: 186
+Punto 187: (143.197, 169.912) indice: 187
+Punto 188: (143.263, 172.67) indice: 188
+Punto 189: (143.366, 2.89161) indice: 189
+Punto 190: (143.567, 21.6013) indice: 190
+Punto 191: (143.573, 196.758) indice: 191
+Punto 192: (143.892, 286.145) indice: 192
+Punto 193: (143.928, 29.4211) indice: 193
+Punto 194: (143.991, 291.912) indice: 194
+Punto 195: (144.01, 286.807) indice: 195
+Punto 196: (144.205, 197.955) indice: 196
+Punto 197: (144.234, 273.647) indice: 197
+Punto 198: (144.306, 54.4649) indice: 198
+Punto 199: (144.551, 269.284) indice: 199
+Punto 200: (144.672, 9.17483) indice: 200
+Punto 201: (144.723, 291.753) indice: 201
+Punto 202: (145.049, 173.428) indice: 202
+Punto 203: (145.171, 47.1474) indice: 203
+Punto 204: (145.188, 47.6797) indice: 204
+Punto 205: (145.3, 183.619) indice: 205
+Punto 206: (145.323, 184.198) indice: 206
+Punto 207: (145.451, 19.1161) indice: 207
+Punto 208: (145.527, 189.308) indice: 208
+Punto 209: (145.559, 17.3619) indice: 209
+Punto 210: (145.588, 8.96103) indice: 210
+Punto 211: (145.749, 65.8084) indice: 211
+Punto 212: (145.857, 285.923) indice: 212
+Punto 213: (145.883, 179.872) indice: 213
+Punto 214: (146.047, 37.5761) indice: 214
+Punto 215: (146.208, 16.3086) indice: 215
+Punto 216: (146.507, 179.403) indice: 216
+Punto 217: (146.545, 192.297) indice: 217
+Punto 218: (146.607, 35.0895) indice: 218
+Punto 219: (146.632, 179.307) indice: 219
+Punto 220: (146.866, 59.779) indice: 220
+Punto 221: (146.962, 52.4534) indice: 221
+Punto 222: (147.083, 197.827) indice: 222
+Punto 223: (147.196, 286.786) indice: 223
+Punto 224: (147.212, 60.4709) indice: 224
+Punto 225: (147.222, 173.673) indice: 225
+Punto 226: (147.257, 26.0229) indice: 226
+Punto 227: (147.439, 41.8108) indice: 227
+Punto 228: (147.447, 38.5719) indice: 228
+Punto 229: (147.469, 32.7271) indice: 229
+Punto 230: (147.486, 196.193) indice: 230
+Punto 231: (147.494, 164.218) indice: 231
+Punto 232: (147.512, 36.87) indice: 232
+Punto 233: (147.517, 22.58) indice: 233
+Punto 234: (147.673, 184.976) indice: 234
+Punto 235: (147.768, 182.107) indice: 235
+Punto 236: (147.849, 53.7809) indice: 236
+Punto 237: (147.951, 7.18427) indice: 237
+Punto 238: (148.058, 198.13) indice: 238
+Punto 239: (148.284, 30.929) indice: 239
+Punto 240: (148.312, 29.2989) indice: 240
+Punto 241: (148.475, 17.9833) indice: 241
+Punto 242: (148.49, 194.579) indice: 242
+Punto 243: (148.602, 46.9277) indice: 243
+Punto 244: (148.62, 203.86) indice: 244
+Punto 245: (148.672, 40.631) indice: 245
+Punto 246: (148.681, 18.1124) indice: 246
+Punto 247: (148.891, 65.0779) indice: 247
+Punto 248: (148.908, 184.276) indice: 248
+Punto 249: (148.943, 181.945) indice: 249
+Punto 250: (148.999, 157.929) indice: 250
+Punto 251: (149.185, 21.2693) indice: 251
+Punto 252: (149.202, 78.2029) indice: 252
+Punto 253: (149.522, 269.384) indice: 253
+Punto 254: (149.738, 19.9599) indice: 254
+Punto 255: (149.937, 9.74182) indice: 255
+Punto 256: (149.952, 203.708) indice: 256
+Punto 257: (15.3806, 42.5268) indice: 257
+Punto 258: (15.5295, 90.6121) indice: 258
+Punto 259: (15.5457, 208.929) indice: 259
+Punto 260: (15.7473, 57.1389) indice: 260
+Punto 261: (15.9835, 50.8342) indice: 261
+Punto 262: (150.086, 190.756) indice: 262
+Punto 263: (150.126, 271.945) indice: 263
+Punto 264: (150.16, 286.531) indice: 264
+Punto 265: (150.253, 61.5027) indice: 265
+Punto 266: (150.322, 50.8961) indice: 266
+Punto 267: (150.416, 63.1954) indice: 267
+Punto 268: (150.495, 56.9073) indice: 268
+Punto 269: (150.636, 276.923) indice: 269
+Punto 270: (150.666, 292.706) indice: 270
+Punto 271: (150.678, 269.734) indice: 271
+Punto 272: (150.739, 22.7849) indice: 272
+Punto 273: (150.895, 168.362) indice: 273
+Punto 274: (151.077, 281.066) indice: 274
+Punto 275: (151.107, 177.965) indice: 275
+Punto 276: (151.306, 173.585) indice: 276
+Punto 277: (151.319, 36.2565) indice: 277
+Punto 278: (151.5, 63.2417) indice: 278
+Punto 279: (151.551, 160.359) indice: 279
+Punto 280: (151.771, 25.2261) indice: 280
+Punto 281: (151.794, 60.299) indice: 281
+Punto 282: (151.869, 279.292) indice: 282
+Punto 283: (152.04, 189.972) indice: 283
+Punto 284: (152.057, 180.442) indice: 284
+Punto 285: (152.284, 61.4719) indice: 285
+Punto 286: (152.287, 156.391) indice: 286
+Punto 287: (152.29, 45.0542) indice: 287
+Punto 288: (152.318, 178.109) indice: 288
+Punto 289: (152.345, 37.5264) indice: 289
+Punto 290: (152.384, 63.859) indice: 290
+Punto 291: (152.432, 174.564) indice: 291
+Punto 292: (152.786, 58.3382) indice: 292
+Punto 293: (153.155, 163.602) indice: 293
+Punto 294: (153.174, 161.053) indice: 294
+Punto 295: (153.181, 169.287) indice: 295
+Punto 296: (153.284, 148.717) indice: 296
+Punto 297: (153.514, 278.717) indice: 297
+Punto 298: (153.732, 180.076) indice: 298
+Punto 299: (153.757, 30.4907) indice: 299
+Punto 300: (153.841, 72.7133) indice: 300
+Punto 301: (153.971, 207.599) indice: 301
+Punto 302: (154.009, 30.279) indice: 302
+Punto 303: (154.022, 203.306) indice: 303
+Punto 304: (154.224, 273.571) indice: 304
+Punto 305: (154.437, 54.0277) indice: 305
+Punto 306: (154.46, 293.079) indice: 306
+Punto 307: (154.584, 52.6346) indice: 307
+Punto 308: (154.969, 184.482) indice: 308
+Punto 309: (155.069, 161.392) indice: 309
+Punto 310: (155.097, 158.426) indice: 310
+Punto 311: (155.184, 61.5363) indice: 311
+Punto 312: (155.346, 193.35) indice: 312
+Punto 313: (155.372, 69.7734) indice: 313
+Punto 314: (155.378, 173.056) indice: 314
+Punto 315: (155.465, 61.6084) indice: 315
+Punto 316: (155.515, 162.027) indice: 316
+Punto 317: (155.578, 174.053) indice: 317
+Punto 318: (155.766, 58.7399) indice: 318
+Punto 319: (155.904, 155.332) indice: 319
+Punto 320: (156.08, 211.21) indice: 320
+Punto 321: (156.356, 78.0902) indice: 321
+Punto 322: (156.402, 74.9896) indice: 322
+Punto 323: (156.729, 157.774) indice: 323
+Punto 324: (156.909, 168.31) indice: 324
+Punto 325: (156.992, 77.1613) indice: 325
+Punto 326: (157.046, 56.8062) indice: 326
+Punto 327: (157.256, 294.22) indice: 327
+Punto 328: (157.285, 64.3189) indice: 328
+Punto 329: (157.382, 175.036) indice: 329
+Punto 330: (157.424, 145.323) indice: 330
+Punto 331: (157.448, 283.131) indice: 331
+Punto 332: (157.543, 52.2861) indice: 332
+Punto 333: (158.544, 152.637) indice: 333
+Punto 334: (159.032, 157.056) indice: 334
+Punto 335: (159.047, 164.081) indice: 335
+Punto 336: (159.593, 158.688) indice: 336
+Punto 337: (159.629, 287.335) indice: 337
+Punto 338: (159.797, 174.984) indice: 338
+Punto 339: (16.2975, 191.467) indice: 339
+Punto 340: (16.399, 200.675) indice: 340
+Punto 341: (16.4382, 9.48634) indice: 341
+Punto 342: (16.6857, 42.4154) indice: 342
+Punto 343: (160.161, 217.988) indice: 343
+Punto 344: (160.389, 165.98) indice: 344
+Punto 345: (160.433, 266.807) indice: 345
+Punto 346: (160.753, 163) indice: 346
+Punto 347: (161.533, 164.131) indice: 347
+Punto 348: (162.25, 197.944) indice: 348
+Punto 349: (162.257, 288.025) indice: 349
+Punto 350: (162.267, 178.059) indice: 350
+Punto 351: (163.27, 176.096) indice: 351
+Punto 352: (163.286, 167.261) indice: 352
+Punto 353: (163.393, 142.587) indice: 353
+Punto 354: (164.026, 288.62) indice: 354
+Punto 355: (164.043, 170.406) indice: 355
+Punto 356: (164.206, 161.869) indice: 356
+Punto 357: (164.222, 151.986) indice: 357
+Punto 358: (164.421, 280.67) indice: 358
+Punto 359: (164.454, 202.693) indice: 359
+Punto 360: (165.163, 279.019) indice: 360
+Punto 361: (165.554, 92.9603) indice: 361
+Punto 362: (165.585, 285.487) indice: 362
+Punto 363: (165.636, 151.03) indice: 363
+Punto 364: (166.104, 181.006) indice: 364
+Punto 365: (166.261, 282.178) indice: 365
+Punto 366: (166.403, 139.476) indice: 366
+Punto 367: (166.658, 198.053) indice: 367
+Punto 368: (166.846, 138.668) indice: 368
+Punto 369: (167.218, 149.067) indice: 369
+Punto 370: (167.272, 215.57) indice: 370
+Punto 371: (167.39, 159.061) indice: 371
+Punto 372: (167.505, 210.928) indice: 372
+Punto 373: (167.701, 161.197) indice: 373
+Punto 374: (167.941, 178.767) indice: 374
+Punto 375: (167.958, 292.19) indice: 375
+Punto 376: (168.052, 179.187) indice: 376
+Punto 377: (168.305, 159.578) indice: 377
+Punto 378: (168.311, 184.497) indice: 378
+Punto 379: (168.415, 102.256) indice: 379
+Punto 380: (169.042, 161.243) indice: 380
+Punto 381: (169.297, 285.776) indice: 381
+Punto 382: (17.007, 201.631) indice: 382
+Punto 383: (17.1207, 210.15) indice: 383
+Punto 384: (17.2145, 202.485) indice: 384
+Punto 385: (17.7676, 43.0054) indice: 385
+Punto 386: (170.481, 285.757) indice: 386
+Punto 387: (170.822, 192.157) indice: 387
+Punto 388: (171.412, 214.033) indice: 388
+Punto 389: (171.468, 194.819) indice: 389
+Punto 390: (171.593, 291.79) indice: 390
+Punto 391: (172.008, 176.415) indice: 391
+Punto 392: (172.365, 165.252) indice: 392
+Punto 393: (172.813, 169.548) indice: 393
+Punto 394: (172.825, 151.223) indice: 394
+Punto 395: (173.02, 175.527) indice: 395
+Punto 396: (173.689, 178.029) indice: 396
+Punto 397: (174.208, 219.715) indice: 397
+Punto 398: (174.237, 144.704) indice: 398
+Punto 399: (174.592, 153.276) indice: 399
+Punto 400: (174.692, 148.319) indice: 400
+Punto 401: (175.176, 279.208) indice: 401
+Punto 402: (175.213, 147.332) indice: 402
+Punto 403: (175.225, 153.635) indice: 403
+Punto 404: (175.284, 288.976) indice: 404
+Punto 405: (175.646, 161.094) indice: 405
+Punto 406: (175.664, 218.168) indice: 406
+Punto 407: (175.741, 266.173) indice: 407
+Punto 408: (175.792, 137.423) indice: 408
+Punto 409: (175.89, 262.374) indice: 409
+Punto 410: (176.108, 215.891) indice: 410
+Punto 411: (176.227, 145.941) indice: 411
+Punto 412: (176.32, 163.59) indice: 412
+Punto 413: (176.333, 198.961) indice: 413
+Punto 414: (176.375, 176.581) indice: 414
+Punto 415: (176.46, 204.486) indice: 415
+Punto 416: (176.69, 113.192) indice: 416
+Punto 417: (176.733, 275.332) indice: 417
+Punto 418: (176.832, 160.785) indice: 418
+Punto 419: (176.914, 199.058) indice: 419
+Punto 420: (177.214, 117.352) indice: 420
+Punto 421: (177.477, 96.9317) indice: 421
+Punto 422: (177.628, 189.45) indice: 422
+Punto 423: (177.634, 195.804) indice: 423
+Punto 424: (177.739, 213.243) indice: 424
+Punto 425: (177.787, 104.538) indice: 425
+Punto 426: (178.007, 138.511) indice: 426
+Punto 427: (178.243, 200.758) indice: 427
+Punto 428: (178.296, 207.926) indice: 428
+Punto 429: (178.508, 186.313) indice: 429
+Punto 430: (178.646, 166.979) indice: 430
+Punto 431: (178.759, 282.374) indice: 431
+Punto 432: (178.781, 104.584) indice: 432
+Punto 433: (179.318, 195.82) indice: 433
+Punto 434: (179.656, 211.606) indice: 434
+Punto 435: (179.697, 282.458) indice: 435
+Punto 436: (179.777, 146.971) indice: 436
+Punto 437: (179.828, 201.818) indice: 437
+Punto 438: (179.929, 209.943) indice: 438
+Punto 439: (18.0528, 50.3253) indice: 439
+Punto 440: (18.2611, 113.363) indice: 440
+Punto 441: (18.4609, 197.947) indice: 441
+Punto 442: (18.5357, 215.004) indice: 442
+Punto 443: (18.7097, 198.861) indice: 443
+Punto 444: (18.8285, 35.3276) indice: 444
+Punto 445: (180.349, 187.011) indice: 445
+Punto 446: (180.488, 133.734) indice: 446
+Punto 447: (180.618, 274.775) indice: 447
+Punto 448: (181.06, 183.653) indice: 448
+Punto 449: (181.765, 195.867) indice: 449
+Punto 450: (181.779, 192.613) indice: 450
+Punto 451: (182.085, 97.4324) indice: 451
+Punto 452: (182.185, 214.02) indice: 452
+Punto 453: (182.274, 135.587) indice: 453
+Punto 454: (182.314, 88.8814) indice: 454
+Punto 455: (182.378, 208.274) indice: 455
+Punto 456: (182.388, 197.323) indice: 456
+Punto 457: (182.406, 167.133) indice: 457
+Punto 458: (182.775, 211.592) indice: 458
+Punto 459: (182.83, 266.18) indice: 459
+Punto 460: (183.121, 154.362) indice: 460
+Punto 461: (183.389, 207.136) indice: 461
+Punto 462: (183.451, 188.02) indice: 462
+Punto 463: (183.467, 208.584) indice: 463
+Punto 464: (183.726, 182.665) indice: 464
+Punto 465: (183.91, 278.641) indice: 465
+Punto 466: (184.219, 144.246) indice: 466
+Punto 467: (184.489, 194.372) indice: 467
+Punto 468: (184.617, 266.936) indice: 468
+Punto 469: (184.636, 271.232) indice: 469
+Punto 470: (184.83, 157.415) indice: 470
+Punto 471: (185.207, 287.331) indice: 471
+Punto 472: (185.283, 186.247) indice: 472
+Punto 473: (185.336, 200.464) indice: 473
+Punto 474: (185.574, 195.529) indice: 474
+Punto 475: (185.995, 183.879) indice: 475
+Punto 476: (186.001, 88.3336) indice: 476
+Punto 477: (186.052, 182.043) indice: 477
+Punto 478: (186.452, 147.991) indice: 478
+Punto 479: (186.774, 103.149) indice: 479
+Punto 480: (186.976, 285.698) indice: 480
+Punto 481: (187.072, 217.926) indice: 481
+Punto 482: (187.523, 273.698) indice: 482
+Punto 483: (187.595, 86.5506) indice: 483
+Punto 484: (187.752, 274.899) indice: 484
+Punto 485: (187.799, 76.8193) indice: 485
+Punto 486: (187.805, 283.971) indice: 486
+Punto 487: (187.943, 99.9635) indice: 487
+Punto 488: (188.13, 101.75) indice: 488
+Punto 489: (188.16, 271.635) indice: 489
+Punto 490: (188.23, 194.949) indice: 490
+Punto 491: (188.232, 108.216) indice: 491
+Punto 492: (188.668, 123.816) indice: 492
+Punto 493: (188.835, 79.5238) indice: 493
+Punto 494: (188.928, 200.561) indice: 494
+Punto 495: (188.994, 146.978) indice: 495
+Punto 496: (189.074, 91.3006) indice: 496
+Punto 497: (189.436, 173.713) indice: 497
+Punto 498: (19.3854, 40.1583) indice: 498
+Punto 499: (19.9726, 213.328) indice: 499
+Punto 500: (190.306, 292.466) indice: 500
+Punto 501: (190.383, 197.101) indice: 501
+Punto 502: (190.449, 274.897) indice: 502
+Punto 503: (190.512, 84.9236) indice: 503
+Punto 504: (190.681, 77.9732) indice: 504
+Punto 505: (190.791, 171.572) indice: 505
+Punto 506: (190.796, 120.748) indice: 506
+Punto 507: (191.374, 113.867) indice: 507
+Punto 508: (191.462, 195.806) indice: 508
+Punto 509: (191.503, 291.961) indice: 509
+Punto 510: (191.531, 216.322) indice: 510
+Punto 511: (191.606, 106.928) indice: 511
+Punto 512: (191.8, 266.472) indice: 512
+Punto 513: (192.094, 169.77) indice: 513
+Punto 514: (192.222, 114.371) indice: 514
+Punto 515: (192.355, 86.2745) indice: 515
+Punto 516: (192.376, 195.538) indice: 516
+Punto 517: (192.51, 139.846) indice: 517
+Punto 518: (192.67, 274.777) indice: 518
+Punto 519: (193.141, 104.174) indice: 519
+Punto 520: (193.144, 216.845) indice: 520
+Punto 521: (193.31, 287.023) indice: 521
+Punto 522: (193.362, 194.827) indice: 522
+Punto 523: (193.447, 84.5282) indice: 523
+Punto 524: (193.465, 89.594) indice: 524
+Punto 525: (193.505, 271.972) indice: 525
+Punto 526: (193.548, 86.6404) indice: 526
+Punto 527: (193.636, 285.443) indice: 527
+Punto 528: (193.793, 202.562) indice: 528
+Punto 529: (193.868, 96.0498) indice: 529
+Punto 530: (194.005, 115.99) indice: 530
+Punto 531: (194.573, 93.9761) indice: 531
+Punto 532: (194.732, 87.3969) indice: 532
+Punto 533: (195.235, 101.911) indice: 533
+Punto 534: (195.366, 283.174) indice: 534
+Punto 535: (195.382, 220.087) indice: 535
+Punto 536: (195.456, 92.3443) indice: 536
+Punto 537: (195.502, 92.4672) indice: 537
+Punto 538: (195.679, 292.608) indice: 538
+Punto 539: (195.684, 110.38) indice: 539
+Punto 540: (195.693, 208.232) indice: 540
+Punto 541: (195.7, 84.4059) indice: 541
+Punto 542: (195.922, 196.154) indice: 542
+Punto 543: (195.951, 282.374) indice: 543
+Punto 544: (196.202, 204.461) indice: 544
+Punto 545: (196.25, 90.7362) indice: 545
+Punto 546: (196.285, 178.01) indice: 546
+Punto 547: (196.3, 283.679) indice: 547
+Punto 548: (196.5, 193.309) indice: 548
+Punto 549: (196.694, 295.099) indice: 549
+Punto 550: (196.744, 125.576) indice: 550
+Punto 551: (196.996, 204.589) indice: 551
+Punto 552: (197.021, 87.8298) indice: 552
+Punto 553: (197.276, 115.815) indice: 553
+Punto 554: (197.43, 122.118) indice: 554
+Punto 555: (197.561, 291.939) indice: 555
+Punto 556: (197.629, 217.432) indice: 556
+Punto 557: (198.196, 101.272) indice: 557
+Punto 558: (198.368, 106.249) indice: 558
+Punto 559: (198.456, 21.3995) indice: 559
+Punto 560: (198.584, 208.792) indice: 560
+Punto 561: (199.048, 188.501) indice: 561
+Punto 562: (199.176, 90.2365) indice: 562
+Punto 563: (199.245, 85.0764) indice: 563
+Punto 564: (199.253, 119.297) indice: 564
+Punto 565: (199.314, 19.243) indice: 565
+Punto 566: (199.37, 93.4128) indice: 566
+Punto 567: (199.56, 22.8392) indice: 567
+Punto 568: (199.78, 284.021) indice: 568
+Punto 569: (199.837, 35.7609) indice: 569
+Punto 570: (199.997, 275.939) indice: 570
+Punto 571: (2.13061, 222.624) indice: 571
+Punto 572: (20.2232, 201.534) indice: 572
+Punto 573: (20.4656, 30.505) indice: 573
+Punto 574: (20.6167, 195.681) indice: 574
+Punto 575: (20.8087, 220.973) indice: 575
+Punto 576: (200.06, 210.314) indice: 576
+Punto 577: (200.097, 87.9472) indice: 577
+Punto 578: (200.112, 117.148) indice: 578
+Punto 579: (200.272, 26.272) indice: 579
+Punto 580: (200.277, 295.009) indice: 580
+Punto 581: (200.404, 281.997) indice: 581
+Punto 582: (200.516, 103.582) indice: 582
+Punto 583: (200.85, 204.997) indice: 583
+Punto 584: (200.872, 288.486) indice: 584
+Punto 585: (200.954, 88.268) indice: 585
+Punto 586: (201.03, 44.9632) indice: 586
+Punto 587: (201.08, 21.206) indice: 587
+Punto 588: (201.557, 263.328) indice: 588
+Punto 589: (201.684, 286.077) indice: 589
+Punto 590: (201.808, 202.672) indice: 590
+Punto 591: (202, 42.0164) indice: 591
+Punto 592: (202.035, 116.997) indice: 592
+Punto 593: (202.101, 22.0114) indice: 593
+Punto 594: (202.186, 108.858) indice: 594
+Punto 595: (202.407, 121.877) indice: 595
+Punto 596: (202.463, 295.019) indice: 596
+Punto 597: (202.52, 100.305) indice: 597
+Punto 598: (202.593, 282.968) indice: 598
+Punto 599: (202.808, 263.552) indice: 599
+Punto 600: (202.952, 91.7842) indice: 600
+Punto 601: (203.22, 47.846) indice: 601
+Punto 602: (203.289, 110.344) indice: 602
+Punto 603: (203.293, 55.0547) indice: 603
+Punto 604: (203.337, 102.657) indice: 604
+Punto 605: (203.351, 23.7699) indice: 605
+Punto 606: (203.393, 115.268) indice: 606
+Punto 607: (203.421, 99.9182) indice: 607
+Punto 608: (203.765, 291.535) indice: 608
+Punto 609: (203.815, 13.3022) indice: 609
+Punto 610: (203.954, 18.4912) indice: 610
+Punto 611: (204.479, 23.4407) indice: 611
+Punto 612: (204.525, 296.064) indice: 612
+Punto 613: (204.537, 118.556) indice: 613
+Punto 614: (204.607, 97.7693) indice: 614
+Punto 615: (204.831, 292.866) indice: 615
+Punto 616: (204.917, 20.0731) indice: 616
+Punto 617: (204.991, 293.769) indice: 617
+Punto 618: (205.085, 30.5517) indice: 618
+Punto 619: (205.528, 283.395) indice: 619
+Punto 620: (205.549, 277.515) indice: 620
+Punto 621: (205.552, 90.4472) indice: 621
+Punto 622: (205.836, 277.489) indice: 622
+Punto 623: (206.009, 95.7002) indice: 623
+Punto 624: (206.334, 104.749) indice: 624
+Punto 625: (206.336, 39.6422) indice: 625
+Punto 626: (206.686, 119.162) indice: 626
+Punto 627: (207.032, 281.329) indice: 627
+Punto 628: (207.041, 279.484) indice: 628
+Punto 629: (207.3, 99.2121) indice: 629
+Punto 630: (207.618, 109.781) indice: 630
+Punto 631: (207.681, 110.08) indice: 631
+Punto 632: (207.726, 28.8351) indice: 632
+Punto 633: (207.835, 113.166) indice: 633
+Punto 634: (207.951, 291.454) indice: 634
+Punto 635: (208.407, 8.82173) indice: 635
+Punto 636: (208.473, 266.986) indice: 636
+Punto 637: (209.363, 281.618) indice: 637
+Punto 638: (209.396, 100.198) indice: 638
+Punto 639: (209.492, 277.326) indice: 639
+Punto 640: (209.825, 295.549) indice: 640
+Punto 641: (21.658, 291.751) indice: 641
+Punto 642: (21.6889, 92.7344) indice: 642
+Punto 643: (21.8796, 208.035) indice: 643
+Punto 644: (21.9264, 107.888) indice: 644
+Punto 645: (210.043, 34.46) indice: 645
+Punto 646: (210.096, 98.0479) indice: 646
+Punto 647: (210.128, 272.9) indice: 647
+Punto 648: (210.187, 102.096) indice: 648
+Punto 649: (210.189, 103.868) indice: 649
+Punto 650: (210.306, 85.9008) indice: 650
+Punto 651: (210.578, 273.063) indice: 651
+Punto 652: (210.627, 121.479) indice: 652
+Punto 653: (210.636, 33.3577) indice: 653
+Punto 654: (210.686, 45.0137) indice: 654
+Punto 655: (210.802, 84.4644) indice: 655
+Punto 656: (210.925, 43.1095) indice: 656
+Punto 657: (211.018, 26.706) indice: 657
+Punto 658: (211.115, 113.261) indice: 658
+Punto 659: (211.208, 287.436) indice: 659
+Punto 660: (211.307, 13.6866) indice: 660
+Punto 661: (211.673, 103.584) indice: 661
+Punto 662: (211.812, 290.294) indice: 662
+Punto 663: (211.905, 105.285) indice: 663
+Punto 664: (211.965, 9.31324) indice: 664
+Punto 665: (212.074, 102.689) indice: 665
+Punto 666: (212.083, 290.148) indice: 666
+Punto 667: (212.091, 25.3365) indice: 667
+Punto 668: (212.123, 104.2) indice: 668
+Punto 669: (212.161, 283.466) indice: 669
+Punto 670: (212.181, 36.4053) indice: 670
+Punto 671: (212.465, 111.35) indice: 671
+Punto 672: (213.353, 90.6464) indice: 672
+Punto 673: (213.447, 109.815) indice: 673
+Punto 674: (213.592, 289.265) indice: 674
+Punto 675: (213.756, 91.3773) indice: 675
+Punto 676: (213.758, 288.081) indice: 676
+Punto 677: (213.775, 36.6927) indice: 677
+Punto 678: (213.833, 16.1955) indice: 678
+Punto 679: (213.882, 111.314) indice: 679
+Punto 680: (213.966, 282.677) indice: 680
+Punto 681: (214.308, 262.959) indice: 681
+Punto 682: (214.549, 118.533) indice: 682
+Punto 683: (214.657, 41.3819) indice: 683
+Punto 684: (214.801, 106.504) indice: 684
+Punto 685: (214.823, 284.072) indice: 685
+Punto 686: (215.039, 47.9504) indice: 686
+Punto 687: (215.285, 23.5797) indice: 687
+Punto 688: (215.356, 14.5419) indice: 688
+Punto 689: (215.506, 98.3707) indice: 689
+Punto 690: (215.585, 291.984) indice: 690
+Punto 691: (215.626, 107.969) indice: 691
+Punto 692: (215.806, 49.5552) indice: 692
+Punto 693: (215.926, 99.8303) indice: 693
+Punto 694: (215.988, 275.348) indice: 694
+Punto 695: (216.048, 278.949) indice: 695
+Punto 696: (216.182, 264.183) indice: 696
+Punto 697: (216.257, 97.0201) indice: 697
+Punto 698: (216.515, 93.3159) indice: 698
+Punto 699: (216.684, 1.30191) indice: 699
+Punto 700: (216.72, 57.5275) indice: 700
+Punto 701: (216.923, 14.2235) indice: 701
+Punto 702: (217.276, 294.011) indice: 702
+Punto 703: (217.332, 119.997) indice: 703
+Punto 704: (217.379, 39.9166) indice: 704
+Punto 705: (217.585, 121.649) indice: 705
+Punto 706: (217.687, 37.9911) indice: 706
+Punto 707: (217.896, 268.191) indice: 707
+Punto 708: (218.17, 20.3617) indice: 708
+Punto 709: (218.292, 93.9764) indice: 709
+Punto 710: (218.398, 97.7414) indice: 710
+Punto 711: (218.416, 274.093) indice: 711
+Punto 712: (218.557, 90.5026) indice: 712
+Punto 713: (218.634, 15.1104) indice: 713
+Punto 714: (218.915, 111.65) indice: 714
+Punto 715: (218.938, 287.486) indice: 715
+Punto 716: (219.224, 48.8196) indice: 716
+Punto 717: (219.432, 113.974) indice: 717
+Punto 718: (219.965, 103.212) indice: 718
+Punto 719: (22.161, 44.3654) indice: 719
+Punto 720: (22.6396, 208.693) indice: 720
+Punto 721: (22.9575, 93.9852) indice: 721
+Punto 722: (220.243, 24.4047) indice: 722
+Punto 723: (220.373, 100.89) indice: 723
+Punto 724: (220.385, 39.0178) indice: 724
+Punto 725: (221.216, 105.674) indice: 725
+Punto 726: (221.455, 275.615) indice: 726
+Punto 727: (221.621, 44.8795) indice: 727
+Punto 728: (221.672, 279.14) indice: 728
+Punto 729: (221.731, 31.0371) indice: 729
+Punto 730: (221.802, 277.889) indice: 730
+Punto 731: (221.843, 59.5674) indice: 731
+Punto 732: (221.923, 89.6966) indice: 732
+Punto 733: (222.134, 34.3909) indice: 733
+Punto 734: (222.182, 105.488) indice: 734
+Punto 735: (222.454, 8.67145) indice: 735
+Punto 736: (222.499, 55.1584) indice: 736
+Punto 737: (222.672, 11.9327) indice: 737
+Punto 738: (222.835, 84.1162) indice: 738
+Punto 739: (222.865, 289.759) indice: 739
+Punto 740: (223.194, 96.3613) indice: 740
+Punto 741: (223.305, 270.105) indice: 741
+Punto 742: (223.31, 277.594) indice: 742
+Punto 743: (223.356, 113.814) indice: 743
+Punto 744: (223.358, 272.94) indice: 744
+Punto 745: (223.409, 106.949) indice: 745
+Punto 746: (223.452, 296.976) indice: 746
+Punto 747: (223.608, 95.3724) indice: 747
+Punto 748: (223.695, 4.06012) indice: 748
+Punto 749: (223.999, 102.821) indice: 749
+Punto 750: (224.12, 114.962) indice: 750
+Punto 751: (224.385, 97.9561) indice: 751
+Punto 752: (224.701, 293.041) indice: 752
+Punto 753: (224.764, 2.53334) indice: 753
+Punto 754: (225.125, 294.853) indice: 754
+Punto 755: (225.7, 291.588) indice: 755
+Punto 756: (225.791, 95.2677) indice: 756
+Punto 757: (227.034, 279.912) indice: 757
+Punto 758: (227.862, 88.9653) indice: 758
+Punto 759: (229.132, 94.4606) indice: 759
+Punto 760: (229.502, 10.2609) indice: 760
+Punto 761: (229.659, 98.8754) indice: 761
+Punto 762: (229.684, 30.1146) indice: 762
+Punto 763: (23.3623, 285.951) indice: 763
+Punto 764: (23.7872, 289.136) indice: 764
+Punto 765: (23.884, 200.163) indice: 765
+Punto 766: (23.9207, 35.8938) indice: 766
+Punto 767: (230.242, 285.018) indice: 767
+Punto 768: (230.611, 289.945) indice: 768
+Punto 769: (230.867, 45.7224) indice: 769
+Punto 770: (230.874, 40.3292) indice: 770
+Punto 771: (231.073, 94.6165) indice: 771
+Punto 772: (231.197, 116.425) indice: 772
+Punto 773: (231.281, 28.8844) indice: 773
+Punto 774: (231.368, 285.144) indice: 774
+Punto 775: (233.172, 285.122) indice: 775
+Punto 776: (233.436, 283.471) indice: 776
+Punto 777: (233.736, 277.798) indice: 777
+Punto 778: (233.829, 18.6673) indice: 778
+Punto 779: (234.123, 297.28) indice: 779
+Punto 780: (234.384, 275.894) indice: 780
+Punto 781: (234.545, 27.4431) indice: 781
+Punto 782: (234.653, 110.338) indice: 782
+Punto 783: (234.842, 43.0641) indice: 783
+Punto 784: (234.883, 293.422) indice: 784
+Punto 785: (234.891, 31.5403) indice: 785
+Punto 786: (234.969, 42.2141) indice: 786
+Punto 787: (235.159, 16.6202) indice: 787
+Punto 788: (235.985, 117.415) indice: 788
+Punto 789: (236.158, 49.5483) indice: 789
+Punto 790: (236.483, 18.5939) indice: 790
+Punto 791: (236.918, 12.4616) indice: 791
+Punto 792: (236.955, 24.4088) indice: 792
+Punto 793: (237.673, 42.616) indice: 793
+Punto 794: (237.747, 9.12436) indice: 794
+Punto 795: (238.33, 24.7549) indice: 795
+Punto 796: (238.379, 283.312) indice: 796
+Punto 797: (238.938, 281.888) indice: 797
+Punto 798: (239.064, 7.61924) indice: 798
+Punto 799: (239.215, 36.9293) indice: 799
+Punto 800: (239.384, 60.5946) indice: 800
+Punto 801: (239.445, 4.87732) indice: 801
+Punto 802: (239.618, 42.759) indice: 802
+Punto 803: (239.682, 17.2854) indice: 803
+Punto 804: (24.3597, 210.236) indice: 804
+Punto 805: (24.4296, 41.6883) indice: 805
+Punto 806: (24.5868, 295.885) indice: 806
+Punto 807: (24.5874, 151.213) indice: 807
+Punto 808: (24.9057, 286.048) indice: 808
+Punto 809: (240.348, 57.0196) indice: 809
+Punto 810: (240.702, 56.3685) indice: 810
+Punto 811: (240.817, 30.3824) indice: 811
+Punto 812: (241.856, 7.40436) indice: 812
+Punto 813: (242.357, 62.4058) indice: 813
+Punto 814: (242.448, 40.31) indice: 814
+Punto 815: (242.695, 274.778) indice: 815
+Punto 816: (242.701, 294.963) indice: 816
+Punto 817: (243.125, 26.6097) indice: 817
+Punto 818: (244.071, 14.9382) indice: 818
+Punto 819: (244.256, 27.1521) indice: 819
+Punto 820: (246.691, 36.1711) indice: 820
+Punto 821: (246.704, 15.8595) indice: 821
+Punto 822: (246.86, 9.60187) indice: 822
+Punto 823: (247.318, 6.91436) indice: 823
+Punto 824: (247.379, 14.0207) indice: 824
+Punto 825: (247.898, 7.37009) indice: 825
+Punto 826: (248.598, 44.1466) indice: 826
+Punto 827: (25.0743, 146.545) indice: 827
+Punto 828: (25.3564, 282.256) indice: 828
+Punto 829: (25.4483, 208.181) indice: 829
+Punto 830: (250.106, 33.303) indice: 830
+Punto 831: (250.124, 22.8541) indice: 831
+Punto 832: (251.032, 43.1508) indice: 832
+Punto 833: (251.106, 53.8366) indice: 833
+Punto 834: (251.948, 41.2378) indice: 834
+Punto 835: (254.617, 35.0524) indice: 835
+Punto 836: (254.997, 14.6123) indice: 836
+Punto 837: (255.043, 60.4777) indice: 837
+Punto 838: (256.26, 16.3745) indice: 838
+Punto 839: (256.537, 52.6751) indice: 839
+Punto 840: (256.933, 22.8585) indice: 840
+Punto 841: (257.931, 20.8458) indice: 841
+Punto 842: (258.051, 1.87009) indice: 842
+Punto 843: (26.4705, 264.719) indice: 843
+Punto 844: (260.05, 25.4425) indice: 844
+Punto 845: (260.36, 38.0079) indice: 845
+Punto 846: (261.088, 203.485) indice: 846
+Punto 847: (261.236, 191.178) indice: 847
+Punto 848: (262.361, 195.833) indice: 848
+Punto 849: (263.886, 180.428) indice: 849
+Punto 850: (264.322, 172.433) indice: 850
+Punto 851: (264.784, 189.38) indice: 851
+Punto 852: (266.194, 176.532) indice: 852
+Punto 853: (266.317, 190.374) indice: 853
+Punto 854: (267.336, 202.263) indice: 854
+Punto 855: (267.418, 186.155) indice: 855
+Punto 856: (268.011, 211.385) indice: 856
+Punto 857: (268.287, 199.3) indice: 857
+Punto 858: (268.343, 178.48) indice: 858
+Punto 859: (268.778, 185.15) indice: 859
+Punto 860: (268.97, 177.171) indice: 860
+Punto 861: (269.009, 194.744) indice: 861
+Punto 862: (269.369, 202.509) indice: 862
+Punto 863: (269.488, 204.137) indice: 863
+Punto 864: (269.777, 227.139) indice: 864
+Punto 865: (27.0159, 273.326) indice: 865
+Punto 866: (27.3849, 203.655) indice: 866
+Punto 867: (27.7068, 93.3689) indice: 867
+Punto 868: (27.9535, 275.111) indice: 868
+Punto 869: (270.094, 199.097) indice: 869
+Punto 870: (270.18, 162.686) indice: 870
+Punto 871: (270.34, 179.083) indice: 871
+Punto 872: (270.521, 185.769) indice: 872
+Punto 873: (270.81, 171.433) indice: 873
+Punto 874: (271.838, 191.293) indice: 874
+Punto 875: (271.999, 191.305) indice: 875
+Punto 876: (273.147, 201.634) indice: 876
+Punto 877: (274.017, 168.348) indice: 877
+Punto 878: (274.21, 175.765) indice: 878
+Punto 879: (275.031, 192.986) indice: 879
+Punto 880: (275.771, 170.781) indice: 880
+Punto 881: (276.117, 83.8389) indice: 881
+Punto 882: (276.899, 196.887) indice: 882
+Punto 883: (277.369, 217.753) indice: 883
+Punto 884: (277.952, 201.202) indice: 884
+Punto 885: (277.985, 76.1008) indice: 885
+Punto 886: (278.688, 64.6527) indice: 886
+Punto 887: (278.716, 208.004) indice: 887
+Punto 888: (278.996, 161.903) indice: 888
+Punto 889: (279.01, 219.053) indice: 889
+Punto 890: (279.02, 195.114) indice: 890
+Punto 891: (279.17, 83.7113) indice: 891
+Punto 892: (279.211, 205.088) indice: 892
+Punto 893: (279.293, 213.947) indice: 893
+Punto 894: (279.321, 219.109) indice: 894
+Punto 895: (279.53, 189.048) indice: 895
+Punto 896: (279.676, 73.2678) indice: 896
+Punto 897: (279.678, 184.578) indice: 897
+Punto 898: (279.855, 95.5008) indice: 898
+Punto 899: (28.3963, 105.472) indice: 899
+Punto 900: (28.5346, 273) indice: 900
+Punto 901: (28.645, 265.627) indice: 901
+Punto 902: (280.035, 159.796) indice: 902
+Punto 903: (280.136, 88.8603) indice: 903
+Punto 904: (280.393, 169.288) indice: 904
+Punto 905: (280.4, 184.799) indice: 905
+Punto 906: (280.408, 100.11) indice: 906
+Punto 907: (280.546, 191.914) indice: 907
+Punto 908: (280.831, 220.691) indice: 908
+Punto 909: (280.902, 95.3771) indice: 909
+Punto 910: (281.078, 90.258) indice: 910
+Punto 911: (281.157, 82.8704) indice: 911
+Punto 912: (281.762, 74.6936) indice: 912
+Punto 913: (281.964, 199.563) indice: 913
+Punto 914: (282.129, 225.716) indice: 914
+Punto 915: (282.264, 78.156) indice: 915
+Punto 916: (282.578, 83.8065) indice: 916
+Punto 917: (283.133, 197.571) indice: 917
+Punto 918: (283.163, 218.992) indice: 918
+Punto 919: (283.29, 171.61) indice: 919
+Punto 920: (283.867, 175.797) indice: 920
+Punto 921: (284.139, 156.744) indice: 921
+Punto 922: (284.676, 62.3372) indice: 922
+Punto 923: (285.057, 177.706) indice: 923
+Punto 924: (285.282, 95.0835) indice: 924
+Punto 925: (285.516, 92.3032) indice: 925
+Punto 926: (285.908, 219.421) indice: 926
+Punto 927: (286.038, 68.3784) indice: 927
+Punto 928: (286.063, 79.131) indice: 928
+Punto 929: (286.244, 182.265) indice: 929
+Punto 930: (286.416, 87.1055) indice: 930
+Punto 931: (286.567, 221.421) indice: 931
+Punto 932: (286.697, 74.1525) indice: 932
+Punto 933: (286.747, 177.43) indice: 933
+Punto 934: (286.867, 97.9592) indice: 934
+Punto 935: (286.96, 163.109) indice: 935
+Punto 936: (286.98, 55.6368) indice: 936
+Punto 937: (286.982, 66.8072) indice: 937
+Punto 938: (287.065, 85.9047) indice: 938
+Punto 939: (287.639, 53.442) indice: 939
+Punto 940: (288.02, 181.703) indice: 940
+Punto 941: (288.036, 79.6499) indice: 941
+Punto 942: (288.238, 207.576) indice: 942
+Punto 943: (288.277, 72.4706) indice: 943
+Punto 944: (288.343, 159.396) indice: 944
+Punto 945: (288.581, 101.038) indice: 945
+Punto 946: (288.678, 175.478) indice: 946
+Punto 947: (288.923, 62.8139) indice: 947
+Punto 948: (289.086, 80.6432) indice: 948
+Punto 949: (289.241, 167.981) indice: 949
+Punto 950: (289.541, 64.4448) indice: 950
+Punto 951: (289.96, 84.4617) indice: 951
+Punto 952: (29.8169, 2.77617) indice: 952
+Punto 953: (290.132, 70.0091) indice: 953
+Punto 954: (290.145, 80.8743) indice: 954
+Punto 955: (290.41, 223.114) indice: 955
+Punto 956: (290.716, 230.402) indice: 956
+Punto 957: (290.943, 176.968) indice: 957
+Punto 958: (291.073, 73.3695) indice: 958
+Punto 959: (291.481, 65.5972) indice: 959
+Punto 960: (291.536, 89.8303) indice: 960
+Punto 961: (291.619, 79.7625) indice: 961
+Punto 962: (291.753, 164.505) indice: 962
+Punto 963: (292.187, 53.7982) indice: 963
+Punto 964: (292.215, 80.5063) indice: 964
+Punto 965: (292.295, 87.478) indice: 965
+Punto 966: (292.367, 56.3648) indice: 966
+Punto 967: (292.741, 59.2742) indice: 967
+Punto 968: (292.924, 89.2388) indice: 968
+Punto 969: (292.976, 208.078) indice: 969
+Punto 970: (293.024, 202.991) indice: 970
+Punto 971: (293.297, 213.732) indice: 971
+Punto 972: (293.327, 72.7504) indice: 972
+Punto 973: (293.65, 73.9336) indice: 973
+Punto 974: (293.914, 76.0216) indice: 974
+Punto 975: (293.976, 208.497) indice: 975
+Punto 976: (294.684, 222.06) indice: 976
+Punto 977: (294.699, 69.0291) indice: 977
+Punto 978: (295.248, 80.6702) indice: 978
+Punto 979: (296.317, 181.354) indice: 979
+Punto 980: (296.323, 81.9574) indice: 980
+Punto 981: (296.579, 102.401) indice: 981
+Punto 982: (296.787, 59.668) indice: 982
+Punto 983: (296.821, 57.1672) indice: 983
+Punto 984: (297.081, 91.6395) indice: 984
+Punto 985: (297.569, 67.7938) indice: 985
+Punto 986: (297.861, 79.9337) indice: 986
+Punto 987: (297.907, 168.428) indice: 987
+Punto 988: (297.999, 65.0895) indice: 988
+Punto 989: (298.083, 78.9523) indice: 989
+Punto 990: (298.35, 52.5315) indice: 990
+Punto 991: (298.837, 56.6017) indice: 991
+Punto 992: (299.068, 53.4591) indice: 992
+Punto 993: (299.156, 68.7821) indice: 993
+Punto 994: (299.38, 93.1237) indice: 994
+Punto 995: (299.484, 201.502) indice: 995
+Punto 996: (299.491, 69.4887) indice: 996
+Punto 997: (299.677, 216.737) indice: 997
+Punto 998: (299.718, 68.5493) indice: 998
+Punto 999: (299.873, 57.9098) indice: 999
+Punto 1000: (3.38352, 231.762) indice: 1000
+Punto 1001: (3.45399, 190.763) indice: 1001
+Punto 1002: (30.1619, 255.164) indice: 1002
+Punto 1003: (30.3168, 159.906) indice: 1003
+Punto 1004: (30.5523, 94.6405) indice: 1004
+Punto 1005: (30.6125, 255.728) indice: 1005
+Punto 1006: (30.9205, 288.648) indice: 1006
+Punto 1007: (300.29, 91.6792) indice: 1007
+Punto 1008: (300.611, 89.6948) indice: 1008
+Punto 1009: (300.677, 86.0418) indice: 1009
+Punto 1010: (300.686, 72.5245) indice: 1010
+Punto 1011: (300.907, 57.6054) indice: 1011
+Punto 1012: (300.911, 216.172) indice: 1012
+Punto 1013: (301.364, 104.596) indice: 1013
+Punto 1014: (301.645, 225.469) indice: 1014
+Punto 1015: (301.74, 100.84) indice: 1015
+Punto 1016: (301.744, 83.1012) indice: 1016
+Punto 1017: (302.175, 163.204) indice: 1017
+Punto 1018: (302.194, 192.711) indice: 1018
+Punto 1019: (302.231, 56.6119) indice: 1019
+Punto 1020: (302.759, 103.051) indice: 1020
+Punto 1021: (302.797, 81.2891) indice: 1021
+Punto 1022: (303.282, 81.9498) indice: 1022
+Punto 1023: (303.464, 190.546) indice: 1023
+Punto 1024: (304.035, 75.6805) indice: 1024
+Punto 1025: (304.25, 221.527) indice: 1025
+Punto 1026: (304.371, 80.4167) indice: 1026
+Punto 1027: (304.526, 58.1676) indice: 1027
+Punto 1028: (304.619, 68.838) indice: 1028
+Punto 1029: (304.689, 74.8613) indice: 1029
+Punto 1030: (305.177, 100.299) indice: 1030
+Punto 1031: (305.495, 53.1211) indice: 1031
+Punto 1032: (306.205, 93.6694) indice: 1032
+Punto 1033: (306.221, 69.9046) indice: 1033
+Punto 1034: (306.346, 81.1233) indice: 1034
+Punto 1035: (306.554, 195.856) indice: 1035
+Punto 1036: (307.42, 72.2642) indice: 1036
+Punto 1037: (307.625, 98.1791) indice: 1037
+Punto 1038: (307.719, 60.7106) indice: 1038
+Punto 1039: (307.765, 69.728) indice: 1039
+Punto 1040: (308.009, 90.1557) indice: 1040
+Punto 1041: (308.119, 89.2176) indice: 1041
+Punto 1042: (308.226, 214.218) indice: 1042
+Punto 1043: (308.454, 90.9906) indice: 1043
+Punto 1044: (308.691, 64.638) indice: 1044
+Punto 1045: (309.219, 66.4521) indice: 1045
+Punto 1046: (309.775, 70.3156) indice: 1046
+Punto 1047: (309.819, 74.3745) indice: 1047
+Punto 1048: (309.911, 218.128) indice: 1048
+Punto 1049: (31.3197, 87.9904) indice: 1049
+Punto 1050: (31.535, 266.713) indice: 1050
+Punto 1051: (310.116, 13.1009) indice: 1051
+Punto 1052: (310.36, 95.275) indice: 1052
+Punto 1053: (311.01, 91.9892) indice: 1053
+Punto 1054: (311.073, 97.7415) indice: 1054
+Punto 1055: (311.306, 71.9785) indice: 1055
+Punto 1056: (311.495, 66.75) indice: 1056
+Punto 1057: (311.586, 96.9786) indice: 1057
+Punto 1058: (312.445, 102.123) indice: 1058
+Punto 1059: (313.089, 173.696) indice: 1059
+Punto 1060: (313.093, 191.925) indice: 1060
+Punto 1061: (313.694, 57.24) indice: 1061
+Punto 1062: (313.805, 95.3082) indice: 1062
+Punto 1063: (313.97, 186.987) indice: 1063
+Punto 1064: (314.5, 187.884) indice: 1064
+Punto 1065: (314.512, 50.5232) indice: 1065
+Punto 1066: (314.525, 87.3481) indice: 1066
+Punto 1067: (314.606, 188.995) indice: 1067
+Punto 1068: (314.85, 188.23) indice: 1068
+Punto 1069: (315.752, 102.865) indice: 1069
+Punto 1070: (316.026, 14.448) indice: 1070
+Punto 1071: (316.109, 89.597) indice: 1071
+Punto 1072: (316.581, 88.2067) indice: 1072
+Punto 1073: (317.145, 67.2488) indice: 1073
+Punto 1074: (318.164, 57.795) indice: 1074
+Punto 1075: (318.168, 84.0187) indice: 1075
+Punto 1076: (318.517, 206.505) indice: 1076
+Punto 1077: (318.593, 217.947) indice: 1077
+Punto 1078: (318.608, 56.4618) indice: 1078
+Punto 1079: (318.781, 284.069) indice: 1079
+Punto 1080: (318.862, 83.4071) indice: 1080
+Punto 1081: (318.906, 183.547) indice: 1081
+Punto 1082: (319.653, 196.988) indice: 1082
+Punto 1083: (32.3751, 86.6877) indice: 1083
+Punto 1084: (32.52, 144.632) indice: 1084
+Punto 1085: (32.8557, 264.559) indice: 1085
+Punto 1086: (320.023, 104.214) indice: 1086
+Punto 1087: (320.351, 59.0194) indice: 1087
+Punto 1088: (320.467, 201.513) indice: 1088
+Punto 1089: (320.517, 212.596) indice: 1089
+Punto 1090: (320.724, 67.057) indice: 1090
+Punto 1091: (320.748, 91.683) indice: 1091
+Punto 1092: (320.966, 81.2882) indice: 1092
+Punto 1093: (321.064, 97.7465) indice: 1093
+Punto 1094: (321.368, 272.095) indice: 1094
+Punto 1095: (321.688, 186.705) indice: 1095
+Punto 1096: (321.785, 188.448) indice: 1096
+Punto 1097: (321.869, 192.551) indice: 1097
+Punto 1098: (321.938, 107.513) indice: 1098
+Punto 1099: (322.246, 95.7502) indice: 1099
+Punto 1100: (322.263, 192.956) indice: 1100
+Punto 1101: (322.321, 284.123) indice: 1101
+Punto 1102: (322.466, 270.125) indice: 1102
+Punto 1103: (322.528, 100.942) indice: 1103
+Punto 1104: (322.659, 189.784) indice: 1104
+Punto 1105: (322.785, 55.3353) indice: 1105
+Punto 1106: (323.041, 11.9138) indice: 1106
+Punto 1107: (323.386, 196.773) indice: 1107
+Punto 1108: (323.596, 56.4832) indice: 1108
+Punto 1109: (323.65, 69.779) indice: 1109
+Punto 1110: (324.052, 83.422) indice: 1110
+Punto 1111: (324.519, 203.765) indice: 1111
+Punto 1112: (324.686, 184.922) indice: 1112
+Punto 1113: (324.76, 88.5558) indice: 1113
+Punto 1114: (325.073, 95.4491) indice: 1114
+Punto 1115: (325.356, 85.8018) indice: 1115
+Punto 1116: (325.765, 189.418) indice: 1116
+Punto 1117: (325.937, 83.4438) indice: 1117
+Punto 1118: (325.975, 176.518) indice: 1118
+Punto 1119: (326.152, 286.005) indice: 1119
+Punto 1120: (326.181, 12.6659) indice: 1120
+Punto 1121: (326.19, 86.8624) indice: 1121
+Punto 1122: (326.389, 3.81738) indice: 1122
+Punto 1123: (326.589, 200.29) indice: 1123
+Punto 1124: (326.676, 80.699) indice: 1124
+Punto 1125: (327.202, 19.5166) indice: 1125
+Punto 1126: (327.402, 67.5748) indice: 1126
+Punto 1127: (327.508, 204.33) indice: 1127
+Punto 1128: (327.524, 62.0498) indice: 1128
+Punto 1129: (327.625, 9.71582) indice: 1129
+Punto 1130: (327.685, 79.8875) indice: 1130
+Punto 1131: (327.985, 180.553) indice: 1131
+Punto 1132: (328.124, 93.1175) indice: 1132
+Punto 1133: (328.157, 183.377) indice: 1133
+Punto 1134: (328.242, 9.2128) indice: 1134
+Punto 1135: (328.406, 11.8199) indice: 1135
+Punto 1136: (328.464, 192.496) indice: 1136
+Punto 1137: (328.772, 91.2057) indice: 1137
+Punto 1138: (328.94, 272.904) indice: 1138
+Punto 1139: (328.975, 97.2072) indice: 1139
+Punto 1140: (329.057, 21.1489) indice: 1140
+Punto 1141: (329.111, 178.711) indice: 1141
+Punto 1142: (329.327, 287.255) indice: 1142
+Punto 1143: (329.593, 272.422) indice: 1143
+Punto 1144: (329.597, 80.0546) indice: 1144
+Punto 1145: (329.641, 54.3163) indice: 1145
+Punto 1146: (329.709, 65.413) indice: 1146
+Punto 1147: (329.835, 73.7241) indice: 1147
+Punto 1148: (329.867, 5.72564) indice: 1148
+Punto 1149: (329.962, 10.7318) indice: 1149
+Punto 1150: (33.1377, 158.792) indice: 1150
+Punto 1151: (33.3332, 104.548) indice: 1151
+Punto 1152: (33.5541, 259.176) indice: 1152
+Punto 1153: (33.9798, 65.1522) indice: 1153
+Punto 1154: (330.219, 78.671) indice: 1154
+Punto 1155: (330.307, 187.571) indice: 1155
+Punto 1156: (330.63, 81.3042) indice: 1156
+Punto 1157: (330.688, 3.79008) indice: 1157
+Punto 1158: (330.742, 4.18702) indice: 1158
+Punto 1159: (330.805, 102.047) indice: 1159
+Punto 1160: (331.365, 177.327) indice: 1160
+Punto 1161: (331.396, 179.647) indice: 1161
+Punto 1162: (331.657, 12.4967) indice: 1162
+Punto 1163: (331.681, 60.01) indice: 1163
+Punto 1164: (331.778, 84.3294) indice: 1164
+Punto 1165: (331.827, 197.622) indice: 1165
+Punto 1166: (331.915, 105.012) indice: 1166
+Punto 1167: (333.033, 24.6025) indice: 1167
+Punto 1168: (333.214, 67.7893) indice: 1168
+Punto 1169: (333.256, 14.582) indice: 1169
+Punto 1170: (333.523, 21.9374) indice: 1170
+Punto 1171: (333.687, 82.3971) indice: 1171
+Punto 1172: (333.753, 20.334) indice: 1172
+Punto 1173: (334.051, 176.388) indice: 1173
+Punto 1174: (334.102, 274.412) indice: 1174
+Punto 1175: (334.133, 106.951) indice: 1175
+Punto 1176: (334.454, 13.4107) indice: 1176
+Punto 1177: (335.65, 78.6594) indice: 1177
+Punto 1178: (335.877, 184.915) indice: 1178
+Punto 1179: (335.931, 91.0269) indice: 1179
+Punto 1180: (336.258, 15.6751) indice: 1180
+Punto 1181: (336.416, 176.758) indice: 1181
+Punto 1182: (336.46, 277.682) indice: 1182
+Punto 1183: (337.052, 73.6753) indice: 1183
+Punto 1184: (337.12, 78.4757) indice: 1184
+Punto 1185: (337.308, 192.884) indice: 1185
+Punto 1186: (337.359, 24.1677) indice: 1186
+Punto 1187: (337.412, 75.0549) indice: 1187
+Punto 1188: (337.565, 190.175) indice: 1188
+Punto 1189: (337.661, 82.7038) indice: 1189
+Punto 1190: (337.754, 270.727) indice: 1190
+Punto 1191: (338.04, 270.712) indice: 1191
+Punto 1192: (338.185, 69.5597) indice: 1192
+Punto 1193: (338.301, 3.21) indice: 1193
+Punto 1194: (338.332, 85.6729) indice: 1194
+Punto 1195: (339.345, 69.9661) indice: 1195
+Punto 1196: (339.566, 72.662) indice: 1196
+Punto 1197: (339.673, 86.5537) indice: 1197
+Punto 1198: (34.1168, 278.26) indice: 1198
+Punto 1199: (34.6189, 41.7993) indice: 1199
+Punto 1200: (34.751, 144.785) indice: 1200
+Punto 1201: (34.7752, 144.875) indice: 1201
+Punto 1202: (340.12, 22.674) indice: 1202
+Punto 1203: (340.126, 5.37662) indice: 1203
+Punto 1204: (340.153, 286.94) indice: 1204
+Punto 1205: (340.494, 26.1012) indice: 1205
+Punto 1206: (341.128, 73.1248) indice: 1206
+Punto 1207: (341.151, 71.9751) indice: 1207
+Punto 1208: (341.425, 63.1599) indice: 1208
+Punto 1209: (341.557, 276.578) indice: 1209
+Punto 1210: (341.722, 9.8217) indice: 1210
+Punto 1211: (341.741, 0.710648) indice: 1211
+Punto 1212: (341.751, 71.3611) indice: 1212
+Punto 1213: (341.814, 21.5793) indice: 1213
+Punto 1214: (342.073, 280.302) indice: 1214
+Punto 1215: (342.997, 25.8443) indice: 1215
+Punto 1216: (343.685, 88.0147) indice: 1216
+Punto 1217: (344.018, 6.8514) indice: 1217
+Punto 1218: (344.241, 4.92709) indice: 1218
+Punto 1219: (344.28, 10.5604) indice: 1219
+Punto 1220: (344.392, 270.384) indice: 1220
+Punto 1221: (345.47, 15.2311) indice: 1221
+Punto 1222: (345.529, 22.4047) indice: 1222
+Punto 1223: (345.614, 4.14614) indice: 1223
+Punto 1224: (346.307, 13.4762) indice: 1224
+Punto 1225: (346.345, 96.1744) indice: 1225
+Punto 1226: (346.624, 278.158) indice: 1226
+Punto 1227: (346.909, 1.74622) indice: 1227
+Punto 1228: (347.168, 23.415) indice: 1228
+Punto 1229: (347.407, 286.958) indice: 1229
+Punto 1230: (347.429, 11.4402) indice: 1230
+Punto 1231: (348.357, 15.3314) indice: 1231
+Punto 1232: (349.18, 15.0868) indice: 1232
+Punto 1233: (349.393, 8.35489) indice: 1233
+Punto 1234: (349.684, 13.8468) indice: 1234
+Punto 1235: (35.4792, 238.742) indice: 1235
+Punto 1236: (35.9909, 136.769) indice: 1236
+Punto 1237: (350.395, 1.87655) indice: 1237
+Punto 1238: (350.759, 291.125) indice: 1238
+Punto 1239: (350.94, 15.4817) indice: 1239
+Punto 1240: (351.334, 279.775) indice: 1240
+Punto 1241: (351.992, 14.8201) indice: 1241
+Punto 1242: (352.131, 9.18197) indice: 1242
+Punto 1243: (352.183, 273.221) indice: 1243
+Punto 1244: (352.742, 17.4197) indice: 1244
+Punto 1245: (354.558, 2.84784) indice: 1245
+Punto 1246: (355.527, 13.304) indice: 1246
+Punto 1247: (355.558, 285.814) indice: 1247
+Punto 1248: (355.605, 294.321) indice: 1248
+Punto 1249: (356.013, 291.942) indice: 1249
+Punto 1250: (358.478, 59.4625) indice: 1250
+Punto 1251: (359.765, 8.27992) indice: 1251
+Punto 1252: (359.934, 81.3149) indice: 1252
+Punto 1253: (36.0647, 276.659) indice: 1253
+Punto 1254: (36.1133, 264.944) indice: 1254
+Punto 1255: (36.2289, 34.3455) indice: 1255
+Punto 1256: (36.2388, 74.5994) indice: 1256
+Punto 1257: (36.833, 173.914) indice: 1257
+Punto 1258: (360.312, 64.8242) indice: 1258
+Punto 1259: (360.834, 50.3187) indice: 1259
+Punto 1260: (361.371, 71.1992) indice: 1260
+Punto 1261: (361.416, 51.2933) indice: 1261
+Punto 1262: (361.672, 0.689412) indice: 1262
+Punto 1263: (361.705, 39.7079) indice: 1263
+Punto 1264: (361.76, 22.2195) indice: 1264
+Punto 1265: (362.408, 5.14756) indice: 1265
+Punto 1266: (362.427, 287.929) indice: 1266
+Punto 1267: (362.673, 57.4426) indice: 1267
+Punto 1268: (362.678, 47.2005) indice: 1268
+Punto 1269: (362.769, 50.1646) indice: 1269
+Punto 1270: (363.573, 39.2224) indice: 1270
+Punto 1271: (363.732, 17.8535) indice: 1271
+Punto 1272: (363.745, 289.283) indice: 1272
+Punto 1273: (364.134, 41.9364) indice: 1273
+Punto 1274: (364.19, 37.418) indice: 1274
+Punto 1275: (364.398, 4.26276) indice: 1275
+Punto 1276: (364.436, 272.004) indice: 1276
+Punto 1277: (364.657, 37.1999) indice: 1277
+Punto 1278: (364.781, 290.86) indice: 1278
+Punto 1279: (364.822, 7.4726) indice: 1279
+Punto 1280: (365.175, 1.01684) indice: 1280
+Punto 1281: (365.362, 58.6057) indice: 1281
+Punto 1282: (365.439, 57.5014) indice: 1282
+Punto 1283: (365.52, 65.3938) indice: 1283
+Punto 1284: (365.679, 267.796) indice: 1284
+Punto 1285: (365.747, 48.203) indice: 1285
+Punto 1286: (365.902, 0.616733) indice: 1286
+Punto 1287: (366.142, 32.9368) indice: 1287
+Punto 1288: (366.479, 52.496) indice: 1288
+Punto 1289: (366.522, 279.752) indice: 1289
+Punto 1290: (366.784, 69.2996) indice: 1290
+Punto 1291: (367.215, 71.9848) indice: 1291
+Punto 1292: (367.486, 64.2173) indice: 1292
+Punto 1293: (367.637, 5.06084) indice: 1293
+Punto 1294: (367.638, 35.8826) indice: 1294
+Punto 1295: (367.873, 92.3448) indice: 1295
+Punto 1296: (367.981, 203.551) indice: 1296
+Punto 1297: (368.008, 283.657) indice: 1297
+Punto 1298: (368.038, 48.1054) indice: 1298
+Punto 1299: (368.083, 11.4167) indice: 1299
+Punto 1300: (368.109, 5.054) indice: 1300
+Punto 1301: (368.54, 32.9018) indice: 1301
+Punto 1302: (368.542, 69.9146) indice: 1302
+Punto 1303: (368.828, 11.5869) indice: 1303
+Punto 1304: (369.322, 203.882) indice: 1304
+Punto 1305: (37.1279, 297.222) indice: 1305
+Punto 1306: (37.2505, 282.178) indice: 1306
+Punto 1307: (37.4733, 72.4304) indice: 1307
+Punto 1308: (37.5777, 239.396) indice: 1308
+Punto 1309: (37.8619, 240.711) indice: 1309
+Punto 1310: (370.883, 233.954) indice: 1310
+Punto 1311: (371.092, 293.76) indice: 1311
+Punto 1312: (371.194, 51.919) indice: 1312
+Punto 1313: (371.215, 82.5121) indice: 1313
+Punto 1314: (371.404, 272.31) indice: 1314
+Punto 1315: (371.529, 47.4388) indice: 1315
+Punto 1316: (372.174, 35.4816) indice: 1316
+Punto 1317: (372.224, 6.85902) indice: 1317
+Punto 1318: (372.281, 87.1117) indice: 1318
+Punto 1319: (372.358, 44.2675) indice: 1319
+Punto 1320: (372.711, 64.7951) indice: 1320
+Punto 1321: (372.78, 282.18) indice: 1321
+Punto 1322: (372.825, 277.998) indice: 1322
+Punto 1323: (372.833, 211.771) indice: 1323
+Punto 1324: (372.869, 67.984) indice: 1324
+Punto 1325: (372.894, 48.9138) indice: 1325
+Punto 1326: (372.938, 221.822) indice: 1326
+Punto 1327: (373.276, 39.8796) indice: 1327
+Punto 1328: (373.396, 46.0946) indice: 1328
+Punto 1329: (373.52, 73.9579) indice: 1329
+Punto 1330: (374.29, 55.8768) indice: 1330
+Punto 1331: (374.378, 81.1645) indice: 1331
+Punto 1332: (374.441, 213.207) indice: 1332
+Punto 1333: (374.508, 203.58) indice: 1333
+Punto 1334: (374.56, 213.391) indice: 1334
+Punto 1335: (374.588, 66.4954) indice: 1335
+Punto 1336: (374.637, 221.04) indice: 1336
+Punto 1337: (375.019, 56.3865) indice: 1337
+Punto 1338: (375.122, 78.0337) indice: 1338
+Punto 1339: (375.281, 86.9297) indice: 1339
+Punto 1340: (375.46, 38.1693) indice: 1340
+Punto 1341: (375.608, 11.6287) indice: 1341
+Punto 1342: (375.854, 59.1323) indice: 1342
+Punto 1343: (375.968, 213.549) indice: 1343
+Punto 1344: (376.113, 216.792) indice: 1344
+Punto 1345: (376.12, 214.278) indice: 1345
+Punto 1346: (376.188, 285.133) indice: 1346
+Punto 1347: (376.19, 0.228559) indice: 1347
+Punto 1348: (376.322, 36.7099) indice: 1348
+Punto 1349: (376.332, 59.4696) indice: 1349
+Punto 1350: (376.397, 210.438) indice: 1350
+Punto 1351: (376.977, 48.9889) indice: 1351
+Punto 1352: (377.147, 91.1914) indice: 1352
+Punto 1353: (377.316, 206.688) indice: 1353
+Punto 1354: (377.531, 228.463) indice: 1354
+Punto 1355: (377.555, 44.709) indice: 1355
+Punto 1356: (377.61, 9.55041) indice: 1356
+Punto 1357: (377.61, 276.041) indice: 1357
+Punto 1358: (377.8, 55.8177) indice: 1358
+Punto 1359: (377.807, 197.214) indice: 1359
+Punto 1360: (377.89, 285.216) indice: 1360
+Punto 1361: (378.059, 41.0783) indice: 1361
+Punto 1362: (378.374, 41.4542) indice: 1362
+Punto 1363: (378.691, 232.472) indice: 1363
+Punto 1364: (379.146, 67.6246) indice: 1364
+Punto 1365: (379.192, 69.5974) indice: 1365
+Punto 1366: (379.471, 57.4802) indice: 1366
+Punto 1367: (379.612, 230.174) indice: 1367
+Punto 1368: (379.713, 284.414) indice: 1368
+Punto 1369: (379.812, 66.6735) indice: 1369
+Punto 1370: (38.0164, 15.2732) indice: 1370
+Punto 1371: (38.0912, 264.813) indice: 1371
+Punto 1372: (38.2712, 3.42211) indice: 1372
+Punto 1373: (38.8124, 82.775) indice: 1373
+Punto 1374: (380.276, 215.61) indice: 1374
+Punto 1375: (380.377, 224.013) indice: 1375
+Punto 1376: (380.425, 88.9324) indice: 1376
+Punto 1377: (380.636, 60.4832) indice: 1377
+Punto 1378: (380.702, 284.918) indice: 1378
+Punto 1379: (380.792, 48.0691) indice: 1379
+Punto 1380: (380.793, 213.943) indice: 1380
+Punto 1381: (380.808, 52.3697) indice: 1381
+Punto 1382: (381.145, 65.9084) indice: 1382
+Punto 1383: (381.208, 56.862) indice: 1383
+Punto 1384: (381.285, 45.5429) indice: 1384
+Punto 1385: (381.468, 74.5233) indice: 1385
+Punto 1386: (381.889, 38.7992) indice: 1386
+Punto 1387: (381.994, 62.2918) indice: 1387
+Punto 1388: (382.111, 54.5496) indice: 1388
+Punto 1389: (382.227, 48.7445) indice: 1389
+Punto 1390: (382.29, 231.044) indice: 1390
+Punto 1391: (382.459, 36.6273) indice: 1391
+Punto 1392: (382.605, 77.5907) indice: 1392
+Punto 1393: (382.725, 194.402) indice: 1393
+Punto 1394: (382.998, 226.594) indice: 1394
+Punto 1395: (383.325, 39.8623) indice: 1395
+Punto 1396: (384.08, 44.5539) indice: 1396
+Punto 1397: (384.519, 206.023) indice: 1397
+Punto 1398: (384.606, 223.711) indice: 1398
+Punto 1399: (384.733, 287.987) indice: 1399
+Punto 1400: (385.135, 73.4092) indice: 1400
+Punto 1401: (385.152, 66.0138) indice: 1401
+Punto 1402: (385.181, 205.316) indice: 1402
+Punto 1403: (385.231, 219.082) indice: 1403
+Punto 1404: (385.308, 231.224) indice: 1404
+Punto 1405: (385.391, 45.259) indice: 1405
+Punto 1406: (385.525, 85.8371) indice: 1406
+Punto 1407: (385.668, 91.9738) indice: 1407
+Punto 1408: (385.881, 214.251) indice: 1408
+Punto 1409: (385.967, 59.0089) indice: 1409
+Punto 1410: (386.107, 220.885) indice: 1410
+Punto 1411: (386.148, 72.6713) indice: 1411
+Punto 1412: (386.148, 71.549) indice: 1412
+Punto 1413: (386.261, 276.163) indice: 1413
+Punto 1414: (386.418, 57.4038) indice: 1414
+Punto 1415: (386.586, 214.969) indice: 1415
+Punto 1416: (386.963, 68.8658) indice: 1416
+Punto 1417: (387.184, 87.3627) indice: 1417
+Punto 1418: (387.196, 225.672) indice: 1418
+Punto 1419: (387.431, 45.6773) indice: 1419
+Punto 1420: (387.802, 46.3271) indice: 1420
+Punto 1421: (388.393, 212.566) indice: 1421
+Punto 1422: (388.583, 223.363) indice: 1422
+Punto 1423: (388.66, 78.5399) indice: 1423
+Punto 1424: (388.671, 54.6474) indice: 1424
+Punto 1425: (388.796, 61.8507) indice: 1425
+Punto 1426: (389.545, 234.207) indice: 1426
+Punto 1427: (389.557, 216.147) indice: 1427
+Punto 1428: (389.583, 211.417) indice: 1428
+Punto 1429: (389.592, 216.725) indice: 1429
+Punto 1430: (389.879, 80.5128) indice: 1430
+Punto 1431: (39.0086, 270.161) indice: 1431
+Punto 1432: (39.1105, 146.958) indice: 1432
+Punto 1433: (39.2698, 262.813) indice: 1433
+Punto 1434: (39.273, 289.423) indice: 1434
+Punto 1435: (39.6191, 287.426) indice: 1435
+Punto 1436: (39.6579, 243.835) indice: 1436
+Punto 1437: (39.9116, 275.317) indice: 1437
+Punto 1438: (390.074, 210.425) indice: 1438
+Punto 1439: (390.814, 60.2862) indice: 1439
+Punto 1440: (391.218, 65.6122) indice: 1440
+Punto 1441: (391.515, 73.7777) indice: 1441
+Punto 1442: (391.953, 290.33) indice: 1442
+Punto 1443: (391.985, 90.5151) indice: 1443
+Punto 1444: (392.222, 49.5097) indice: 1444
+Punto 1445: (392.239, 192.112) indice: 1445
+Punto 1446: (392.367, 78.9656) indice: 1446
+Punto 1447: (392.767, 65.6056) indice: 1447
+Punto 1448: (393.252, 77.2254) indice: 1448
+Punto 1449: (393.965, 53.6096) indice: 1449
+Punto 1450: (393.996, 292.133) indice: 1450
+Punto 1451: (394.027, 46.9322) indice: 1451
+Punto 1452: (394.092, 47.8472) indice: 1452
+Punto 1453: (394.158, 53.5587) indice: 1453
+Punto 1454: (394.198, 281.351) indice: 1454
+Punto 1455: (394.287, 221.617) indice: 1455
+Punto 1456: (394.3, 49.2076) indice: 1456
+Punto 1457: (394.355, 49.9038) indice: 1457
+Punto 1458: (394.542, 42.2138) indice: 1458
+Punto 1459: (395.086, 77.2432) indice: 1459
+Punto 1460: (395.229, 277.182) indice: 1460
+Punto 1461: (395.404, 274.644) indice: 1461
+Punto 1462: (395.478, 54.7627) indice: 1462
+Punto 1463: (396.083, 233.008) indice: 1463
+Punto 1464: (396.177, 284.26) indice: 1464
+Punto 1465: (396.39, 286.281) indice: 1465
+Punto 1466: (396.41, 90.5116) indice: 1466
+Punto 1467: (396.614, 186.834) indice: 1467
+Punto 1468: (396.668, 50.0031) indice: 1468
+Punto 1469: (396.675, 58.2297) indice: 1469
+Punto 1470: (396.787, 199.432) indice: 1470
+Punto 1471: (396.987, 76.2116) indice: 1471
+Punto 1472: (397.705, 60.0982) indice: 1472
+Punto 1473: (397.828, 61.3293) indice: 1473
+Punto 1474: (397.883, 36.0012) indice: 1474
+Punto 1475: (398.012, 88.9879) indice: 1475
+Punto 1476: (398.538, 41.8545) indice: 1476
+Punto 1477: (398.607, 37.8551) indice: 1477
+Punto 1478: (398.725, 273.812) indice: 1478
+Punto 1479: (399.184, 39.5492) indice: 1479
+Punto 1480: (399.344, 286.288) indice: 1480
+Punto 1481: (399.604, 59.0129) indice: 1481
+Punto 1482: (399.819, 181.172) indice: 1482
+Punto 1483: (399.931, 282.228) indice: 1483
+Punto 1484: (4.31677, 194.614) indice: 1484
+Punto 1485: (4.47542, 194.155) indice: 1485
+Punto 1486: (4.57668, 207.184) indice: 1486
+Punto 1487: (4.77222, 212.723) indice: 1487
+Punto 1488: (40.0963, 132.102) indice: 1488
+Punto 1489: (40.4402, 260.019) indice: 1489
+Punto 1490: (40.6957, 151.137) indice: 1490
+Punto 1491: (40.9383, 253.137) indice: 1491
+Punto 1492: (400.013, 47.5548) indice: 1492
+Punto 1493: (400.417, 54.2981) indice: 1493
+Punto 1494: (400.437, 232.069) indice: 1494
+Punto 1495: (400.597, 281.792) indice: 1495
+Punto 1496: (400.655, 77.6208) indice: 1496
+Punto 1497: (400.804, 81.4816) indice: 1497
+Punto 1498: (400.827, 182.698) indice: 1498
+Punto 1499: (401.086, 48.7593) indice: 1499
+Punto 1500: (401.193, 72.3467) indice: 1500
+Punto 1501: (401.308, 220.994) indice: 1501
+Punto 1502: (401.77, 66.3409) indice: 1502
+Punto 1503: (401.834, 68.5297) indice: 1503
+Punto 1504: (402.052, 65.4639) indice: 1504
+Punto 1505: (402.079, 93.048) indice: 1505
+Punto 1506: (402.144, 209.554) indice: 1506
+Punto 1507: (402.389, 38.6802) indice: 1507
+Punto 1508: (402.443, 197.634) indice: 1508
+Punto 1509: (402.67, 43.2499) indice: 1509
+Punto 1510: (402.726, 179.959) indice: 1510
+Punto 1511: (402.748, 185.025) indice: 1511
+Punto 1512: (402.77, 290.285) indice: 1512
+Punto 1513: (402.869, 282.344) indice: 1513
+Punto 1514: (402.94, 40.3658) indice: 1514
+Punto 1515: (403.037, 96.1298) indice: 1515
+Punto 1516: (403.36, 38.0464) indice: 1516
+Punto 1517: (403.651, 87.1854) indice: 1517
+Punto 1518: (403.682, 85.8845) indice: 1518
+Punto 1519: (403.947, 46.6451) indice: 1519
+Punto 1520: (404.169, 76.4966) indice: 1520
+Punto 1521: (404.33, 39.491) indice: 1521
+Punto 1522: (404.472, 283.845) indice: 1522
+Punto 1523: (404.858, 286.426) indice: 1523
+Punto 1524: (405.229, 230.146) indice: 1524
+Punto 1525: (405.401, 97.2868) indice: 1525
+Punto 1526: (405.502, 56.9103) indice: 1526
+Punto 1527: (405.859, 232.099) indice: 1527
+Punto 1528: (405.874, 219.062) indice: 1528
+Punto 1529: (405.976, 183.108) indice: 1529
+Punto 1530: (406.281, 274.226) indice: 1530
+Punto 1531: (406.516, 268.832) indice: 1531
+Punto 1532: (406.626, 184.045) indice: 1532
+Punto 1533: (406.631, 74.8063) indice: 1533
+Punto 1534: (406.896, 90.5138) indice: 1534
+Punto 1535: (407.047, 58.9896) indice: 1535
+Punto 1536: (407.06, 70.2431) indice: 1536
+Punto 1537: (407.114, 85.9877) indice: 1537
+Punto 1538: (407.2, 40.126) indice: 1538
+Punto 1539: (407.35, 273.096) indice: 1539
+Punto 1540: (407.403, 275.21) indice: 1540
+Punto 1541: (407.418, 187.233) indice: 1541
+Punto 1542: (407.512, 50.0345) indice: 1542
+Punto 1543: (407.525, 63.718) indice: 1543
+Punto 1544: (407.845, 62.5661) indice: 1544
+Punto 1545: (408.086, 65.8079) indice: 1545
+Punto 1546: (408.101, 62.9215) indice: 1546
+Punto 1547: (408.489, 87.2651) indice: 1547
+Punto 1548: (408.5, 186.83) indice: 1548
+Punto 1549: (408.604, 274.33) indice: 1549
+Punto 1550: (409.406, 59.0088) indice: 1550
+Punto 1551: (409.643, 43.8173) indice: 1551
+Punto 1552: (409.654, 64.0102) indice: 1552
+Punto 1553: (409.724, 210.768) indice: 1553
+Punto 1554: (409.757, 74.4345) indice: 1554
+Punto 1555: (409.818, 68.7887) indice: 1555
+Punto 1556: (41.1023, 80.3255) indice: 1556
+Punto 1557: (41.1565, 46.9287) indice: 1557
+Punto 1558: (41.2066, 285.85) indice: 1558
+Punto 1559: (41.2239, 297.019) indice: 1559
+Punto 1560: (41.2768, 125.344) indice: 1560
+Punto 1561: (41.392, 152.026) indice: 1561
+Punto 1562: (41.3957, 169.422) indice: 1562
+Punto 1563: (41.509, 292.841) indice: 1563
+Punto 1564: (41.9967, 159.905) indice: 1564
+Punto 1565: (410.026, 187.034) indice: 1565
+Punto 1566: (410.171, 49.0921) indice: 1566
+Punto 1567: (410.276, 210.034) indice: 1567
+Punto 1568: (410.45, 68.065) indice: 1568
+Punto 1569: (410.582, 47.2605) indice: 1569
+Punto 1570: (410.593, 287.702) indice: 1570
+Punto 1571: (410.703, 68.7717) indice: 1571
+Punto 1572: (411.459, 72.2571) indice: 1572
+Punto 1573: (411.504, 174.146) indice: 1573
+Punto 1574: (411.543, 274.031) indice: 1574
+Punto 1575: (411.721, 212.162) indice: 1575
+Punto 1576: (411.735, 46.4728) indice: 1576
+Punto 1577: (411.856, 200.189) indice: 1577
+Punto 1578: (411.929, 82.2417) indice: 1578
+Punto 1579: (412.152, 222.758) indice: 1579
+Punto 1580: (412.159, 180.511) indice: 1580
+Punto 1581: (412.211, 48.1025) indice: 1581
+Punto 1582: (412.712, 69.5858) indice: 1582
+Punto 1583: (412.756, 63.5008) indice: 1583
+Punto 1584: (412.849, 189.627) indice: 1584
+Punto 1585: (413.443, 53.9422) indice: 1585
+Punto 1586: (414.039, 291.192) indice: 1586
+Punto 1587: (414.099, 274.039) indice: 1587
+Punto 1588: (414.254, 186.056) indice: 1588
+Punto 1589: (414.43, 89.9085) indice: 1589
+Punto 1590: (414.767, 68.0798) indice: 1590
+Punto 1591: (414.791, 292.098) indice: 1591
+Punto 1592: (415.229, 284.757) indice: 1592
+Punto 1593: (415.406, 88.3542) indice: 1593
+Punto 1594: (415.431, 80.1112) indice: 1594
+Punto 1595: (415.521, 92.1768) indice: 1595
+Punto 1596: (415.596, 54.8781) indice: 1596
+Punto 1597: (415.64, 69.3249) indice: 1597
+Punto 1598: (415.802, 58.5518) indice: 1598
+Punto 1599: (415.985, 65.0457) indice: 1599
+Punto 1600: (416.136, 93.7159) indice: 1600
+Punto 1601: (416.229, 62.0963) indice: 1601
+Punto 1602: (416.399, 281.33) indice: 1602
+Punto 1603: (416.48, 80.9012) indice: 1603
+Punto 1604: (416.601, 60.6776) indice: 1604
+Punto 1605: (416.613, 277.085) indice: 1605
+Punto 1606: (416.845, 197.32) indice: 1606
+Punto 1607: (417.16, 73.1105) indice: 1607
+Punto 1608: (417.296, 181.058) indice: 1608
+Punto 1609: (417.318, 201.123) indice: 1609
+Punto 1610: (417.592, 57.3613) indice: 1610
+Punto 1611: (417.684, 175.408) indice: 1611
+Punto 1612: (417.782, 280.438) indice: 1612
+Punto 1613: (417.952, 88.7913) indice: 1613
+Punto 1614: (418.171, 73.1646) indice: 1614
+Punto 1615: (418.383, 196.53) indice: 1615
+Punto 1616: (418.427, 90.4841) indice: 1616
+Punto 1617: (418.492, 205.662) indice: 1617
+Punto 1618: (418.557, 78.6552) indice: 1618
+Punto 1619: (419.049, 65.1143) indice: 1619
+Punto 1620: (419.149, 95.2283) indice: 1620
+Punto 1621: (419.149, 214.757) indice: 1621
+Punto 1622: (419.178, 51.2818) indice: 1622
+Punto 1623: (419.363, 70.4425) indice: 1623
+Punto 1624: (419.8, 280.178) indice: 1624
+Punto 1625: (419.98, 70.3099) indice: 1625
+Punto 1626: (42.2117, 141.877) indice: 1626
+Punto 1627: (42.2478, 157.729) indice: 1627
+Punto 1628: (42.3257, 133.434) indice: 1628
+Punto 1629: (42.6515, 290.973) indice: 1629
+Punto 1630: (42.7686, 267.609) indice: 1630
+Punto 1631: (420.036, 193.364) indice: 1631
+Punto 1632: (420.105, 88.0759) indice: 1632
+Punto 1633: (420.317, 275.72) indice: 1633
+Punto 1634: (420.422, 68.3839) indice: 1634
+Punto 1635: (420.829, 66.1818) indice: 1635
+Punto 1636: (420.859, 199.386) indice: 1636
+Punto 1637: (420.892, 287.635) indice: 1637
+Punto 1638: (421.186, 85.1136) indice: 1638
+Punto 1639: (421.451, 276.185) indice: 1639
+Punto 1640: (421.531, 72.7703) indice: 1640
+Punto 1641: (421.933, 70.5686) indice: 1641
+Punto 1642: (422.097, 82.9994) indice: 1642
+Punto 1643: (422.191, 194.534) indice: 1643
+Punto 1644: (422.587, 185.631) indice: 1644
+Punto 1645: (423.006, 211.499) indice: 1645
+Punto 1646: (423.039, 291.477) indice: 1646
+Punto 1647: (423.738, 80.1317) indice: 1647
+Punto 1648: (424.048, 285.958) indice: 1648
+Punto 1649: (424.259, 84.7802) indice: 1649
+Punto 1650: (424.322, 193.504) indice: 1650
+Punto 1651: (424.713, 65.0413) indice: 1651
+Punto 1652: (424.925, 61.9776) indice: 1652
+Punto 1653: (425.073, 65.3907) indice: 1653
+Punto 1654: (425.219, 275.67) indice: 1654
+Punto 1655: (425.524, 149.847) indice: 1655
+Punto 1656: (425.655, 83.8472) indice: 1656
+Punto 1657: (425.745, 200.469) indice: 1657
+Punto 1658: (426.08, 283.039) indice: 1658
+Punto 1659: (426.175, 49.998) indice: 1659
+Punto 1660: (426.276, 195.292) indice: 1660
+Punto 1661: (426.287, 194.853) indice: 1661
+Punto 1662: (426.332, 83.2437) indice: 1662
+Punto 1663: (426.337, 284.251) indice: 1663
+Punto 1664: (426.345, 91.3827) indice: 1664
+Punto 1665: (426.729, 209.926) indice: 1665
+Punto 1666: (426.917, 60.7603) indice: 1666
+Punto 1667: (427.145, 179.52) indice: 1667
+Punto 1668: (427.236, 58.0326) indice: 1668
+Punto 1669: (427.398, 11.8191) indice: 1669
+Punto 1670: (427.48, 130.901) indice: 1670
+Punto 1671: (427.727, 221.541) indice: 1671
+Punto 1672: (427.781, 137.876) indice: 1672
+Punto 1673: (427.968, 90.9219) indice: 1673
+Punto 1674: (428.074, 41.554) indice: 1674
+Punto 1675: (428.305, 294.929) indice: 1675
+Punto 1676: (428.403, 196.026) indice: 1676
+Punto 1677: (428.703, 25.2049) indice: 1677
+Punto 1678: (428.767, 50.7611) indice: 1678
+Punto 1679: (428.796, 67.2288) indice: 1679
+Punto 1680: (428.807, 141.003) indice: 1680
+Punto 1681: (428.974, 51.4398) indice: 1681
+Punto 1682: (429.096, 199.789) indice: 1682
+Punto 1683: (429.206, 84.188) indice: 1683
+Punto 1684: (429.552, 216.366) indice: 1684
+Punto 1685: (429.895, 136.54) indice: 1685
+Punto 1686: (429.927, 182.108) indice: 1686
+Punto 1687: (43.2331, 184.748) indice: 1687
+Punto 1688: (43.4237, 258.664) indice: 1688
+Punto 1689: (43.433, 181.989) indice: 1689
+Punto 1690: (43.4489, 282.338) indice: 1690
+Punto 1691: (43.6845, 173.356) indice: 1691
+Punto 1692: (43.9738, 246.805) indice: 1692
+Punto 1693: (430.14, 138.774) indice: 1693
+Punto 1694: (430.215, 135.668) indice: 1694
+Punto 1695: (430.54, 194.8) indice: 1695
+Punto 1696: (430.611, 54.7175) indice: 1696
+Punto 1697: (430.854, 81.056) indice: 1697
+Punto 1698: (430.875, 18.9879) indice: 1698
+Punto 1699: (430.878, 192.071) indice: 1699
+Punto 1700: (430.888, 134.999) indice: 1700
+Punto 1701: (430.976, 73.7621) indice: 1701
+Punto 1702: (430.984, 36.7046) indice: 1702
+Punto 1703: (431.484, 11.6954) indice: 1703
+Punto 1704: (431.903, 215.313) indice: 1704
+Punto 1705: (431.988, 35.147) indice: 1705
+Punto 1706: (432.32, 46.5487) indice: 1706
+Punto 1707: (432.657, 137.575) indice: 1707
+Punto 1708: (432.909, 143.742) indice: 1708
+Punto 1709: (432.922, 183.786) indice: 1709
+Punto 1710: (433.619, 66.8888) indice: 1710
+Punto 1711: (433.903, 207.2) indice: 1711
+Punto 1712: (434.286, 201.585) indice: 1712
+Punto 1713: (434.33, 39.7546) indice: 1713
+Punto 1714: (434.381, 120.738) indice: 1714
+Punto 1715: (434.4, 217.169) indice: 1715
+Punto 1716: (434.644, 131.075) indice: 1716
+Punto 1717: (434.938, 205.957) indice: 1717
+Punto 1718: (435.209, 193.587) indice: 1718
+Punto 1719: (435.299, 195.537) indice: 1719
+Punto 1720: (436.079, 193.274) indice: 1720
+Punto 1721: (436.356, 202.006) indice: 1721
+Punto 1722: (436.607, 138.189) indice: 1722
+Punto 1723: (436.627, 209.828) indice: 1723
+Punto 1724: (436.715, 48.2814) indice: 1724
+Punto 1725: (436.768, 131.603) indice: 1725
+Punto 1726: (436.793, 153.662) indice: 1726
+Punto 1727: (436.795, 131.757) indice: 1727
+Punto 1728: (436.821, 214.515) indice: 1728
+Punto 1729: (436.994, 26.062) indice: 1729
+Punto 1730: (437.104, 187.31) indice: 1730
+Punto 1731: (437.125, 143.794) indice: 1731
+Punto 1732: (437.156, 135.3) indice: 1732
+Punto 1733: (437.288, 47.4306) indice: 1733
+Punto 1734: (437.362, 210.993) indice: 1734
+Punto 1735: (437.416, 34.9063) indice: 1735
+Punto 1736: (438.143, 50.6184) indice: 1736
+Punto 1737: (438.2, 120.199) indice: 1737
+Punto 1738: (438.458, 126.011) indice: 1738
+Punto 1739: (438.717, 9.08921) indice: 1739
+Punto 1740: (439.509, 155.151) indice: 1740
+Punto 1741: (439.906, 147.48) indice: 1741
+Punto 1742: (44.1679, 172.301) indice: 1742
+Punto 1743: (44.4164, 170.668) indice: 1743
+Punto 1744: (44.579, 182.966) indice: 1744
+Punto 1745: (440.755, 124.23) indice: 1745
+Punto 1746: (440.905, 219.108) indice: 1746
+Punto 1747: (440.973, 191.462) indice: 1747
+Punto 1748: (441.577, 136.127) indice: 1748
+Punto 1749: (441.873, 153.227) indice: 1749
+Punto 1750: (442.852, 5.22532) indice: 1750
+Punto 1751: (443.033, 115.579) indice: 1751
+Punto 1752: (443.114, 132.968) indice: 1752
+Punto 1753: (443.367, 210.69) indice: 1753
+Punto 1754: (443.398, 27.6597) indice: 1754
+Punto 1755: (443.677, 43.1383) indice: 1755
+Punto 1756: (445.175, 132.182) indice: 1756
+Punto 1757: (445.636, 38.5527) indice: 1757
+Punto 1758: (445.784, 134.847) indice: 1758
+Punto 1759: (445.997, 16.5309) indice: 1759
+Punto 1760: (446.08, 123.502) indice: 1760
+Punto 1761: (446.261, 147.548) indice: 1761
+Punto 1762: (446.362, 138.45) indice: 1762
+Punto 1763: (446.668, 109.213) indice: 1763
+Punto 1764: (446.699, 7.63818) indice: 1764
+Punto 1765: (446.779, 19.4919) indice: 1765
+Punto 1766: (446.961, 211.831) indice: 1766
+Punto 1767: (446.973, 26.9366) indice: 1767
+Punto 1768: (447.243, 129.964) indice: 1768
+Punto 1769: (447.272, 209.947) indice: 1769
+Punto 1770: (447.278, 22.8964) indice: 1770
+Punto 1771: (447.288, 145.368) indice: 1771
+Punto 1772: (447.456, 119.96) indice: 1772
+Punto 1773: (448.216, 43.6565) indice: 1773
+Punto 1774: (448.513, 48.8495) indice: 1774
+Punto 1775: (448.656, 208.38) indice: 1775
+Punto 1776: (448.768, 40.7046) indice: 1776
+Punto 1777: (449.033, 104.805) indice: 1777
+Punto 1778: (449.048, 27.0262) indice: 1778
+Punto 1779: (449.436, 24.562) indice: 1779
+Punto 1780: (449.473, 35.4715) indice: 1780
+Punto 1781: (449.747, 139.925) indice: 1781
+Punto 1782: (449.961, 209.521) indice: 1782
+Punto 1783: (45.071, 282.169) indice: 1783
+Punto 1784: (45.1083, 45.3699) indice: 1784
+Punto 1785: (45.1966, 282.994) indice: 1785
+Punto 1786: (45.3672, 146.446) indice: 1786
+Punto 1787: (45.453, 172.875) indice: 1787
+Punto 1788: (45.8019, 298.252) indice: 1788
+Punto 1789: (45.8542, 34.3454) indice: 1789
+Punto 1790: (45.8858, 286.387) indice: 1790
+Punto 1791: (450.154, 111.625) indice: 1791
+Punto 1792: (450.474, 42.8203) indice: 1792
+Punto 1793: (450.789, 118.703) indice: 1793
+Punto 1794: (450.817, 139.53) indice: 1794
+Punto 1795: (450.86, 106.297) indice: 1795
+Punto 1796: (451.082, 140.551) indice: 1796
+Punto 1797: (451.138, 155.958) indice: 1797
+Punto 1798: (451.395, 30.3273) indice: 1798
+Punto 1799: (451.416, 222.076) indice: 1799
+Punto 1800: (451.471, 22.3015) indice: 1800
+Punto 1801: (451.881, 127.667) indice: 1801
+Punto 1802: (452.025, 129.008) indice: 1802
+Punto 1803: (452.576, 5.76779) indice: 1803
+Punto 1804: (452.693, 47.2048) indice: 1804
+Punto 1805: (452.965, 127.41) indice: 1805
+Punto 1806: (453.287, 133.739) indice: 1806
+Punto 1807: (453.912, 13.1589) indice: 1807
+Punto 1808: (454.004, 12.3334) indice: 1808
+Punto 1809: (454.144, 135.358) indice: 1809
+Punto 1810: (454.515, 23.6964) indice: 1810
+Punto 1811: (454.985, 126.388) indice: 1811
+Punto 1812: (455.055, 115.372) indice: 1812
+Punto 1813: (455.083, 138.43) indice: 1813
+Punto 1814: (455.101, 112.581) indice: 1814
+Punto 1815: (455.205, 101.438) indice: 1815
+Punto 1816: (455.394, 10.0993) indice: 1816
+Punto 1817: (455.511, 21.4461) indice: 1817
+Punto 1818: (455.876, 119.555) indice: 1818
+Punto 1819: (455.975, 127.598) indice: 1819
+Punto 1820: (456.053, 11.696) indice: 1820
+Punto 1821: (456.1, 126.317) indice: 1821
+Punto 1822: (457.152, 57.9041) indice: 1822
+Punto 1823: (457.233, 37.0149) indice: 1823
+Punto 1824: (457.299, 14.1137) indice: 1824
+Punto 1825: (457.87, 107.072) indice: 1825
+Punto 1826: (457.964, 53.0337) indice: 1826
+Punto 1827: (458.16, 16.4617) indice: 1827
+Punto 1828: (458.67, 19.4466) indice: 1828
+Punto 1829: (458.858, 6.45246) indice: 1829
+Punto 1830: (459.633, 0.531264) indice: 1830
+Punto 1831: (459.804, 3.19992) indice: 1831
+Punto 1832: (459.999, 117.612) indice: 1832
+Punto 1833: (46.093, 180.726) indice: 1833
+Punto 1834: (46.303, 171.634) indice: 1834
+Punto 1835: (46.3265, 169.884) indice: 1835
+Punto 1836: (46.412, 285.632) indice: 1836
+Punto 1837: (46.4658, 260.83) indice: 1837
+Punto 1838: (46.5066, 161.939) indice: 1838
+Punto 1839: (46.603, 23.5575) indice: 1839
+Punto 1840: (46.6136, 254.682) indice: 1840
+Punto 1841: (46.6778, 134.084) indice: 1841
+Punto 1842: (46.7104, 233.654) indice: 1842
+Punto 1843: (460.021, 112.824) indice: 1843
+Punto 1844: (460.188, 143.107) indice: 1844
+Punto 1845: (460.349, 41.8091) indice: 1845
+Punto 1846: (460.561, 18.4654) indice: 1846
+Punto 1847: (460.651, 22.3139) indice: 1847
+Punto 1848: (460.838, 12.5614) indice: 1848
+Punto 1849: (461.585, 29.3783) indice: 1849
+Punto 1850: (461.765, 45.8176) indice: 1850
+Punto 1851: (462.325, 136.689) indice: 1851
+Punto 1852: (462.675, 115.259) indice: 1852
+Punto 1853: (463.097, 118.682) indice: 1853
+Punto 1854: (463.257, 130.429) indice: 1854
+Punto 1855: (463.403, 153.774) indice: 1855
+Punto 1856: (464.26, 90.6956) indice: 1856
+Punto 1857: (464.306, 51.3638) indice: 1857
+Punto 1858: (464.501, 157.37) indice: 1858
+Punto 1859: (464.902, 10.1496) indice: 1859
+Punto 1860: (464.93, 1.07084) indice: 1860
+Punto 1861: (465.024, 57.0028) indice: 1861
+Punto 1862: (465.157, 28.2156) indice: 1862
+Punto 1863: (465.314, 139.649) indice: 1863
+Punto 1864: (465.969, 151.157) indice: 1864
+Punto 1865: (465.989, 263.46) indice: 1865
+Punto 1866: (466.419, 22.775) indice: 1866
+Punto 1867: (466.502, 167.282) indice: 1867
+Punto 1868: (466.518, 52.5382) indice: 1868
+Punto 1869: (466.534, 148.867) indice: 1869
+Punto 1870: (466.549, 109.151) indice: 1870
+Punto 1871: (466.734, 0.610334) indice: 1871
+Punto 1872: (466.747, 260.297) indice: 1872
+Punto 1873: (466.762, 267.796) indice: 1873
+Punto 1874: (466.915, 108.841) indice: 1874
+Punto 1875: (467.009, 35.1175) indice: 1875
+Punto 1876: (467.227, 276.616) indice: 1876
+Punto 1877: (467.403, 4.13142) indice: 1877
+Punto 1878: (467.468, 273.919) indice: 1878
+Punto 1879: (467.618, 263.918) indice: 1879
+Punto 1880: (467.742, 96.2873) indice: 1880
+Punto 1881: (467.798, 269.061) indice: 1881
+Punto 1882: (467.894, 153.546) indice: 1882
+Punto 1883: (467.938, 37.8694) indice: 1883
+Punto 1884: (468.014, 291.785) indice: 1884
+Punto 1885: (468.117, 258.138) indice: 1885
+Punto 1886: (468.132, 2.48284) indice: 1886
+Punto 1887: (468.217, 238.423) indice: 1887
+Punto 1888: (468.232, 105.108) indice: 1888
+Punto 1889: (468.239, 141.889) indice: 1889
+Punto 1890: (468.286, 286.944) indice: 1890
+Punto 1891: (468.357, 128.296) indice: 1891
+Punto 1892: (468.389, 239.877) indice: 1892
+Punto 1893: (468.414, 18.0999) indice: 1893
+Punto 1894: (468.578, 151.072) indice: 1894
+Punto 1895: (469.04, 257.808) indice: 1895
+Punto 1896: (469.264, 54.8098) indice: 1896
+Punto 1897: (469.54, 276.587) indice: 1897
+Punto 1898: (469.642, 105.377) indice: 1898
+Punto 1899: (469.724, 48.0372) indice: 1899
+Punto 1900: (469.846, 279.576) indice: 1900
+Punto 1901: (469.855, 280.868) indice: 1901
+Punto 1902: (469.931, 107.835) indice: 1902
+Punto 1903: (47.0382, 256.912) indice: 1903
+Punto 1904: (47.0925, 163.664) indice: 1904
+Punto 1905: (47.3949, 72.077) indice: 1905
+Punto 1906: (47.5006, 277.004) indice: 1906
+Punto 1907: (47.5537, 154.208) indice: 1907
+Punto 1908: (47.9991, 272.218) indice: 1908
+Punto 1909: (470.053, 93.0287) indice: 1909
+Punto 1910: (470.233, 94.9054) indice: 1910
+Punto 1911: (470.303, 142.609) indice: 1911
+Punto 1912: (470.308, 48.7156) indice: 1912
+Punto 1913: (470.398, 158.392) indice: 1913
+Punto 1914: (470.505, 254.588) indice: 1914
+Punto 1915: (470.54, 110.5) indice: 1915
+Punto 1916: (470.643, 102.023) indice: 1916
+Punto 1917: (470.974, 34.2853) indice: 1917
+Punto 1918: (471.169, 252.301) indice: 1918
+Punto 1919: (471.19, 161.256) indice: 1919
+Punto 1920: (471.359, 160.228) indice: 1920
+Punto 1921: (471.67, 263.008) indice: 1921
+Punto 1922: (471.794, 16.6976) indice: 1922
+Punto 1923: (471.833, 60.3631) indice: 1923
+Punto 1924: (472.202, 152.468) indice: 1924
+Punto 1925: (472.339, 127.32) indice: 1925
+Punto 1926: (472.526, 281.415) indice: 1926
+Punto 1927: (472.562, 41.628) indice: 1927
+Punto 1928: (472.8, 267.347) indice: 1928
+Punto 1929: (472.854, 11.8668) indice: 1929
+Punto 1930: (472.887, 142.826) indice: 1930
+Punto 1931: (472.968, 120.5) indice: 1931
+Punto 1932: (473.106, 243.602) indice: 1932
+Punto 1933: (473.107, 141.629) indice: 1933
+Punto 1934: (473.132, 245.937) indice: 1934
+Punto 1935: (473.197, 142.49) indice: 1935
+Punto 1936: (473.441, 13.3489) indice: 1936
+Punto 1937: (473.458, 14.8136) indice: 1937
+Punto 1938: (473.765, 257.88) indice: 1938
+Punto 1939: (473.888, 4.33028) indice: 1939
+Punto 1940: (473.932, 58.9481) indice: 1940
+Punto 1941: (474.093, 255.486) indice: 1941
+Punto 1942: (474.222, 51.4918) indice: 1942
+Punto 1943: (474.405, 134.377) indice: 1943
+Punto 1944: (474.427, 88.4098) indice: 1944
+Punto 1945: (474.51, 259.566) indice: 1945
+Punto 1946: (474.536, 276.54) indice: 1946
+Punto 1947: (474.596, 123.844) indice: 1947
+Punto 1948: (475.361, 292.617) indice: 1948
+Punto 1949: (475.372, 238.459) indice: 1949
+Punto 1950: (475.763, 49.5346) indice: 1950
+Punto 1951: (475.773, 41.5673) indice: 1951
+Punto 1952: (476.091, 123.736) indice: 1952
+Punto 1953: (476.331, 140.031) indice: 1953
+Punto 1954: (476.342, 254.449) indice: 1954
+Punto 1955: (476.355, 253.397) indice: 1955
+Punto 1956: (476.356, 19.1773) indice: 1956
+Punto 1957: (476.361, 4.28461) indice: 1957
+Punto 1958: (476.48, 148.056) indice: 1958
+Punto 1959: (476.545, 249.675) indice: 1959
+Punto 1960: (476.635, 149.408) indice: 1960
+Punto 1961: (476.729, 21.9421) indice: 1961
+Punto 1962: (476.736, 11.394) indice: 1962
+Punto 1963: (476.736, 24.9423) indice: 1963
+Punto 1964: (476.833, 266.442) indice: 1964
+Punto 1965: (476.982, 42.6563) indice: 1965
+Punto 1966: (476.993, 10.2321) indice: 1966
+Punto 1967: (477.006, 286.303) indice: 1967
+Punto 1968: (477.187, 137.49) indice: 1968
+Punto 1969: (477.466, 56.3868) indice: 1969
+Punto 1970: (477.473, 1.35409) indice: 1970
+Punto 1971: (477.523, 49.1499) indice: 1971
+Punto 1972: (477.532, 259.373) indice: 1972
+Punto 1973: (477.536, 271.826) indice: 1973
+Punto 1974: (477.595, 17.1209) indice: 1974
+Punto 1975: (477.653, 153.024) indice: 1975
+Punto 1976: (478.02, 87.7277) indice: 1976
+Punto 1977: (478.251, 16.6711) indice: 1977
+Punto 1978: (478.277, 251.975) indice: 1978
+Punto 1979: (478.461, 162.805) indice: 1979
+Punto 1980: (478.483, 270.666) indice: 1980
+Punto 1981: (478.526, 114.769) indice: 1981
+Punto 1982: (478.578, 26.7527) indice: 1982
+Punto 1983: (478.621, 236.886) indice: 1983
+Punto 1984: (478.679, 158.266) indice: 1984
+Punto 1985: (478.748, 279.299) indice: 1985
+Punto 1986: (478.786, 245.607) indice: 1986
+Punto 1987: (478.791, 147.465) indice: 1987
+Punto 1988: (478.818, 166.67) indice: 1988
+Punto 1989: (478.839, 157.004) indice: 1989
+Punto 1990: (478.95, 19.9895) indice: 1990
+Punto 1991: (479.007, 258.444) indice: 1991
+Punto 1992: (479.039, 146.142) indice: 1992
+Punto 1993: (479.045, 148.619) indice: 1993
+Punto 1994: (479.069, 154.996) indice: 1994
+Punto 1995: (479.079, 140.573) indice: 1995
+Punto 1996: (479.17, 141.015) indice: 1996
+Punto 1997: (479.223, 4.21285) indice: 1997
+Punto 1998: (479.247, 23.9653) indice: 1998
+Punto 1999: (479.357, 145.766) indice: 1999
+Punto 2000: (479.507, 293.74) indice: 2000
+Punto 2001: (479.517, 242.269) indice: 2001
+Punto 2002: (479.826, 99.5629) indice: 2002
+Punto 2003: (479.886, 20.4028) indice: 2003
+Punto 2004: (479.969, 25.3324) indice: 2004
+Punto 2005: (48.1199, 161.89) indice: 2005
+Punto 2006: (48.2391, 176.546) indice: 2006
+Punto 2007: (48.2722, 255.207) indice: 2007
+Punto 2008: (48.3515, 37.0077) indice: 2008
+Punto 2009: (48.4098, 170.977) indice: 2009
+Punto 2010: (48.5534, 262.749) indice: 2010
+Punto 2011: (48.7304, 158.375) indice: 2011
+Punto 2012: (48.7599, 275.952) indice: 2012
+Punto 2013: (48.8139, 28.8092) indice: 2013
+Punto 2014: (48.8865, 285.744) indice: 2014
+Punto 2015: (48.9075, 168.652) indice: 2015
+Punto 2016: (480.024, 256.994) indice: 2016
+Punto 2017: (480.186, 22.7493) indice: 2017
+Punto 2018: (480.195, 7.74155) indice: 2018
+Punto 2019: (480.406, 284.339) indice: 2019
+Punto 2020: (480.441, 17.9615) indice: 2020
+Punto 2021: (480.521, 57.0541) indice: 2021
+Punto 2022: (480.7, 280.594) indice: 2022
+Punto 2023: (480.742, 28.866) indice: 2023
+Punto 2024: (480.819, 165.399) indice: 2024
+Punto 2025: (480.894, 128.151) indice: 2025
+Punto 2026: (480.978, 261.292) indice: 2026
+Punto 2027: (481.011, 0.194963) indice: 2027
+Punto 2028: (481.047, 287.704) indice: 2028
+Punto 2029: (481.106, 148.303) indice: 2029
+Punto 2030: (481.129, 151.819) indice: 2030
+Punto 2031: (481.162, 239.17) indice: 2031
+Punto 2032: (481.229, 155.271) indice: 2032
+Punto 2033: (481.259, 270.914) indice: 2033
+Punto 2034: (481.395, 270.75) indice: 2034
+Punto 2035: (481.648, 25.82) indice: 2035
+Punto 2036: (481.85, 38.8085) indice: 2036
+Punto 2037: (481.886, 259.408) indice: 2037
+Punto 2038: (481.981, 149.602) indice: 2038
+Punto 2039: (482.099, 23.5411) indice: 2039
+Punto 2040: (482.117, 112.794) indice: 2040
+Punto 2041: (482.167, 244.422) indice: 2041
+Punto 2042: (482.223, 289.066) indice: 2042
+Punto 2043: (482.359, 265.8) indice: 2043
+Punto 2044: (482.48, 150.972) indice: 2044
+Punto 2045: (482.688, 14.9709) indice: 2045
+Punto 2046: (482.903, 244.121) indice: 2046
+Punto 2047: (483.113, 20.8233) indice: 2047
+Punto 2048: (483.206, 4.4391) indice: 2048
+Punto 2049: (483.29, 156.73) indice: 2049
+Punto 2050: (483.387, 25.9873) indice: 2050
+Punto 2051: (483.501, 128.603) indice: 2051
+Punto 2052: (483.668, 125.598) indice: 2052
+Punto 2053: (483.67, 12.0968) indice: 2053
+Punto 2054: (483.875, 169.542) indice: 2054
+Punto 2055: (484.018, 91.6615) indice: 2055
+Punto 2056: (484.09, 18.2644) indice: 2056
+Punto 2057: (484.182, 117.806) indice: 2057
+Punto 2058: (484.259, 30.6484) indice: 2058
+Punto 2059: (484.722, 40.3269) indice: 2059
+Punto 2060: (484.799, 21.9417) indice: 2060
+Punto 2061: (484.869, 38.5516) indice: 2061
+Punto 2062: (484.878, 32.4822) indice: 2062
+Punto 2063: (484.9, 157.191) indice: 2063
+Punto 2064: (484.992, 265.061) indice: 2064
+Punto 2065: (485.05, 240.153) indice: 2065
+Punto 2066: (485.143, 250.373) indice: 2066
+Punto 2067: (485.201, 14.0101) indice: 2067
+Punto 2068: (485.29, 255.681) indice: 2068
+Punto 2069: (485.32, 260.217) indice: 2069
+Punto 2070: (485.377, 57.5164) indice: 2070
+Punto 2071: (485.415, 146.63) indice: 2071
+Punto 2072: (485.468, 253.462) indice: 2072
+Punto 2073: (485.53, 108.527) indice: 2073
+Punto 2074: (485.666, 285.382) indice: 2074
+Punto 2075: (485.848, 268.157) indice: 2075
+Punto 2076: (485.945, 47.0754) indice: 2076
+Punto 2077: (486.016, 162.482) indice: 2077
+Punto 2078: (486.063, 144.387) indice: 2078
+Punto 2079: (486.212, 163.926) indice: 2079
+Punto 2080: (486.226, 259.876) indice: 2080
+Punto 2081: (486.227, 250.304) indice: 2081
+Punto 2082: (486.251, 29.9568) indice: 2082
+Punto 2083: (486.783, 84.8929) indice: 2083
+Punto 2084: (487.117, 163.815) indice: 2084
+Punto 2085: (487.119, 32.6649) indice: 2085
+Punto 2086: (487.694, 20.7451) indice: 2086
+Punto 2087: (487.925, 29.2537) indice: 2087
+Punto 2088: (488.002, 21.3075) indice: 2088
+Punto 2089: (488.138, 15.07) indice: 2089
+Punto 2090: (488.506, 20.3634) indice: 2090
+Punto 2091: (488.653, 114.136) indice: 2091
+Punto 2092: (488.765, 14.9582) indice: 2092
+Punto 2093: (488.921, 134.58) indice: 2093
+Punto 2094: (489.019, 283.216) indice: 2094
+Punto 2095: (489.128, 103.81) indice: 2095
+Punto 2096: (489.195, 257.24) indice: 2096
+Punto 2097: (489.31, 263.769) indice: 2097
+Punto 2098: (489.355, 108.269) indice: 2098
+Punto 2099: (489.503, 287.036) indice: 2099
+Punto 2100: (489.628, 250.845) indice: 2100
+Punto 2101: (489.706, 262.545) indice: 2101
+Punto 2102: (489.737, 277.521) indice: 2102
+Punto 2103: (489.817, 38.5283) indice: 2103
+Punto 2104: (489.817, 276.033) indice: 2104
+Punto 2105: (489.94, 150.937) indice: 2105
+Punto 2106: (489.949, 275.342) indice: 2106
+Punto 2107: (49.2011, 290.048) indice: 2107
+Punto 2108: (49.329, 148.363) indice: 2108
+Punto 2109: (49.4469, 81.3179) indice: 2109
+Punto 2110: (49.5513, 242.825) indice: 2110
+Punto 2111: (49.5823, 32.2347) indice: 2111
+Punto 2112: (49.589, 274.466) indice: 2112
+Punto 2113: (49.5941, 236.286) indice: 2113
+Punto 2114: (49.7192, 54.5317) indice: 2114
+Punto 2115: (490.005, 113.137) indice: 2115
+Punto 2116: (490.011, 279.044) indice: 2116
+Punto 2117: (490.116, 3.2995) indice: 2117
+Punto 2118: (490.257, 236.818) indice: 2118
+Punto 2119: (490.638, 117.497) indice: 2119
+Punto 2120: (490.695, 278.016) indice: 2120
+Punto 2121: (490.815, 246.684) indice: 2121
+Punto 2122: (490.912, 239.824) indice: 2122
+Punto 2123: (490.98, 245.352) indice: 2123
+Punto 2124: (491.042, 262.771) indice: 2124
+Punto 2125: (491.117, 277.833) indice: 2125
+Punto 2126: (491.416, 274.242) indice: 2126
+Punto 2127: (491.429, 23.7952) indice: 2127
+Punto 2128: (491.448, 290.093) indice: 2128
+Punto 2129: (491.605, 270.346) indice: 2129
+Punto 2130: (491.722, 285.362) indice: 2130
+Punto 2131: (491.784, 20.5618) indice: 2131
+Punto 2132: (491.803, 247.083) indice: 2132
+Punto 2133: (491.836, 285.92) indice: 2133
+Punto 2134: (491.837, 10.9814) indice: 2134
+Punto 2135: (491.867, 260.132) indice: 2135
+Punto 2136: (491.874, 108.893) indice: 2136
+Punto 2137: (491.914, 12.7008) indice: 2137
+Punto 2138: (492.179, 56.803) indice: 2138
+Punto 2139: (492.494, 14.8037) indice: 2139
+Punto 2140: (492.744, 279.087) indice: 2140
+Punto 2141: (493.089, 278.706) indice: 2141
+Punto 2142: (493.267, 37.5222) indice: 2142
+Punto 2143: (493.3, 252.883) indice: 2143
+Punto 2144: (493.382, 14.048) indice: 2144
+Punto 2145: (493.437, 261.164) indice: 2145
+Punto 2146: (493.518, 56.1886) indice: 2146
+Punto 2147: (493.95, 38.8415) indice: 2147
+Punto 2148: (495.694, 49.6779) indice: 2148
+Punto 2149: (495.701, 54.398) indice: 2149
+Punto 2150: (495.701, 61.7573) indice: 2150
+Punto 2151: (495.808, 19.3348) indice: 2151
+Punto 2152: (495.901, 254.91) indice: 2152
+Punto 2153: (495.935, 254.219) indice: 2153
+Punto 2154: (497.098, 8.83948) indice: 2154
+Punto 2155: (497.395, 43.0833) indice: 2155
+Punto 2156: (497.409, 37.8953) indice: 2156
+Punto 2157: (499.487, 17.5047) indice: 2157
+Punto 2158: (5.03646, 218.484) indice: 2158
+Punto 2159: (5.28658, 222.101) indice: 2159
+Punto 2160: (5.37973, 225.583) indice: 2160
+Punto 2161: (5.52664, 205.213) indice: 2161
+Punto 2162: (5.92311, 203.588) indice: 2162
+Punto 2163: (5.97484, 216.736) indice: 2163
+Punto 2164: (50.379, 157.807) indice: 2164
+Punto 2165: (50.4209, 279.328) indice: 2165
+Punto 2166: (50.4431, 269.599) indice: 2166
+Punto 2167: (50.5038, 169.45) indice: 2167
+Punto 2168: (50.9631, 165.99) indice: 2168
+Punto 2169: (50.9918, 175.053) indice: 2169
+Punto 2170: (500.086, 20.3655) indice: 2170
+Punto 2171: (500.728, 9.36516) indice: 2171
+Punto 2172: (501.132, 50.6257) indice: 2172
+Punto 2173: (501.54, 53.2865) indice: 2173
+Punto 2174: (502.172, 14.8612) indice: 2174
+Punto 2175: (502.187, 29.5939) indice: 2175
+Punto 2176: (502.236, 16.6289) indice: 2176
+Punto 2177: (502.39, 21.0251) indice: 2177
+Punto 2178: (503.136, 30.2658) indice: 2178
+Punto 2179: (51.1431, 244.828) indice: 2179
+Punto 2180: (51.2173, 290.861) indice: 2180
+Punto 2181: (51.2387, 283.165) indice: 2181
+Punto 2182: (51.3939, 185.102) indice: 2182
+Punto 2183: (51.4012, 155.991) indice: 2183
+Punto 2184: (51.4248, 284.9) indice: 2184
+Punto 2185: (51.7794, 154.239) indice: 2185
+Punto 2186: (51.8009, 178.587) indice: 2186
+Punto 2187: (51.8896, 275.529) indice: 2187
+Punto 2188: (52.0493, 256.052) indice: 2188
+Punto 2189: (52.0842, 180.84) indice: 2189
+Punto 2190: (52.3964, 179.019) indice: 2190
+Punto 2191: (52.528, 295.995) indice: 2191
+Punto 2192: (52.5651, 143.152) indice: 2192
+Punto 2193: (52.9509, 276.19) indice: 2193
+Punto 2194: (53.0571, 160.578) indice: 2194
+Punto 2195: (53.1981, 277.184) indice: 2195
+Punto 2196: (53.5246, 167.715) indice: 2196
+Punto 2197: (53.6207, 146.383) indice: 2197
+Punto 2198: (53.7319, 129.995) indice: 2198
+Punto 2199: (53.7503, 286.194) indice: 2199
+Punto 2200: (54.142, 167.534) indice: 2200
+Punto 2201: (54.2322, 147.6) indice: 2201
+Punto 2202: (54.2534, 249.042) indice: 2202
+Punto 2203: (54.3168, 151.919) indice: 2203
+Punto 2204: (54.3276, 161.988) indice: 2204
+Punto 2205: (54.3277, 48.5577) indice: 2205
+Punto 2206: (54.3702, 175.748) indice: 2206
+Punto 2207: (54.6137, 130.887) indice: 2207
+Punto 2208: (54.7052, 138.938) indice: 2208
+Punto 2209: (54.7083, 282.818) indice: 2209
+Punto 2210: (54.8981, 27.6318) indice: 2210
+Punto 2211: (54.9128, 122.569) indice: 2211
+Punto 2212: (55.0822, 192.079) indice: 2212
+Punto 2213: (55.0833, 231.485) indice: 2213
+Punto 2214: (55.1087, 245.785) indice: 2214
+Punto 2215: (55.2405, 160.356) indice: 2215
+Punto 2216: (55.2756, 230.001) indice: 2216
+Punto 2217: (55.4298, 243.146) indice: 2217
+Punto 2218: (55.5294, 281.047) indice: 2218
+Punto 2219: (55.8077, 157.592) indice: 2219
+Punto 2220: (56.1707, 180.341) indice: 2220
+Punto 2221: (56.1857, 258.697) indice: 2221
+Punto 2222: (56.3655, 251.929) indice: 2222
+Punto 2223: (56.6613, 180.28) indice: 2223
+Punto 2224: (56.879, 168.533) indice: 2224
+Punto 2225: (57.0671, 258.135) indice: 2225
+Punto 2226: (57.131, 296.103) indice: 2226
+Punto 2227: (57.1725, 232.995) indice: 2227
+Punto 2228: (57.2061, 294.207) indice: 2228
+Punto 2229: (57.5563, 174.517) indice: 2229
+Punto 2230: (57.704, 158.709) indice: 2230
+Punto 2231: (57.7376, 113.473) indice: 2231
+Punto 2232: (57.8831, 163.618) indice: 2232
+Punto 2233: (57.9833, 172.585) indice: 2233
+Punto 2234: (58.211, 167.807) indice: 2234
+Punto 2235: (58.2895, 147.628) indice: 2235
+Punto 2236: (58.5383, 126.893) indice: 2236
+Punto 2237: (58.6017, 163.851) indice: 2237
+Punto 2238: (58.6852, 235.794) indice: 2238
+Punto 2239: (58.9576, 288.888) indice: 2239
+Punto 2240: (58.976, 54.4285) indice: 2240
+Punto 2241: (59.0523, 175.057) indice: 2241
+Punto 2242: (59.1357, 122.463) indice: 2242
+Punto 2243: (59.2851, 269.641) indice: 2243
+Punto 2244: (59.3832, 273.948) indice: 2244
+Punto 2245: (59.4045, 191.396) indice: 2245
+Punto 2246: (59.9576, 185.762) indice: 2246
+Punto 2247: (59.976, 140.817) indice: 2247
+Punto 2248: (6.04143, 230.243) indice: 2248
+Punto 2249: (6.25388, 42.6698) indice: 2249
+Punto 2250: (6.2841, 207.245) indice: 2250
+Punto 2251: (6.38778, 207.687) indice: 2251
+Punto 2252: (6.71335, 191.378) indice: 2252
+Punto 2253: (6.74057, 214.745) indice: 2253
+Punto 2254: (60.0855, 169.584) indice: 2254
+Punto 2255: (60.4085, 295.637) indice: 2255
+Punto 2256: (60.5507, 272.858) indice: 2256
+Punto 2257: (60.5791, 123.769) indice: 2257
+Punto 2258: (60.7259, 268.645) indice: 2258
+Punto 2259: (60.98, 270.412) indice: 2259
+Punto 2260: (61.0799, 283.288) indice: 2260
+Punto 2261: (61.0837, 130.349) indice: 2261
+Punto 2262: (61.0877, 259.648) indice: 2262
+Punto 2263: (61.2104, 238.897) indice: 2263
+Punto 2264: (61.9435, 6.50452) indice: 2264
+Punto 2265: (62.3548, 180.98) indice: 2265
+Punto 2266: (62.5794, 125.734) indice: 2266
+Punto 2267: (62.6514, 170.005) indice: 2267
+Punto 2268: (62.7932, 130.123) indice: 2268
+Punto 2269: (62.8135, 138.718) indice: 2269
+Punto 2270: (62.9154, 178.831) indice: 2270
+Punto 2271: (63.3255, 253.074) indice: 2271
+Punto 2272: (63.3789, 184.048) indice: 2272
+Punto 2273: (63.4783, 124.097) indice: 2273
+Punto 2274: (63.5043, 245.96) indice: 2274
+Punto 2275: (63.7281, 249.985) indice: 2275
+Punto 2276: (63.7751, 272.662) indice: 2276
+Punto 2277: (63.877, 265.573) indice: 2277
+Punto 2278: (63.9013, 123.874) indice: 2278
+Punto 2279: (63.908, 173.283) indice: 2279
+Punto 2280: (63.9324, 185.958) indice: 2280
+Punto 2281: (64.0179, 228.31) indice: 2281
+Punto 2282: (64.0645, 131.617) indice: 2282
+Punto 2283: (64.1526, 177.888) indice: 2283
+Punto 2284: (64.2014, 186.829) indice: 2284
+Punto 2285: (64.2114, 171.02) indice: 2285
+Punto 2286: (64.3626, 168.249) indice: 2286
+Punto 2287: (64.5808, 245.568) indice: 2287
+Punto 2288: (64.6104, 254.34) indice: 2288
+Punto 2289: (64.7673, 192.175) indice: 2289
+Punto 2290: (64.9633, 268.083) indice: 2290
+Punto 2291: (65.0182, 238.344) indice: 2291
+Punto 2292: (65.0479, 274.732) indice: 2292
+Punto 2293: (65.2948, 182.642) indice: 2293
+Punto 2294: (65.3012, 142.405) indice: 2294
+Punto 2295: (65.4081, 117.178) indice: 2295
+Punto 2296: (65.5101, 242.867) indice: 2296
+Punto 2297: (65.5259, 185.09) indice: 2297
+Punto 2298: (65.5501, 178.341) indice: 2298
+Punto 2299: (65.5718, 125.343) indice: 2299
+Punto 2300: (65.812, 236.873) indice: 2300
+Punto 2301: (65.8447, 192.964) indice: 2301
+Punto 2302: (65.9107, 279.257) indice: 2302
+Punto 2303: (65.9257, 281.515) indice: 2303
+Punto 2304: (66.0428, 181.237) indice: 2304
+Punto 2305: (66.1383, 57.2102) indice: 2305
+Punto 2306: (66.1865, 274.167) indice: 2306
+Punto 2307: (66.206, 282.986) indice: 2307
+Punto 2308: (66.2492, 241.773) indice: 2308
+Punto 2309: (66.5592, 170.749) indice: 2309
+Punto 2310: (66.5667, 189.57) indice: 2310
+Punto 2311: (66.5828, 149.31) indice: 2311
+Punto 2312: (66.6017, 146.66) indice: 2312
+Punto 2313: (66.6132, 274.713) indice: 2313
+Punto 2314: (66.7331, 190.561) indice: 2314
+Punto 2315: (66.7579, 193.211) indice: 2315
+Punto 2316: (66.8747, 150.822) indice: 2316
+Punto 2317: (66.8807, 279.814) indice: 2317
+Punto 2318: (66.9485, 275.128) indice: 2318
+Punto 2319: (66.9656, 129.29) indice: 2319
+Punto 2320: (67.0347, 284.751) indice: 2320
+Punto 2321: (67.0635, 236.535) indice: 2321
+Punto 2322: (67.161, 301.829) indice: 2322
+Punto 2323: (67.2361, 257.941) indice: 2323
+Punto 2324: (67.4081, 277.965) indice: 2324
+Punto 2325: (67.462, 117.347) indice: 2325
+Punto 2326: (67.6223, 256.141) indice: 2326
+Punto 2327: (67.6697, 186.921) indice: 2327
+Punto 2328: (67.7778, 30.5583) indice: 2328
+Punto 2329: (67.8755, 251.366) indice: 2329
+Punto 2330: (67.8827, 129.861) indice: 2330
+Punto 2331: (67.8946, 229.435) indice: 2331
+Punto 2332: (68.0653, 120.986) indice: 2332
+Punto 2333: (68.0656, 254.286) indice: 2333
+Punto 2334: (68.1622, 178.121) indice: 2334
+Punto 2335: (68.5338, 176.049) indice: 2335
+Punto 2336: (68.6871, 135.473) indice: 2336
+Punto 2337: (68.9388, 33.5451) indice: 2337
+Punto 2338: (69.0994, 116.283) indice: 2338
+Punto 2339: (69.122, 278.021) indice: 2339
+Punto 2340: (69.3244, 236.394) indice: 2340
+Punto 2341: (69.5076, 294.533) indice: 2341
+Punto 2342: (69.6821, 285.96) indice: 2342
+Punto 2343: (69.9523, 143.677) indice: 2343
+Punto 2344: (7.40448, 190.83) indice: 2344
+Punto 2345: (70.0092, 280.313) indice: 2345
+Punto 2346: (70.0592, 273.358) indice: 2346
+Punto 2347: (70.0817, 194.036) indice: 2347
+Punto 2348: (70.1104, 240.034) indice: 2348
+Punto 2349: (70.2441, 244.822) indice: 2349
+Punto 2350: (70.5583, 281.1) indice: 2350
+Punto 2351: (70.6028, 241.921) indice: 2351
+Punto 2352: (70.8028, 251.825) indice: 2352
+Punto 2353: (70.8627, 233.461) indice: 2353
+Punto 2354: (70.9804, 249.336) indice: 2354
+Punto 2355: (70.9865, 184.029) indice: 2355
+Punto 2356: (71.0506, 39.4246) indice: 2356
+Punto 2357: (71.4945, 232.615) indice: 2357
+Punto 2358: (71.5274, 274.244) indice: 2358
+Punto 2359: (71.5535, 139.418) indice: 2359
+Punto 2360: (71.5559, 273.045) indice: 2360
+Punto 2361: (71.956, 17.3445) indice: 2361
+Punto 2362: (71.986, 271.244) indice: 2362
+Punto 2363: (71.9982, 271.181) indice: 2363
+Punto 2364: (72.0082, 273.426) indice: 2364
+Punto 2365: (72.0959, 271.851) indice: 2365
+Punto 2366: (72.1627, 254.21) indice: 2366
+Punto 2367: (72.3677, 195.092) indice: 2367
+Punto 2368: (72.6866, 183.223) indice: 2368
+Punto 2369: (72.7719, 184.367) indice: 2369
+Punto 2370: (72.7895, 159.334) indice: 2370
+Punto 2371: (72.7915, 192.003) indice: 2371
+Punto 2372: (72.8105, 270.227) indice: 2372
+Punto 2373: (73.0006, 147.928) indice: 2373
+Punto 2374: (73.0359, 19.706) indice: 2374
+Punto 2375: (73.3099, 132.088) indice: 2375
+Punto 2376: (73.5833, 233.682) indice: 2376
+Punto 2377: (73.5947, 267.955) indice: 2377
+Punto 2378: (73.8811, 251.402) indice: 2378
+Punto 2379: (73.9322, 164.785) indice: 2379
+Punto 2380: (74.0133, 170.887) indice: 2380
+Punto 2381: (74.1113, 261.671) indice: 2381
+Punto 2382: (74.1961, 284.777) indice: 2382
+Punto 2383: (74.3948, 122.959) indice: 2383
+Punto 2384: (74.5443, 43.0519) indice: 2384
+Punto 2385: (74.672, 23.5655) indice: 2385
+Punto 2386: (75.0212, 266.73) indice: 2386
+Punto 2387: (75.029, 154.072) indice: 2387
+Punto 2388: (75.0504, 188.694) indice: 2388
+Punto 2389: (75.2545, 269.052) indice: 2389
+Punto 2390: (75.271, 124.401) indice: 2390
+Punto 2391: (75.395, 29.6118) indice: 2391
+Punto 2392: (75.4076, 115.597) indice: 2392
+Punto 2393: (75.5239, 274.93) indice: 2393
+Punto 2394: (75.5968, 263.974) indice: 2394
+Punto 2395: (75.6342, 12.0496) indice: 2395
+Punto 2396: (75.7119, 256.043) indice: 2396
+Punto 2397: (75.787, 276.905) indice: 2397
+Punto 2398: (1.52, 42.41) indice: 2398
+Punto 2399: (76.0779, 259.107) indice: 2399
+Centroides finales:
+Indice: 0 Posicion: (17.9011, 200.448)
+Indice: 1 Posicion: (169.071, 147.433)
+Indice: 2 Posicion: (316.213, 202.939)
+Indice: 3 Posicion: (30.6732, 283.976)
+Indice: 4 Posicion: (421.224, 85.6553)
+Indice: 5 Posicion: (427.488, 193.941)
+Indice: 6 Posicion: (28.2993, 86.4797)
+Indice: 7 Posicion: (144.472, 58.5895)
+Indice: 8 Posicion: (327.003, 82.3446)
+Indice: 9 Posicion: (49.1263, 285.4)
+Indice: 10 Posicion: (461.381, 47.313)
+Indice: 11 Posicion: (325.794, 185.521)
+Indice: 12 Posicion: (224.031, 283.235)
+Indice: 13 Posicion: (168.258, 178.104)
+Indice: 14 Posicion: (281.688, 172.153)
+Indice: 15 Posicion: (219.795, 112.928)
+Indice: 16 Posicion: (168.704, 163.811)
+Indice: 17 Posicion: (132.694, 184.017)
+Indice: 18 Posicion: (50.2869, 173.294)
+Indice: 19 Posicion: (398.193, 84.3976)
+Indice: 20 Posicion: (295.415, 76.3003)
+Indice: 21 Posicion: (370.229, 75.98)
+Indice: 22 Posicion: (216.738, 96.3571)
+Indice: 23 Posicion: (180.555, 208.966)
+Indice: 24 Posicion: (285.687, 202.258)
+Indice: 25 Posicion: (199.815, 282.608)
+Indice: 26 Posicion: (350.115, 280.578)
+Indice: 27 Posicion: (407.234, 282.095)
+Indice: 28 Posicion: (192.952, 217.722)
+Indice: 29 Posicion: (191.556, 195.704)
+Indice: 30 Posicion: (474.041, 7.67761)
+Indice: 31 Posicion: (454.249, 24.3818)
+Indice: 32 Posicion: (473.753, 134.584)
+Indice: 33 Posicion: (145.58, 195.959)
+Indice: 34 Posicion: (386.402, 65.9488)
+Indice: 35 Posicion: (143.284, 282.43)
+Indice: 36 Posicion: (483.37, 245.513)
+Indice: 37 Posicion: (134.419, 9.83468)
+Indice: 38 Posicion: (415.422, 65.2184)
+Indice: 39 Posicion: (441.933, 135.918)
+Indice: 40 Posicion: (46.3618, 242.088)
+Indice: 41 Posicion: (433.929, 42.4012)
+Indice: 42 Posicion: (38.6397, 146.244)
+Indice: 43 Posicion: (66.508, 184.314)
+Indice: 44 Posicion: (239.445, 45.6752)
+Indice: 45 Posicion: (5.41977, 220.521)
+Indice: 46 Posicion: (400.15, 46.8846)
+Indice: 47 Posicion: (197.998, 205.828)
+Indice: 48 Posicion: (287.72, 220.692)
+Indice: 49 Posicion: (187.313, 177.868)
+Indice: 50 Posicion: (16.234, 211.343)
+Indice: 51 Posicion: (487.29, 48.307)
+Indice: 52 Posicion: (159.573, 203.468)
+Indice: 53 Posicion: (484.872, 104.793)
+Indice: 54 Posicion: (448.964, 10.053)
+Indice: 55 Posicion: (375.28, 53.4293)
+Indice: 56 Posicion: (460.391, 108.091)
+Indice: 57 Posicion: (366.582, 7.32177)
+Indice: 58 Posicion: (39.6154, 32.5946)
+Indice: 59 Posicion: (477.657, 155.017)
+Indice: 60 Posicion: (66.6799, 286.046)
+Indice: 61 Posicion: (381.711, 204.588)
+Indice: 62 Posicion: (437.782, 212.309)
+Indice: 63 Posicion: (405.711, 220.694)
+Indice: 64 Posicion: (166.587, 214.63)
+Indice: 65 Posicion: (381.349, 221.873)
+Indice: 66 Posicion: (407.851, 184.92)
+Indice: 67 Posicion: (496.062, 16.737)
+Indice: 68 Posicion: (65.2762, 235.634)
+Indice: 69 Posicion: (178.739, 193.89)
+Indice: 70 Posicion: (60.0866, 153.994)
+Indice: 71 Posicion: (130.393, 34.0523)
+Indice: 72 Posicion: (482.631, 282.099)
+Indice: 73 Posicion: (240.677, 14.8303)
+Indice: 74 Posicion: (478.212, 262.075)
+Indice: 75 Posicion: (66.5558, 253.191)
+Indice: 76 Posicion: (175.327, 217.925)
+Indice: 77 Posicion: (152.571, 160.416)
+Indice: 78 Posicion: (146.963, 28.1419)
+Indice: 79 Posicion: (345.93, 13.0479)
+Indice: 80 Posicion: (209.692, 29.3173)
+Indice: 81 Posicion: (173.048, 279.826)
+Indice: 82 Posicion: (64.4195, 126.419)
+Indice: 83 Posicion: (190.099, 91.0526)
+Indice: 84 Posicion: (5.03947, 200.145)
+Indice: 85 Posicion: (268.929, 194.743)
+Indice: 86 Posicion: (182.724, 144.084)
+Indice: 87 Posicion: (40.0575, 261.83)
+Indice: 88 Posicion: (68.7516, 271.598)
+Indice: 89 Posicion: (104.142, 125.352)
+Indice: 90 Posicion: (481.877, 23.4313)
+Indice: 91 Posicion: (197.825, 112.168)
+Indice: 92 Posicion: (370.305, 41.5949)
+Indice: 93 Posicion: (149.101, 177.923)
+Indice: 94 Posicion: (328.547, 13.0873)
+Asignaciones:
+Punto 0 -> Centroide 0
+Punto 1 -> Centroide 16
+Punto 2 -> Centroide 24
+Punto 3 -> Centroide 3
+Punto 4 -> Centroide 38
+Punto 5 -> Centroide 5
+Punto 6 -> Centroide 6
+Punto 7 -> Centroide 78
+Punto 8 -> Centroide 8
+Punto 9 -> Centroide 60
+Punto 10 -> Centroide 10
+Punto 11 -> Centroide 11
+Punto 12 -> Centroide 12
+Punto 13 -> Centroide 13
+Punto 14 -> Centroide 85
+Punto 15 -> Centroide 15
+Punto 16 -> Centroide 16
+Punto 17 -> Centroide 93
+Punto 18 -> Centroide 18
+Punto 19 -> Centroide 34
+Punto 20 -> Centroide 20
+Punto 21 -> Centroide 21
+Punto 22 -> Centroide 15
+Punto 23 -> Centroide 76
+Punto 24 -> Centroide 24
+Punto 25 -> Centroide 81
+Punto 26 -> Centroide 26
+Punto 27 -> Centroide 72
+Punto 28 -> Centroide 28
+Punto 29 -> Centroide 69
+Punto 30 -> Centroide 30
+Punto 31 -> Centroide 30
+Punto 32 -> Centroide 32
+Punto 33 -> Centroide 52
+Punto 34 -> Centroide 34
+Punto 35 -> Centroide 35
+Punto 36 -> Centroide 74
+Punto 37 -> Centroide 37
+Punto 38 -> Centroide 38
+Punto 39 -> Centroide 39
+Punto 40 -> Centroide 40
+Punto 41 -> Centroide 54
+Punto 42 -> Centroide 42
+Punto 43 -> Centroide 43
+Punto 44 -> Centroide 80
+Punto 45 -> Centroide 45
+Punto 46 -> Centroide 46
+Punto 47 -> Centroide 47
+Punto 48 -> Centroide 48
+Punto 49 -> Centroide 49
+Punto 50 -> Centroide 50
+Punto 51 -> Centroide 51
+Punto 52 -> Centroide 52
+Punto 53 -> Centroide 53
+Punto 54 -> Centroide 54
+Punto 55 -> Centroide 55
+Punto 56 -> Centroide 56
+Punto 57 -> Centroide 79
+Punto 58 -> Centroide 58
+Punto 59 -> Centroide 59
+Punto 60 -> Centroide 60
+Punto 61 -> Centroide 61
+Punto 62 -> Centroide 62
+Punto 63 -> Centroide 61
+Punto 64 -> Centroide 64
+Punto 65 -> Centroide 65
+Punto 66 -> Centroide 5
+Punto 67 -> Centroide 67
+Punto 68 -> Centroide 68
+Punto 69 -> Centroide 69
+Punto 70 -> Centroide 18
+Punto 71 -> Centroide 71
+Punto 72 -> Centroide 72
+Punto 73 -> Centroide 80
+Punto 74 -> Centroide 72
+Punto 75 -> Centroide 68
+Punto 76 -> Centroide 76
+Punto 77 -> Centroide 93
+Punto 78 -> Centroide 78
+Punto 79 -> Centroide 79
+Punto 80 -> Centroide 80
+Punto 81 -> Centroide 35
+Punto 82 -> Centroide 42
+Punto 83 -> Centroide 91
+Punto 84 -> Centroide 84
+Punto 85 -> Centroide 85
+Punto 86 -> Centroide 49
+Punto 87 -> Centroide 87
+Punto 88 -> Centroide 88
+Punto 89 -> Centroide 82
+Punto 90 -> Centroide 90
+Punto 91 -> Centroide 91
+Punto 92 -> Centroide 92
+Punto 93 -> Centroide 13
+Punto 94 -> Centroide 79
+Punto 95 -> Centroide 59
+Punto 96 -> Centroide 14
+Punto 97 -> Centroide 67
+Punto 98 -> Centroide 54
+Punto 99 -> Centroide 90
+Punto 100 -> Centroide 93
+Punto 101 -> Centroide 39
+Punto 102 -> Centroide 39
+Punto 103 -> Centroide 92
+Punto 104 -> Centroide 85
+Punto 105 -> Centroide 31
+Punto 106 -> Centroide 35
+Punto 107 -> Centroide 18
+Punto 108 -> Centroide 72
+Punto 109 -> Centroide 90
+Punto 110 -> Centroide 25
+Punto 111 -> Centroide 9
+Punto 112 -> Centroide 39
+Punto 113 -> Centroide 80
+Punto 114 -> Centroide 90
+Punto 115 -> Centroide 17
+Punto 116 -> Centroide 63
+Punto 117 -> Centroide 80
+Punto 118 -> Centroide 34
+Punto 119 -> Centroide 94
+Punto 120 -> Centroide 2
+Punto 121 -> Centroide 22
+Punto 122 -> Centroide 66
+Punto 123 -> Centroide 17
+Punto 124 -> Centroide 58
+Punto 125 -> Centroide 24
+Punto 126 -> Centroide 81
+Punto 127 -> Centroide 8
+Punto 128 -> Centroide 82
+Punto 129 -> Centroide 65
+Punto 130 -> Centroide 30
+Punto 131 -> Centroide 26
+Punto 132 -> Centroide 80
+Punto 133 -> Centroide 33
+Punto 134 -> Centroide 15
+Punto 135 -> Centroide 27
+Punto 136 -> Centroide 62
+Punto 137 -> Centroide 66
+Punto 138 -> Centroide 79
+Punto 139 -> Centroide 9
+Punto 140 -> Centroide 85
+Punto 141 -> Centroide 30
+Punto 142 -> Centroide 80
+Punto 143 -> Centroide 81
+Punto 144 -> Centroide 63
+Punto 145 -> Centroide 59
+Punto 146 -> Centroide 38
+Punto 147 -> Centroide 68
+Punto 148 -> Centroide 4
+Punto 149 -> Centroide 51
+Punto 150 -> Centroide 7
+Punto 151 -> Centroide 70
+Punto 152 -> Centroide 48
+Punto 153 -> Centroide 8
+Punto 154 -> Centroide 12
+Punto 155 -> Centroide 7
+Punto 156 -> Centroide 37
+Punto 157 -> Centroide 78
+Punto 158 -> Centroide 49
+Punto 159 -> Centroide 88
+Punto 160 -> Centroide 20
+Punto 161 -> Centroide 22
+Punto 162 -> Centroide 53
+Punto 163 -> Centroide 26
+Punto 164 -> Centroide 19
+Punto 165 -> Centroide 68
+Punto 166 -> Centroide 14
+Punto 167 -> Centroide 33
+Punto 168 -> Centroide 85
+Punto 169 -> Centroide 74
+Punto 170 -> Centroide 87
+Punto 171 -> Centroide 93
+Punto 172 -> Centroide 11
+Punto 173 -> Centroide 4
+Punto 174 -> Centroide 2
+Punto 175 -> Centroide 70
+Punto 176 -> Centroide 4
+Punto 177 -> Centroide 65
+Punto 178 -> Centroide 71
+Punto 179 -> Centroide 80
+Punto 180 -> Centroide 65
+Punto 181 -> Centroide 39
+Punto 182 -> Centroide 80
+Punto 183 -> Centroide 51
+Punto 184 -> Centroide 71
+Punto 185 -> Centroide 73
+Punto 186 -> Centroide 88
+Punto 187 -> Centroide 84
+Punto 188 -> Centroide 45
+Punto 189 -> Centroide 44
+Punto 190 -> Centroide 2
+Punto 191 -> Centroide 65
+Punto 192 -> Centroide 80
+Punto 193 -> Centroide 27
+Punto 194 -> Centroide 74
+Punto 195 -> Centroide 3
+Punto 196 -> Centroide 51
+Punto 197 -> Centroide 65
+Punto 198 -> Centroide 2
+Punto 199 -> Centroide 63
+Punto 200 -> Centroide 36
+Punto 201 -> Centroide 81
+Punto 202 -> Centroide 7
+Punto 203 -> Centroide 59
+Punto 204 -> Centroide 92
+Punto 205 -> Centroide 48
+Punto 206 -> Centroide 11
+Punto 207 -> Centroide 14
+Punto 208 -> Centroide 27
+Punto 209 -> Centroide 17
+Punto 210 -> Centroide 38
+Punto 211 -> Centroide 1
+Punto 212 -> Centroide 67
+Punto 213 -> Centroide 39
+Punto 214 -> Centroide 20
+Punto 215 -> Centroide 46
+Punto 216 -> Centroide 59
+Punto 217 -> Centroide 72
+Punto 218 -> Centroide 18
+Punto 219 -> Centroide 20
+Punto 220 -> Centroide 25
+Punto 221 -> Centroide 54
+Punto 222 -> Centroide 35
+Punto 223 -> Centroide 35
+Punto 224 -> Centroide 17
+Punto 225 -> Centroide 2
+Punto 226 -> Centroide 36
+Punto 227 -> Centroide 40
+Punto 228 -> Centroide 7
+Punto 229 -> Centroide 8
+Punto 230 -> Centroide 71
+Punto 231 -> Centroide 7
+Punto 232 -> Centroide 44
+Punto 233 -> Centroide 91
+Punto 234 -> Centroide 60
+Punto 235 -> Centroide 59
+Punto 236 -> Centroide 8
+Punto 237 -> Centroide 41
+Punto 238 -> Centroide 20
+Punto 239 -> Centroide 24
+Punto 240 -> Centroide 6
+Punto 241 -> Centroide 85
+Punto 242 -> Centroide 83
+Punto 243 -> Centroide 36
+Punto 244 -> Centroide 41
+Punto 245 -> Centroide 29
+Punto 246 -> Centroide 88
+Punto 247 -> Centroide 16
+Punto 248 -> Centroide 55
+Punto 249 -> Centroide 68
+Punto 250 -> Centroide 6
+Punto 251 -> Centroide 58
+Punto 252 -> Centroide 56
+Punto 253 -> Centroide 70
+Punto 254 -> Centroide 19
+Punto 255 -> Centroide 54
+Punto 256 -> Centroide 68
+Punto 257 -> Centroide 8
+Punto 258 -> Centroide 67
+Punto 259 -> Centroide 80
+Punto 260 -> Centroide 94
+Punto 261 -> Centroide 12
+Punto 262 -> Centroide 78
+Punto 263 -> Centroide 51
+Punto 264 -> Centroide 90
+Punto 265 -> Centroide 50
+Punto 266 -> Centroide 59
+Punto 267 -> Centroide 16
+Punto 268 -> Centroide 9
+Punto 269 -> Centroide 62
+Punto 270 -> Centroide 90
+Punto 271 -> Centroide 88
+Punto 272 -> Centroide 18
+Punto 273 -> Centroide 43
+Punto 274 -> Centroide 0
+Punto 275 -> Centroide 6
+Punto 276 -> Centroide 73
+Punto 277 -> Centroide 20
+Punto 278 -> Centroide 87
+Punto 279 -> Centroide 42
+Punto 280 -> Centroide 71
+Punto 281 -> Centroide 25
+Punto 282 -> Centroide 83
+Punto 283 -> Centroide 12
+Punto 284 -> Centroide 69
+Punto 285 -> Centroide 51
+Punto 286 -> Centroide 5
+Punto 287 -> Centroide 68
+Punto 288 -> Centroide 83
+Punto 289 -> Centroide 11
+Punto 290 -> Centroide 77
+Punto 291 -> Centroide 18
+Punto 292 -> Centroide 71
+Punto 293 -> Centroide 70
+Punto 294 -> Centroide 5
+Punto 295 -> Centroide 80
+Punto 296 -> Centroide 27
+Punto 297 -> Centroide 74
+Punto 298 -> Centroide 7
+Punto 299 -> Centroide 20
+Punto 300 -> Centroide 53
+Punto 301 -> Centroide 51
+Punto 302 -> Centroide 45
+Punto 303 -> Centroide 4
+Punto 304 -> Centroide 20
+Punto 305 -> Centroide 85
+Punto 306 -> Centroide 51
+Punto 307 -> Centroide 81
+Punto 308 -> Centroide 25
+Punto 309 -> Centroide 12
+Punto 310 -> Centroide 8
+Punto 311 -> Centroide 10
+Punto 312 -> Centroide 25
+Punto 313 -> Centroide 9
+Punto 314 -> Centroide 20
+Punto 315 -> Centroide 19
+Punto 316 -> Centroide 31
+Punto 317 -> Centroide 60
+Punto 318 -> Centroide 72
+Punto 319 -> Centroide 12
+Punto 320 -> Centroide 72
+Punto 321 -> Centroide 58
+Punto 322 -> Centroide 57
+Punto 323 -> Centroide 62
+Punto 324 -> Centroide 77
+Punto 325 -> Centroide 94
+Punto 326 -> Centroide 20
+Punto 327 -> Centroide 83
+Punto 328 -> Centroide 20
+Punto 329 -> Centroide 12
+Punto 330 -> Centroide 56
+Punto 331 -> Centroide 50
+Punto 332 -> Centroide 25
+Punto 333 -> Centroide 7
+Punto 334 -> Centroide 7
+Punto 335 -> Centroide 80
+Punto 336 -> Centroide 67
+Punto 337 -> Centroide 93
+Punto 338 -> Centroide 61
+Punto 339 -> Centroide 24
+Punto 340 -> Centroide 73
+Punto 341 -> Centroide 38
+Punto 342 -> Centroide 11
+Punto 343 -> Centroide 9
+Punto 344 -> Centroide 8
+Punto 345 -> Centroide 70
+Punto 346 -> Centroide 71
+Punto 347 -> Centroide 42
+Punto 348 -> Centroide 35
+Punto 349 -> Centroide 4
+Punto 350 -> Centroide 46
+Punto 351 -> Centroide 78
+Punto 352 -> Centroide 81
+Punto 353 -> Centroide 66
+Punto 354 -> Centroide 4
+Punto 355 -> Centroide 27
+Punto 356 -> Centroide 30
+Punto 357 -> Centroide 80
+Punto 358 -> Centroide 35
+Punto 359 -> Centroide 20
+Punto 360 -> Centroide 73
+Punto 361 -> Centroide 35
+Punto 362 -> Centroide 88
+Punto 363 -> Centroide 74
+Punto 364 -> Centroide 38
+Punto 365 -> Centroide 37
+Punto 366 -> Centroide 65
+Punto 367 -> Centroide 15
+Punto 368 -> Centroide 18
+Punto 369 -> Centroide 71
+Punto 370 -> Centroide 8
+Punto 371 -> Centroide 8
+Punto 372 -> Centroide 82
+Punto 373 -> Centroide 59
+Punto 374 -> Centroide 20
+Punto 375 -> Centroide 46
+Punto 376 -> Centroide 53
+Punto 377 -> Centroide 55
+Punto 378 -> Centroide 83
+Punto 379 -> Centroide 83
+Punto 380 -> Centroide 78
+Punto 381 -> Centroide 58
+Punto 382 -> Centroide 74
+Punto 383 -> Centroide 59
+Punto 384 -> Centroide 32
+Punto 385 -> Centroide 26
+Punto 386 -> Centroide 71
+Punto 387 -> Centroide 12
+Punto 388 -> Centroide 10
+Punto 389 -> Centroide 3
+Punto 390 -> Centroide 71
+Punto 391 -> Centroide 58
+Punto 392 -> Centroide 12
+Punto 393 -> Centroide 27
+Punto 394 -> Centroide 85
+Punto 395 -> Centroide 26
+Punto 396 -> Centroide 3
+Punto 397 -> Centroide 11
+Punto 398 -> Centroide 40
+Punto 399 -> Centroide 8
+Punto 400 -> Centroide 40
+Punto 401 -> Centroide 82
+Punto 402 -> Centroide 18
+Punto 403 -> Centroide 38
+Punto 404 -> Centroide 80
+Punto 405 -> Centroide 9
+Punto 406 -> Centroide 42
+Punto 407 -> Centroide 66
+Punto 408 -> Centroide 59
+Punto 409 -> Centroide 20
+Punto 410 -> Centroide 70
+Punto 411 -> Centroide 78
+Punto 412 -> Centroide 5
+Punto 413 -> Centroide 92
+Punto 414 -> Centroide 89
+Punto 415 -> Centroide 25
+Punto 416 -> Centroide 17
+Punto 417 -> Centroide 25
+Punto 418 -> Centroide 55
+Punto 419 -> Centroide 1
+Punto 420 -> Centroide 8
+Punto 421 -> Centroide 75
+Punto 422 -> Centroide 31
+Punto 423 -> Centroide 37
+Punto 424 -> Centroide 92
+Punto 425 -> Centroide 5
+Punto 426 -> Centroide 26
+Punto 427 -> Centroide 86
+Punto 428 -> Centroide 25
+Punto 429 -> Centroide 7
+Punto 430 -> Centroide 12
+Punto 431 -> Centroide 18
+Punto 432 -> Centroide 18
+Punto 433 -> Centroide 75
+Punto 434 -> Centroide 48
+Punto 435 -> Centroide 42
+Punto 436 -> Centroide 8
+Punto 437 -> Centroide 73
+Punto 438 -> Centroide 84
+Punto 439 -> Centroide 27
+Punto 440 -> Centroide 57
+Punto 441 -> Centroide 22
+Punto 442 -> Centroide 90
+Punto 443 -> Centroide 94
+Punto 444 -> Centroide 8
+Punto 445 -> Centroide 94
+Punto 446 -> Centroide 91
+Punto 447 -> Centroide 25
+Punto 448 -> Centroide 20
+Punto 449 -> Centroide 46
+Punto 450 -> Centroide 28
+Punto 451 -> Centroide 57
+Punto 452 -> Centroide 43
+Punto 453 -> Centroide 35
+Punto 454 -> Centroide 72
+Punto 455 -> Centroide 30
+Punto 456 -> Centroide 77
+Punto 457 -> Centroide 54
+Punto 458 -> Centroide 18
+Punto 459 -> Centroide 45
+Punto 460 -> Centroide 5
+Punto 461 -> Centroide 41
+Punto 462 -> Centroide 60
+Punto 463 -> Centroide 21
+Punto 464 -> Centroide 32
+Punto 465 -> Centroide 83
+Punto 466 -> Centroide 59
+Punto 467 -> Centroide 51
+Punto 468 -> Centroide 8
+Punto 469 -> Centroide 46
+Punto 470 -> Centroide 25
+Punto 471 -> Centroide 74
+Punto 472 -> Centroide 8
+Punto 473 -> Centroide 87
+Punto 474 -> Centroide 72
+Punto 475 -> Centroide 53
+Punto 476 -> Centroide 25
+Punto 477 -> Centroide 22
+Punto 478 -> Centroide 4
+Punto 479 -> Centroide 50
+Punto 480 -> Centroide 25
+Punto 481 -> Centroide 30
+Punto 482 -> Centroide 20
+Punto 483 -> Centroide 70
+Punto 484 -> Centroide 70
+Punto 485 -> Centroide 20
+Punto 486 -> Centroide 8
+Punto 487 -> Centroide 78
+Punto 488 -> Centroide 88
+Punto 489 -> Centroide 90
+Punto 490 -> Centroide 38
+Punto 491 -> Centroide 15
+Punto 492 -> Centroide 37
+Punto 493 -> Centroide 57
+Punto 494 -> Centroide 33
+Punto 495 -> Centroide 38
+Punto 496 -> Centroide 88
+Punto 497 -> Centroide 90
+Punto 498 -> Centroide 53
+Punto 499 -> Centroide 77
+Punto 500 -> Centroide 58
+Punto 501 -> Centroide 12
+Punto 502 -> Centroide 91
+Punto 503 -> Centroide 60
+Punto 504 -> Centroide 37
+Punto 505 -> Centroide 5
+Punto 506 -> Centroide 74
+Punto 507 -> Centroide 20
+Punto 508 -> Centroide 5
+Punto 509 -> Centroide 11
+Punto 510 -> Centroide 35
+Punto 511 -> Centroide 7
+Punto 512 -> Centroide 44
+Punto 513 -> Centroide 54
+Punto 514 -> Centroide 45
+Punto 515 -> Centroide 80
+Punto 516 -> Centroide 47
+Punto 517 -> Centroide 33
+Punto 518 -> Centroide 20
+Punto 519 -> Centroide 12
+Punto 520 -> Centroide 33
+Punto 521 -> Centroide 60
+Punto 522 -> Centroide 14
+Punto 523 -> Centroide 9
+Punto 524 -> Centroide 94
+Punto 525 -> Centroide 4
+Punto 526 -> Centroide 83
+Punto 527 -> Centroide 58
+Punto 528 -> Centroide 3
+Punto 529 -> Centroide 75
+Punto 530 -> Centroide 7
+Punto 531 -> Centroide 12
+Punto 532 -> Centroide 56
+Punto 533 -> Centroide 15
+Punto 534 -> Centroide 68
+Punto 535 -> Centroide 7
+Punto 536 -> Centroide 39
+Punto 537 -> Centroide 8
+Punto 538 -> Centroide 26
+Punto 539 -> Centroide 31
+Punto 540 -> Centroide 31
+Punto 541 -> Centroide 42
+Punto 542 -> Centroide 80
+Punto 543 -> Centroide 51
+Punto 544 -> Centroide 44
+Punto 545 -> Centroide 31
+Punto 546 -> Centroide 67
+Punto 547 -> Centroide 27
+Punto 548 -> Centroide 11
+Punto 549 -> Centroide 90
+Punto 550 -> Centroide 55
+Punto 551 -> Centroide 22
+Punto 552 -> Centroide 19
+Punto 553 -> Centroide 32
+Punto 554 -> Centroide 20
+Punto 555 -> Centroide 42
+Punto 556 -> Centroide 78
+Punto 557 -> Centroide 79
+Punto 558 -> Centroide 53
+Punto 559 -> Centroide 58
+Punto 560 -> Centroide 38
+Punto 561 -> Centroide 92
+Punto 562 -> Centroide 18
+Punto 563 -> Centroide 40
+Punto 564 -> Centroide 18
+Punto 565 -> Centroide 38
+Punto 566 -> Centroide 20
+Punto 567 -> Centroide 63
+Punto 568 -> Centroide 8
+Punto 569 -> Centroide 26
+Punto 570 -> Centroide 83
+Punto 571 -> Centroide 92
+Punto 572 -> Centroide 20
+Punto 573 -> Centroide 39
+Punto 574 -> Centroide 8
+Punto 575 -> Centroide 25
+Punto 576 -> Centroide 50
+Punto 577 -> Centroide 27
+Punto 578 -> Centroide 43
+Punto 579 -> Centroide 39
+Punto 580 -> Centroide 19
+Punto 581 -> Centroide 20
+Punto 582 -> Centroide 83
+Punto 583 -> Centroide 21
+Punto 584 -> Centroide 7
+Punto 585 -> Centroide 17
+Punto 586 -> Centroide 38
+Punto 587 -> Centroide 83
+Punto 588 -> Centroide 71
+Punto 589 -> Centroide 34
+Punto 590 -> Centroide 38
+Punto 591 -> Centroide 23
+Punto 592 -> Centroide 54
+Punto 593 -> Centroide 36
+Punto 594 -> Centroide 62
+Punto 595 -> Centroide 38
+Punto 596 -> Centroide 58
+Punto 597 -> Centroide 83
+Punto 598 -> Centroide 6
+Punto 599 -> Centroide 29
+Punto 600 -> Centroide 44
+Punto 601 -> Centroide 57
+Punto 602 -> Centroide 2
+Punto 603 -> Centroide 20
+Punto 604 -> Centroide 4
+Punto 605 -> Centroide 20
+Punto 606 -> Centroide 32
+Punto 607 -> Centroide 25
+Punto 608 -> Centroide 30
+Punto 609 -> Centroide 37
+Punto 610 -> Centroide 59
+Punto 611 -> Centroide 59
+Punto 612 -> Centroide 31
+Punto 613 -> Centroide 94
+Punto 614 -> Centroide 81
+Punto 615 -> Centroide 17
+Punto 616 -> Centroide 26
+Punto 617 -> Centroide 42
+Punto 618 -> Centroide 66
+Punto 619 -> Centroide 32
+Punto 620 -> Centroide 87
+Punto 621 -> Centroide 50
+Punto 622 -> Centroide 46
+Punto 623 -> Centroide 90
+Punto 624 -> Centroide 7
+Punto 625 -> Centroide 0
+Punto 626 -> Centroide 8
+Punto 627 -> Centroide 39
+Punto 628 -> Centroide 30
+Punto 629 -> Centroide 35
+Punto 630 -> Centroide 48
+Punto 631 -> Centroide 7
+Punto 632 -> Centroide 75
+Punto 633 -> Centroide 14
+Punto 634 -> Centroide 43
+Punto 635 -> Centroide 22
+Punto 636 -> Centroide 15
+Punto 637 -> Centroide 15
+Punto 638 -> Centroide 79
+Punto 639 -> Centroide 26
+Punto 640 -> Centroide 20
+Punto 641 -> Centroide 39
+Punto 642 -> Centroide 40
+Punto 643 -> Centroide 22
+Punto 644 -> Centroide 77
+Punto 645 -> Centroide 26
+Punto 646 -> Centroide 41
+Punto 647 -> Centroide 5
+Punto 648 -> Centroide 73
+Punto 649 -> Centroide 36
+Punto 650 -> Centroide 81
+Punto 651 -> Centroide 91
+Punto 652 -> Centroide 46
+Punto 653 -> Centroide 91
+Punto 654 -> Centroide 80
+Punto 655 -> Centroide 10
+Punto 656 -> Centroide 46
+Punto 657 -> Centroide 46
+Punto 658 -> Centroide 53
+Punto 659 -> Centroide 83
+Punto 660 -> Centroide 88
+Punto 661 -> Centroide 20
+Punto 662 -> Centroide 32
+Punto 663 -> Centroide 18
+Punto 664 -> Centroide 92
+Punto 665 -> Centroide 74
+Punto 666 -> Centroide 5
+Punto 667 -> Centroide 53
+Punto 668 -> Centroide 8
+Punto 669 -> Centroide 43
+Punto 670 -> Centroide 74
+Punto 671 -> Centroide 21
+Punto 672 -> Centroide 12
+Punto 673 -> Centroide 35
+Punto 674 -> Centroide 58
+Punto 675 -> Centroide 10
+Punto 676 -> Centroide 91
+Punto 677 -> Centroide 74
+Punto 678 -> Centroide 67
+Punto 679 -> Centroide 91
+Punto 680 -> Centroide 63
+Punto 681 -> Centroide 55
+Punto 682 -> Centroide 56
+Punto 683 -> Centroide 43
+Punto 684 -> Centroide 20
+Punto 685 -> Centroide 0
+Punto 686 -> Centroide 36
+Punto 687 -> Centroide 77
+Punto 688 -> Centroide 50
+Punto 689 -> Centroide 63
+Punto 690 -> Centroide 20
+Punto 691 -> Centroide 34
+Punto 692 -> Centroide 89
+Punto 693 -> Centroide 46
+Punto 694 -> Centroide 44
+Punto 695 -> Centroide 81
+Punto 696 -> Centroide 15
+Punto 697 -> Centroide 90
+Punto 698 -> Centroide 7
+Punto 699 -> Centroide 22
+Punto 700 -> Centroide 61
+Punto 701 -> Centroide 35
+Punto 702 -> Centroide 82
+Punto 703 -> Centroide 65
+Punto 704 -> Centroide 87
+Punto 705 -> Centroide 92
+Punto 706 -> Centroide 23
+Punto 707 -> Centroide 36
+Punto 708 -> Centroide 22
+Punto 709 -> Centroide 5
+Punto 710 -> Centroide 19
+Punto 711 -> Centroide 61
+Punto 712 -> Centroide 44
+Punto 713 -> Centroide 70
+Punto 714 -> Centroide 36
+Punto 715 -> Centroide 7
+Punto 716 -> Centroide 40
+Punto 717 -> Centroide 26
+Punto 718 -> Centroide 31
+Punto 719 -> Centroide 38
+Punto 720 -> Centroide 58
+Punto 721 -> Centroide 19
+Punto 722 -> Centroide 19
+Punto 723 -> Centroide 19
+Punto 724 -> Centroide 35
+Punto 725 -> Centroide 58
+Punto 726 -> Centroide 20
+Punto 727 -> Centroide 91
+Punto 728 -> Centroide 78
+Punto 729 -> Centroide 32
+Punto 730 -> Centroide 8
+Punto 731 -> Centroide 29
+Punto 732 -> Centroide 71
+Punto 733 -> Centroide 0
+Punto 734 -> Centroide 66
+Punto 735 -> Centroide 22
+Punto 736 -> Centroide 16
+Punto 737 -> Centroide 57
+Punto 738 -> Centroide 88
+Punto 739 -> Centroide 65
+Punto 740 -> Centroide 71
+Punto 741 -> Centroide 20
+Punto 742 -> Centroide 8
+Punto 743 -> Centroide 62
+Punto 744 -> Centroide 33
+Punto 745 -> Centroide 65
+Punto 746 -> Centroide 53
+Punto 747 -> Centroide 59
+Punto 748 -> Centroide 41
+Punto 749 -> Centroide 93
+Punto 750 -> Centroide 9
+Punto 751 -> Centroide 42
+Punto 752 -> Centroide 83
+Punto 753 -> Centroide 25
+Punto 754 -> Centroide 93
+Punto 755 -> Centroide 17
+Punto 756 -> Centroide 92
+Punto 757 -> Centroide 59
+Punto 758 -> Centroide 56
+Punto 759 -> Centroide 10
+Punto 760 -> Centroide 88
+Punto 761 -> Centroide 46
+Punto 762 -> Centroide 55
+Punto 763 -> Centroide 82
+Punto 764 -> Centroide 19
+Punto 765 -> Centroide 27
+Punto 766 -> Centroide 67
+Punto 767 -> Centroide 9
+Punto 768 -> Centroide 88
+Punto 769 -> Centroide 21
+Punto 770 -> Centroide 61
+Punto 771 -> Centroide 50
+Punto 772 -> Centroide 16
+Punto 773 -> Centroide 77
+Punto 774 -> Centroide 69
+Punto 775 -> Centroide 19
+Punto 776 -> Centroide 14
+Punto 777 -> Centroide 37
+Punto 778 -> Centroide 85
+Punto 779 -> Centroide 30
+Punto 780 -> Centroide 55
+Punto 781 -> Centroide 54
+Punto 782 -> Centroide 20
+Punto 783 -> Centroide 20
+Punto 784 -> Centroide 7
+Punto 785 -> Centroide 67
+Punto 786 -> Centroide 66
+Punto 787 -> Centroide 82
+Punto 788 -> Centroide 31
+Punto 789 -> Centroide 44
+Punto 790 -> Centroide 91
+Punto 791 -> Centroide 88
+Punto 792 -> Centroide 81
+Punto 793 -> Centroide 25
+Punto 794 -> Centroide 59
+Punto 795 -> Centroide 5
+Punto 796 -> Centroide 4
+Punto 797 -> Centroide 14
+Punto 798 -> Centroide 38
+Punto 799 -> Centroide 9
+Punto 800 -> Centroide 27
+Punto 801 -> Centroide 8
+Punto 802 -> Centroide 67
+Punto 803 -> Centroide 85
+Punto 804 -> Centroide 93
+Punto 805 -> Centroide 11
+Punto 806 -> Centroide 44
+Punto 807 -> Centroide 74
+Punto 808 -> Centroide 50
+Punto 809 -> Centroide 35
+Punto 810 -> Centroide 20
+Punto 811 -> Centroide 17
+Punto 812 -> Centroide 10
+Punto 813 -> Centroide 37
+Punto 814 -> Centroide 39
+Punto 815 -> Centroide 10
+Punto 816 -> Centroide 73
+Punto 817 -> Centroide 43
+Punto 818 -> Centroide 43
+Punto 819 -> Centroide 71
+Punto 820 -> Centroide 78
+Punto 821 -> Centroide 69
+Punto 822 -> Centroide 92
+Punto 823 -> Centroide 52
+Punto 824 -> Centroide 85
+Punto 825 -> Centroide 57
+Punto 826 -> Centroide 8
+Punto 827 -> Centroide 68
+Punto 828 -> Centroide 12
+Punto 829 -> Centroide 11
+Punto 830 -> Centroide 16
+Punto 831 -> Centroide 20
+Punto 832 -> Centroide 49
+Punto 833 -> Centroide 39
+Punto 834 -> Centroide 44
+Punto 835 -> Centroide 43
+Punto 836 -> Centroide 7
+Punto 837 -> Centroide 65
+Punto 838 -> Centroide 14
+Punto 839 -> Centroide 6
+Punto 840 -> Centroide 43
+Punto 841 -> Centroide 26
+Punto 842 -> Centroide 85
+Punto 843 -> Centroide 72
+Punto 844 -> Centroide 60
+Punto 845 -> Centroide 19
+Punto 846 -> Centroide 27
+Punto 847 -> Centroide 26
+Punto 848 -> Centroide 17
+Punto 849 -> Centroide 74
+Punto 850 -> Centroide 7
+Punto 851 -> Centroide 90
+Punto 852 -> Centroide 26
+Punto 853 -> Centroide 73
+Punto 854 -> Centroide 62
+Punto 855 -> Centroide 14
+Punto 856 -> Centroide 72
+Punto 857 -> Centroide 56
+Punto 858 -> Centroide 46
+Punto 859 -> Centroide 88
+Punto 860 -> Centroide 90
+Punto 861 -> Centroide 7
+Punto 862 -> Centroide 86
+Punto 863 -> Centroide 55
+Punto 864 -> Centroide 34
+Punto 865 -> Centroide 56
+Punto 866 -> Centroide 2
+Punto 867 -> Centroide 75
+Punto 868 -> Centroide 47
+Punto 869 -> Centroide 62
+Punto 870 -> Centroide 71
+Punto 871 -> Centroide 61
+Punto 872 -> Centroide 70
+Punto 873 -> Centroide 80
+Punto 874 -> Centroide 17
+Punto 875 -> Centroide 7
+Punto 876 -> Centroide 73
+Punto 877 -> Centroide 71
+Punto 878 -> Centroide 74
+Punto 879 -> Centroide 47
+Punto 880 -> Centroide 73
+Punto 881 -> Centroide 38
+Punto 882 -> Centroide 43
+Punto 883 -> Centroide 57
+Punto 884 -> Centroide 92
+Punto 885 -> Centroide 39
+Punto 886 -> Centroide 56
+Punto 887 -> Centroide 90
+Punto 888 -> Centroide 73
+Punto 889 -> Centroide 79
+Punto 890 -> Centroide 65
+Punto 891 -> Centroide 88
+Punto 892 -> Centroide 20
+Punto 893 -> Centroide 16
+Punto 894 -> Centroide 21
+Punto 895 -> Centroide 8
+Punto 896 -> Centroide 80
+Punto 897 -> Centroide 8
+Punto 898 -> Centroide 80
+Punto 899 -> Centroide 87
+Punto 900 -> Centroide 11
+Punto 901 -> Centroide 40
+Punto 902 -> Centroide 71
+Punto 903 -> Centroide 18
+Punto 904 -> Centroide 88
+Punto 905 -> Centroide 58
+Punto 906 -> Centroide 58
+Punto 907 -> Centroide 32
+Punto 908 -> Centroide 73
+Punto 909 -> Centroide 91
+Punto 910 -> Centroide 30
+Punto 911 -> Centroide 74
+Punto 912 -> Centroide 20
+Punto 913 -> Centroide 12
+Punto 914 -> Centroide 65
+Punto 915 -> Centroide 25
+Punto 916 -> Centroide 36
+Punto 917 -> Centroide 27
+Punto 918 -> Centroide 88
+Punto 919 -> Centroide 33
+Punto 920 -> Centroide 58
+Punto 921 -> Centroide 46
+Punto 922 -> Centroide 77
+Punto 923 -> Centroide 7
+Punto 924 -> Centroide 62
+Punto 925 -> Centroide 78
+Punto 926 -> Centroide 42
+Punto 927 -> Centroide 42
+Punto 928 -> Centroide 68
+Punto 929 -> Centroide 32
+Punto 930 -> Centroide 14
+Punto 931 -> Centroide 91
+Punto 932 -> Centroide 27
+Punto 933 -> Centroide 21
+Punto 934 -> Centroide 94
+Punto 935 -> Centroide 27
+Punto 936 -> Centroide 25
+Punto 937 -> Centroide 73
+Punto 938 -> Centroide 45
+Punto 939 -> Centroide 38
+Punto 940 -> Centroide 80
+Punto 941 -> Centroide 10
+Punto 942 -> Centroide 39
+Punto 943 -> Centroide 79
+Punto 944 -> Centroide 54
+Punto 945 -> Centroide 90
+Punto 946 -> Centroide 10
+Punto 947 -> Centroide 84
+Punto 948 -> Centroide 7
+Punto 949 -> Centroide 13
+Punto 950 -> Centroide 70
+Punto 951 -> Centroide 29
+Punto 952 -> Centroide 66
+Punto 953 -> Centroide 62
+Punto 954 -> Centroide 68
+Punto 955 -> Centroide 56
+Punto 956 -> Centroide 8
+Punto 957 -> Centroide 72
+Punto 958 -> Centroide 37
+Punto 959 -> Centroide 92
+Punto 960 -> Centroide 75
+Punto 961 -> Centroide 43
+Punto 962 -> Centroide 58
+Punto 963 -> Centroide 17
+Punto 964 -> Centroide 7
+Punto 965 -> Centroide 19
+Punto 966 -> Centroide 70
+Punto 967 -> Centroide 92
+Punto 968 -> Centroide 67
+Punto 969 -> Centroide 81
+Punto 970 -> Centroide 60
+Punto 971 -> Centroide 63
+Punto 972 -> Centroide 45
+Punto 973 -> Centroide 46
+Punto 974 -> Centroide 50
+Punto 975 -> Centroide 14
+Punto 976 -> Centroide 39
+Punto 977 -> Centroide 72
+Punto 978 -> Centroide 87
+Punto 979 -> Centroide 72
+Punto 980 -> Centroide 22
+Punto 981 -> Centroide 5
+Punto 982 -> Centroide 6
+Punto 983 -> Centroide 20
+Punto 984 -> Centroide 81
+Punto 985 -> Centroide 12
+Punto 986 -> Centroide 38
+Punto 987 -> Centroide 6
+Punto 988 -> Centroide 38
+Punto 989 -> Centroide 6
+Punto 990 -> Centroide 29
+Punto 991 -> Centroide 46
+Punto 992 -> Centroide 31
+Punto 993 -> Centroide 9
+Punto 994 -> Centroide 75
+Punto 995 -> Centroide 87
+Punto 996 -> Centroide 81
+Punto 997 -> Centroide 23
+Punto 998 -> Centroide 14
+Punto 999 -> Centroide 25
+Punto 1000 -> Centroide 72
+Punto 1001 -> Centroide 7
+Punto 1002 -> Centroide 66
+Punto 1003 -> Centroide 71
+Punto 1004 -> Centroide 7
+Punto 1005 -> Centroide 25
+Punto 1006 -> Centroide 83
+Punto 1007 -> Centroide 10
+Punto 1008 -> Centroide 57
+Punto 1009 -> Centroide 33
+Punto 1010 -> Centroide 51
+Punto 1011 -> Centroide 16
+Punto 1012 -> Centroide 61
+Punto 1013 -> Centroide 4
+Punto 1014 -> Centroide 54
+Punto 1015 -> Centroide 80
+Punto 1016 -> Centroide 36
+Punto 1017 -> Centroide 62
+Punto 1018 -> Centroide 3
+Punto 1019 -> Centroide 44
+Punto 1020 -> Centroide 7
+Punto 1021 -> Centroide 15
+Punto 1022 -> Centroide 58
+Punto 1023 -> Centroide 91
+Punto 1024 -> Centroide 35
+Punto 1025 -> Centroide 56
+Punto 1026 -> Centroide 88
+Punto 1027 -> Centroide 62
+Punto 1028 -> Centroide 65
+Punto 1029 -> Centroide 46
+Punto 1030 -> Centroide 74
+Punto 1031 -> Centroide 44
+Punto 1032 -> Centroide 83
+Punto 1033 -> Centroide 62
+Punto 1034 -> Centroide 34
+Punto 1035 -> Centroide 44
+Punto 1036 -> Centroide 18
+Punto 1037 -> Centroide 42
+Punto 1038 -> Centroide 13
+Punto 1039 -> Centroide 59
+Punto 1040 -> Centroide 4
+Punto 1041 -> Centroide 78
+Punto 1042 -> Centroide 74
+Punto 1043 -> Centroide 37
+Punto 1044 -> Centroide 75
+Punto 1045 -> Centroide 57
+Punto 1046 -> Centroide 68
+Punto 1047 -> Centroide 35
+Punto 1048 -> Centroide 23
+Punto 1049 -> Centroide 32
+Punto 1050 -> Centroide 71
+Punto 1051 -> Centroide 45
+Punto 1052 -> Centroide 78
+Punto 1053 -> Centroide 78
+Punto 1054 -> Centroide 50
+Punto 1055 -> Centroide 7
+Punto 1056 -> Centroide 20
+Punto 1057 -> Centroide 82
+Punto 1058 -> Centroide 26
+Punto 1059 -> Centroide 94
+Punto 1060 -> Centroide 73
+Punto 1061 -> Centroide 20
+Punto 1062 -> Centroide 27
+Punto 1063 -> Centroide 20
+Punto 1064 -> Centroide 81
+Punto 1065 -> Centroide 13
+Punto 1066 -> Centroide 73
+Punto 1067 -> Centroide 8
+Punto 1068 -> Centroide 74
+Punto 1069 -> Centroide 70
+Punto 1070 -> Centroide 5
+Punto 1071 -> Centroide 25
+Punto 1072 -> Centroide 39
+Punto 1073 -> Centroide 85
+Punto 1074 -> Centroide 41
+Punto 1075 -> Centroide 78
+Punto 1076 -> Centroide 77
+Punto 1077 -> Centroide 3
+Punto 1078 -> Centroide 25
+Punto 1079 -> Centroide 10
+Punto 1080 -> Centroide 90
+Punto 1081 -> Centroide 18
+Punto 1082 -> Centroide 5
+Punto 1083 -> Centroide 7
+Punto 1084 -> Centroide 27
+Punto 1085 -> Centroide 20
+Punto 1086 -> Centroide 51
+Punto 1087 -> Centroide 55
+Punto 1088 -> Centroide 20
+Punto 1089 -> Centroide 55
+Punto 1090 -> Centroide 27
+Punto 1091 -> Centroide 67
+Punto 1092 -> Centroide 78
+Punto 1093 -> Centroide 12
+Punto 1094 -> Centroide 65
+Punto 1095 -> Centroide 22
+Punto 1096 -> Centroide 34
+Punto 1097 -> Centroide 93
+Punto 1098 -> Centroide 34
+Punto 1099 -> Centroide 14
+Punto 1100 -> Centroide 79
+Punto 1101 -> Centroide 20
+Punto 1102 -> Centroide 27
+Punto 1103 -> Centroide 8
+Punto 1104 -> Centroide 81
+Punto 1105 -> Centroide 55
+Punto 1106 -> Centroide 20
+Punto 1107 -> Centroide 69
+Punto 1108 -> Centroide 85
+Punto 1109 -> Centroide 44
+Punto 1110 -> Centroide 94
+Punto 1111 -> Centroide 37
+Punto 1112 -> Centroide 7
+Punto 1113 -> Centroide 2
+Punto 1114 -> Centroide 66
+Punto 1115 -> Centroide 37
+Punto 1116 -> Centroide 22
+Punto 1117 -> Centroide 78
+Punto 1118 -> Centroide 32
+Punto 1119 -> Centroide 51
+Punto 1120 -> Centroide 70
+Punto 1121 -> Centroide 90
+Punto 1122 -> Centroide 20
+Punto 1123 -> Centroide 7
+Punto 1124 -> Centroide 73
+Punto 1125 -> Centroide 54
+Punto 1126 -> Centroide 75
+Punto 1127 -> Centroide 8
+Punto 1128 -> Centroide 37
+Punto 1129 -> Centroide 14
+Punto 1130 -> Centroide 44
+Punto 1131 -> Centroide 50
+Punto 1132 -> Centroide 82
+Punto 1133 -> Centroide 6
+Punto 1134 -> Centroide 36
+Punto 1135 -> Centroide 53
+Punto 1136 -> Centroide 35
+Punto 1137 -> Centroide 93
+Punto 1138 -> Centroide 53
+Punto 1139 -> Centroide 77
+Punto 1140 -> Centroide 59
+Punto 1141 -> Centroide 41
+Punto 1142 -> Centroide 58
+Punto 1143 -> Centroide 1
+Punto 1144 -> Centroide 91
+Punto 1145 -> Centroide 67
+Punto 1146 -> Centroide 85
+Punto 1147 -> Centroide 59
+Punto 1148 -> Centroide 20
+Punto 1149 -> Centroide 83
+Punto 1150 -> Centroide 60
+Punto 1151 -> Centroide 43
+Punto 1152 -> Centroide 88
+Punto 1153 -> Centroide 33
+Punto 1154 -> Centroide 82
+Punto 1155 -> Centroide 75
+Punto 1156 -> Centroide 43
+Punto 1157 -> Centroide 5
+Punto 1158 -> Centroide 87
+Punto 1159 -> Centroide 7
+Punto 1160 -> Centroide 22
+Punto 1161 -> Centroide 20
+Punto 1162 -> Centroide 77
+Punto 1163 -> Centroide 66
+Punto 1164 -> Centroide 55
+Punto 1165 -> Centroide 25
+Punto 1166 -> Centroide 19
+Punto 1167 -> Centroide 28
+Punto 1168 -> Centroide 44
+Punto 1169 -> Centroide 34
+Punto 1170 -> Centroide 36
+Punto 1171 -> Centroide 27
+Punto 1172 -> Centroide 22
+Punto 1173 -> Centroide 70
+Punto 1174 -> Centroide 12
+Punto 1175 -> Centroide 18
+Punto 1176 -> Centroide 61
+Punto 1177 -> Centroide 94
+Punto 1178 -> Centroide 5
+Punto 1179 -> Centroide 37
+Punto 1180 -> Centroide 33
+Punto 1181 -> Centroide 58
+Punto 1182 -> Centroide 57
+Punto 1183 -> Centroide 34
+Punto 1184 -> Centroide 81
+Punto 1185 -> Centroide 43
+Punto 1186 -> Centroide 78
+Punto 1187 -> Centroide 20
+Punto 1188 -> Centroide 59
+Punto 1189 -> Centroide 20
+Punto 1190 -> Centroide 14
+Punto 1191 -> Centroide 73
+Punto 1192 -> Centroide 8
+Punto 1193 -> Centroide 51
+Punto 1194 -> Centroide 3
+Punto 1195 -> Centroide 52
+Punto 1196 -> Centroide 27
+Punto 1197 -> Centroide 39
+Punto 1198 -> Centroide 38
+Punto 1199 -> Centroide 31
+Punto 1200 -> Centroide 78
+Punto 1201 -> Centroide 26
+Punto 1202 -> Centroide 80
+Punto 1203 -> Centroide 72
+Punto 1204 -> Centroide 25
+Punto 1205 -> Centroide 74
+Punto 1206 -> Centroide 16
+Punto 1207 -> Centroide 7
+Punto 1208 -> Centroide 77
+Punto 1209 -> Centroide 17
+Punto 1210 -> Centroide 63
+Punto 1211 -> Centroide 65
+Punto 1212 -> Centroide 9
+Punto 1213 -> Centroide 55
+Punto 1214 -> Centroide 45
+Punto 1215 -> Centroide 4
+Punto 1216 -> Centroide 20
+Punto 1217 -> Centroide 35
+Punto 1218 -> Centroide 22
+Punto 1219 -> Centroide 17
+Punto 1220 -> Centroide 20
+Punto 1221 -> Centroide 28
+Punto 1222 -> Centroide 23
+Punto 1223 -> Centroide 21
+Punto 1224 -> Centroide 14
+Punto 1225 -> Centroide 69
+Punto 1226 -> Centroide 2
+Punto 1227 -> Centroide 51
+Punto 1228 -> Centroide 4
+Punto 1229 -> Centroide 83
+Punto 1230 -> Centroide 17
+Punto 1231 -> Centroide 9
+Punto 1232 -> Centroide 39
+Punto 1233 -> Centroide 74
+Punto 1234 -> Centroide 27
+Punto 1235 -> Centroide 32
+Punto 1236 -> Centroide 10
+Punto 1237 -> Centroide 53
+Punto 1238 -> Centroide 44
+Punto 1239 -> Centroide 48
+Punto 1240 -> Centroide 14
+Punto 1241 -> Centroide 84
+Punto 1242 -> Centroide 25
+Punto 1243 -> Centroide 45
+Punto 1244 -> Centroide 74
+Punto 1245 -> Centroide 12
+Punto 1246 -> Centroide 56
+Punto 1247 -> Centroide 55
+Punto 1248 -> Centroide 80
+Punto 1249 -> Centroide 18
+Punto 1250 -> Centroide 26
+Punto 1251 -> Centroide 7
+Punto 1252 -> Centroide 10
+Punto 1253 -> Centroide 9
+Punto 1254 -> Centroide 26
+Punto 1255 -> Centroide 18
+Punto 1256 -> Centroide 80
+Punto 1257 -> Centroide 43
+Punto 1258 -> Centroide 43
+Punto 1259 -> Centroide 26
+Punto 1260 -> Centroide 58
+Punto 1261 -> Centroide 69
+Punto 1262 -> Centroide 56
+Punto 1263 -> Centroide 80
+Punto 1264 -> Centroide 93
+Punto 1265 -> Centroide 94
+Punto 1266 -> Centroide 43
+Punto 1267 -> Centroide 74
+Punto 1268 -> Centroide 59
+Punto 1269 -> Centroide 18
+Punto 1270 -> Centroide 42
+Punto 1271 -> Centroide 39
+Punto 1272 -> Centroide 7
+Punto 1273 -> Centroide 90
+Punto 1274 -> Centroide 88
+Punto 1275 -> Centroide 81
+Punto 1276 -> Centroide 87
+Punto 1277 -> Centroide 39
+Punto 1278 -> Centroide 47
+Punto 1279 -> Centroide 65
+Punto 1280 -> Centroide 51
+Punto 1281 -> Centroide 71
+Punto 1282 -> Centroide 39
+Punto 1283 -> Centroide 69
+Punto 1284 -> Centroide 30
+Punto 1285 -> Centroide 82
+Punto 1286 -> Centroide 85
+Punto 1287 -> Centroide 13
+Punto 1288 -> Centroide 25
+Punto 1289 -> Centroide 62
+Punto 1290 -> Centroide 74
+Punto 1291 -> Centroide 44
+Punto 1292 -> Centroide 80
+Punto 1293 -> Centroide 85
+Punto 1294 -> Centroide 43
+Punto 1295 -> Centroide 41
+Punto 1296 -> Centroide 56
+Punto 1297 -> Centroide 94
+Punto 1298 -> Centroide 21
+Punto 1299 -> Centroide 94
+Punto 1300 -> Centroide 8
+Punto 1301 -> Centroide 39
+Punto 1302 -> Centroide 88
+Punto 1303 -> Centroide 41
+Punto 1304 -> Centroide 73
+Punto 1305 -> Centroide 42
+Punto 1306 -> Centroide 26
+Punto 1307 -> Centroide 20
+Punto 1308 -> Centroide 93
+Punto 1309 -> Centroide 27
+Punto 1310 -> Centroide 20
+Punto 1311 -> Centroide 70
+Punto 1312 -> Centroide 30
+Punto 1313 -> Centroide 20
+Punto 1314 -> Centroide 93
+Punto 1315 -> Centroide 86
+Punto 1316 -> Centroide 73
+Punto 1317 -> Centroide 86
+Punto 1318 -> Centroide 57
+Punto 1319 -> Centroide 12
+Punto 1320 -> Centroide 39
+Punto 1321 -> Centroide 75
+Punto 1322 -> Centroide 36
+Punto 1323 -> Centroide 34
+Punto 1324 -> Centroide 58
+Punto 1325 -> Centroide 94
+Punto 1326 -> Centroide 80
+Punto 1327 -> Centroide 44
+Punto 1328 -> Centroide 39
+Punto 1329 -> Centroide 31
+Punto 1330 -> Centroide 21
+Punto 1331 -> Centroide 12
+Punto 1332 -> Centroide 20
+Punto 1333 -> Centroide 8
+Punto 1334 -> Centroide 79
+Punto 1335 -> Centroide 19
+Punto 1336 -> Centroide 20
+Punto 1337 -> Centroide 22
+Punto 1338 -> Centroide 84
+Punto 1339 -> Centroide 43
+Punto 1340 -> Centroide 65
+Punto 1341 -> Centroide 73
+Punto 1342 -> Centroide 17
+Punto 1343 -> Centroide 71
+Punto 1344 -> Centroide 67
+Punto 1345 -> Centroide 11
+Punto 1346 -> Centroide 2
+Punto 1347 -> Centroide 90
+Punto 1348 -> Centroide 7
+Punto 1349 -> Centroide 20
+Punto 1350 -> Centroide 20
+Punto 1351 -> Centroide 20
+Punto 1352 -> Centroide 75
+Punto 1353 -> Centroide 20
+Punto 1354 -> Centroide 22
+Punto 1355 -> Centroide 18
+Punto 1356 -> Centroide 91
+Punto 1357 -> Centroide 25
+Punto 1358 -> Centroide 82
+Punto 1359 -> Centroide 75
+Punto 1360 -> Centroide 18
+Punto 1361 -> Centroide 56
+Punto 1362 -> Centroide 9
+Punto 1363 -> Centroide 39
+Punto 1364 -> Centroide 8
+Punto 1365 -> Centroide 24
+Punto 1366 -> Centroide 33
+Punto 1367 -> Centroide 39
+Punto 1368 -> Centroide 46
+Punto 1369 -> Centroide 46
+Punto 1370 -> Centroide 9
+Punto 1371 -> Centroide 77
+Punto 1372 -> Centroide 44
+Punto 1373 -> Centroide 39
+Punto 1374 -> Centroide 92
+Punto 1375 -> Centroide 18
+Punto 1376 -> Centroide 64
+Punto 1377 -> Centroide 12
+Punto 1378 -> Centroide 73
+Punto 1379 -> Centroide 37
+Punto 1380 -> Centroide 79
+Punto 1381 -> Centroide 35
+Punto 1382 -> Centroide 59
+Punto 1383 -> Centroide 42
+Punto 1384 -> Centroide 34
+Punto 1385 -> Centroide 7
+Punto 1386 -> Centroide 90
+Punto 1387 -> Centroide 6
+Punto 1388 -> Centroide 62
+Punto 1389 -> Centroide 50
+Punto 1390 -> Centroide 8
+Punto 1391 -> Centroide 80
+Punto 1392 -> Centroide 70
+Punto 1393 -> Centroide 20
+Punto 1394 -> Centroide 77
+Punto 1395 -> Centroide 33
+Punto 1396 -> Centroide 40
+Punto 1397 -> Centroide 39
+Punto 1398 -> Centroide 21
+Punto 1399 -> Centroide 71
+Punto 1400 -> Centroide 42
+Punto 1401 -> Centroide 7
+Punto 1402 -> Centroide 39
+Punto 1403 -> Centroide 88
+Punto 1404 -> Centroide 93
+Punto 1405 -> Centroide 58
+Punto 1406 -> Centroide 93
+Punto 1407 -> Centroide 62
+Punto 1408 -> Centroide 22
+Punto 1409 -> Centroide 72
+Punto 1410 -> Centroide 66
+Punto 1411 -> Centroide 19
+Punto 1412 -> Centroide 39
+Punto 1413 -> Centroide 38
+Punto 1414 -> Centroide 78
+Punto 1415 -> Centroide 36
+Punto 1416 -> Centroide 38
+Punto 1417 -> Centroide 83
+Punto 1418 -> Centroide 6
+Punto 1419 -> Centroide 87
+Punto 1420 -> Centroide 8
+Punto 1421 -> Centroide 79
+Punto 1422 -> Centroide 32
+Punto 1423 -> Centroide 59
+Punto 1424 -> Centroide 26
+Punto 1425 -> Centroide 10
+Punto 1426 -> Centroide 70
+Punto 1427 -> Centroide 20
+Punto 1428 -> Centroide 70
+Punto 1429 -> Centroide 14
+Punto 1430 -> Centroide 1
+Punto 1431 -> Centroide 39
+Punto 1432 -> Centroide 68
+Punto 1433 -> Centroide 85
+Punto 1434 -> Centroide 20
+Punto 1435 -> Centroide 75
+Punto 1436 -> Centroide 20
+Punto 1437 -> Centroide 83
+Punto 1438 -> Centroide 34
+Punto 1439 -> Centroide 20
+Punto 1440 -> Centroide 56
+Punto 1441 -> Centroide 91
+Punto 1442 -> Centroide 24
+Punto 1443 -> Centroide 20
+Punto 1444 -> Centroide 7
+Punto 1445 -> Centroide 44
+Punto 1446 -> Centroide 31
+Punto 1447 -> Centroide 79
+Punto 1448 -> Centroide 1
+Punto 1449 -> Centroide 0
+Punto 1450 -> Centroide 58
+Punto 1451 -> Centroide 38
+Punto 1452 -> Centroide 79
+Punto 1453 -> Centroide 11
+Punto 1454 -> Centroide 81
+Punto 1455 -> Centroide 72
+Punto 1456 -> Centroide 9
+Punto 1457 -> Centroide 35
+Punto 1458 -> Centroide 74
+Punto 1459 -> Centroide 91
+Punto 1460 -> Centroide 22
+Punto 1461 -> Centroide 78
+Punto 1462 -> Centroide 30
+Punto 1463 -> Centroide 26
+Punto 1464 -> Centroide 59
+Punto 1465 -> Centroide 83
+Punto 1466 -> Centroide 68
+Punto 1467 -> Centroide 26
+Punto 1468 -> Centroide 33
+Punto 1469 -> Centroide 20
+Punto 1470 -> Centroide 12
+Punto 1471 -> Centroide 48
+Punto 1472 -> Centroide 84
+Punto 1473 -> Centroide 1
+Punto 1474 -> Centroide 35
+Punto 1475 -> Centroide 70
+Punto 1476 -> Centroide 48
+Punto 1477 -> Centroide 26
+Punto 1478 -> Centroide 74
+Punto 1479 -> Centroide 82
+Punto 1480 -> Centroide 1
+Punto 1481 -> Centroide 41
+Punto 1482 -> Centroide 6
+Punto 1483 -> Centroide 9
+Punto 1484 -> Centroide 25
+Punto 1485 -> Centroide 30
+Punto 1486 -> Centroide 28
+Punto 1487 -> Centroide 38
+Punto 1488 -> Centroide 5
+Punto 1489 -> Centroide 79
+Punto 1490 -> Centroide 16
+Punto 1491 -> Centroide 11
+Punto 1492 -> Centroide 26
+Punto 1493 -> Centroide 6
+Punto 1494 -> Centroide 55
+Punto 1495 -> Centroide 24
+Punto 1496 -> Centroide 68
+Punto 1497 -> Centroide 71
+Punto 1498 -> Centroide 8
+Punto 1499 -> Centroide 58
+Punto 1500 -> Centroide 22
+Punto 1501 -> Centroide 9
+Punto 1502 -> Centroide 91
+Punto 1503 -> Centroide 20
+Punto 1504 -> Centroide 30
+Punto 1505 -> Centroide 23
+Punto 1506 -> Centroide 16
+Punto 1507 -> Centroide 42
+Punto 1508 -> Centroide 58
+Punto 1509 -> Centroide 48
+Punto 1510 -> Centroide 58
+Punto 1511 -> Centroide 83
+Punto 1512 -> Centroide 92
+Punto 1513 -> Centroide 8
+Punto 1514 -> Centroide 93
+Punto 1515 -> Centroide 39
+Punto 1516 -> Centroide 59
+Punto 1517 -> Centroide 26
+Punto 1518 -> Centroide 37
+Punto 1519 -> Centroide 12
+Punto 1520 -> Centroide 79
+Punto 1521 -> Centroide 81
+Punto 1522 -> Centroide 86
+Punto 1523 -> Centroide 6
+Punto 1524 -> Centroide 58
+Punto 1525 -> Centroide 91
+Punto 1526 -> Centroide 35
+Punto 1527 -> Centroide 51
+Punto 1528 -> Centroide 7
+Punto 1529 -> Centroide 9
+Punto 1530 -> Centroide 48
+Punto 1531 -> Centroide 71
+Punto 1532 -> Centroide 11
+Punto 1533 -> Centroide 60
+Punto 1534 -> Centroide 88
+Punto 1535 -> Centroide 18
+Punto 1536 -> Centroide 32
+Punto 1537 -> Centroide 38
+Punto 1538 -> Centroide 14
+Punto 1539 -> Centroide 19
+Punto 1540 -> Centroide 44
+Punto 1541 -> Centroide 4
+Punto 1542 -> Centroide 23
+Punto 1543 -> Centroide 34
+Punto 1544 -> Centroide 39
+Punto 1545 -> Centroide 61
+Punto 1546 -> Centroide 38
+Punto 1547 -> Centroide 8
+Punto 1548 -> Centroide 12
+Punto 1549 -> Centroide 36
+Punto 1550 -> Centroide 37
+Punto 1551 -> Centroide 6
+Punto 1552 -> Centroide 67
+Punto 1553 -> Centroide 58
+Punto 1554 -> Centroide 20
+Punto 1555 -> Centroide 47
+Punto 1556 -> Centroide 22
+Punto 1557 -> Centroide 4
+Punto 1558 -> Centroide 82
+Punto 1559 -> Centroide 64
+Punto 1560 -> Centroide 91
+Punto 1561 -> Centroide 5
+Punto 1562 -> Centroide 46
+Punto 1563 -> Centroide 37
+Punto 1564 -> Centroide 79
+Punto 1565 -> Centroide 14
+Punto 1566 -> Centroide 69
+Punto 1567 -> Centroide 22
+Punto 1568 -> Centroide 61
+Punto 1569 -> Centroide 88
+Punto 1570 -> Centroide 59
+Punto 1571 -> Centroide 20
+Punto 1572 -> Centroide 38
+Punto 1573 -> Centroide 0
+Punto 1574 -> Centroide 82
+Punto 1575 -> Centroide 58
+Punto 1576 -> Centroide 45
+Punto 1577 -> Centroide 82
+Punto 1578 -> Centroide 78
+Punto 1579 -> Centroide 32
+Punto 1580 -> Centroide 59
+Punto 1581 -> Centroide 8
+Punto 1582 -> Centroide 84
+Punto 1583 -> Centroide 2
+Punto 1584 -> Centroide 72
+Punto 1585 -> Centroide 38
+Punto 1586 -> Centroide 44
+Punto 1587 -> Centroide 82
+Punto 1588 -> Centroide 32
+Punto 1589 -> Centroide 71
+Punto 1590 -> Centroide 22
+Punto 1591 -> Centroide 26
+Punto 1592 -> Centroide 7
+Punto 1593 -> Centroide 83
+Punto 1594 -> Centroide 21
+Punto 1595 -> Centroide 33
+Punto 1596 -> Centroide 7
+Punto 1597 -> Centroide 8
+Punto 1598 -> Centroide 15
+Punto 1599 -> Centroide 12
+Punto 1600 -> Centroide 59
+Punto 1601 -> Centroide 12
+Punto 1602 -> Centroide 18
+Punto 1603 -> Centroide 70
+Punto 1604 -> Centroide 34
+Punto 1605 -> Centroide 77
+Punto 1606 -> Centroide 72
+Punto 1607 -> Centroide 9
+Punto 1608 -> Centroide 22
+Punto 1609 -> Centroide 80
+Punto 1610 -> Centroide 93
+Punto 1611 -> Centroide 33
+Punto 1612 -> Centroide 46
+Punto 1613 -> Centroide 40
+Punto 1614 -> Centroide 74
+Punto 1615 -> Centroide 12
+Punto 1616 -> Centroide 86
+Punto 1617 -> Centroide 8
+Punto 1618 -> Centroide 58
+Punto 1619 -> Centroide 14
+Punto 1620 -> Centroide 12
+Punto 1621 -> Centroide 7
+Punto 1622 -> Centroide 56
+Punto 1623 -> Centroide 72
+Punto 1624 -> Centroide 83
+Punto 1625 -> Centroide 20
+Punto 1626 -> Centroide 7
+Punto 1627 -> Centroide 2
+Punto 1628 -> Centroide 51
+Punto 1629 -> Centroide 33
+Punto 1630 -> Centroide 83
+Punto 1631 -> Centroide 87
+Punto 1632 -> Centroide 19
+Punto 1633 -> Centroide 37
+Punto 1634 -> Centroide 3
+Punto 1635 -> Centroide 20
+Punto 1636 -> Centroide 3
+Punto 1637 -> Centroide 34
+Punto 1638 -> Centroide 22
+Punto 1639 -> Centroide 1
+Punto 1640 -> Centroide 35
+Punto 1641 -> Centroide 77
+Punto 1642 -> Centroide 37
+Punto 1643 -> Centroide 35
+Punto 1644 -> Centroide 55
+Punto 1645 -> Centroide 65
+Punto 1646 -> Centroide 36
+Punto 1647 -> Centroide 8
+Punto 1648 -> Centroide 33
+Punto 1649 -> Centroide 0
+Punto 1650 -> Centroide 8
+Punto 1651 -> Centroide 93
+Punto 1652 -> Centroide 56
+Punto 1653 -> Centroide 18
+Punto 1654 -> Centroide 8
+Punto 1655 -> Centroide 55
+Punto 1656 -> Centroide 48
+Punto 1657 -> Centroide 20
+Punto 1658 -> Centroide 73
+Punto 1659 -> Centroide 14
+Punto 1660 -> Centroide 82
+Punto 1661 -> Centroide 39
+Punto 1662 -> Centroide 46
+Punto 1663 -> Centroide 68
+Punto 1664 -> Centroide 73
+Punto 1665 -> Centroide 92
+Punto 1666 -> Centroide 58
+Punto 1667 -> Centroide 22
+Punto 1668 -> Centroide 38
+Punto 1669 -> Centroide 65
+Punto 1670 -> Centroide 92
+Punto 1671 -> Centroide 87
+Punto 1672 -> Centroide 93
+Punto 1673 -> Centroide 20
+Punto 1674 -> Centroide 53
+Punto 1675 -> Centroide 49
+Punto 1676 -> Centroide 17
+Punto 1677 -> Centroide 83
+Punto 1678 -> Centroide 65
+Punto 1679 -> Centroide 34
+Punto 1680 -> Centroide 40
+Punto 1681 -> Centroide 27
+Punto 1682 -> Centroide 79
+Punto 1683 -> Centroide 36
+Punto 1684 -> Centroide 8
+Punto 1685 -> Centroide 51
+Punto 1686 -> Centroide 81
+Punto 1687 -> Centroide 12
+Punto 1688 -> Centroide 25
+Punto 1689 -> Centroide 33
+Punto 1690 -> Centroide 46
+Punto 1691 -> Centroide 5
+Punto 1692 -> Centroide 72
+Punto 1693 -> Centroide 91
+Punto 1694 -> Centroide 46
+Punto 1695 -> Centroide 82
+Punto 1696 -> Centroide 74
+Punto 1697 -> Centroide 39
+Punto 1698 -> Centroide 50
+Punto 1699 -> Centroide 72
+Punto 1700 -> Centroide 40
+Punto 1701 -> Centroide 30
+Punto 1702 -> Centroide 0
+Punto 1703 -> Centroide 46
+Punto 1704 -> Centroide 26
+Punto 1705 -> Centroide 7
+Punto 1706 -> Centroide 27
+Punto 1707 -> Centroide 39
+Punto 1708 -> Centroide 17
+Punto 1709 -> Centroide 85
+Punto 1710 -> Centroide 27
+Punto 1711 -> Centroide 82
+Punto 1712 -> Centroide 69
+Punto 1713 -> Centroide 8
+Punto 1714 -> Centroide 71
+Punto 1715 -> Centroide 44
+Punto 1716 -> Centroide 82
+Punto 1717 -> Centroide 41
+Punto 1718 -> Centroide 70
+Punto 1719 -> Centroide 24
+Punto 1720 -> Centroide 90
+Punto 1721 -> Centroide 14
+Punto 1722 -> Centroide 38
+Punto 1723 -> Centroide 82
+Punto 1724 -> Centroide 8
+Punto 1725 -> Centroide 20
+Punto 1726 -> Centroide 9
+Punto 1727 -> Centroide 75
+Punto 1728 -> Centroide 22
+Punto 1729 -> Centroide 27
+Punto 1730 -> Centroide 88
+Punto 1731 -> Centroide 87
+Punto 1732 -> Centroide 20
+Punto 1733 -> Centroide 12
+Punto 1734 -> Centroide 91
+Punto 1735 -> Centroide 16
+Punto 1736 -> Centroide 75
+Punto 1737 -> Centroide 57
+Punto 1738 -> Centroide 39
+Punto 1739 -> Centroide 92
+Punto 1740 -> Centroide 17
+Punto 1741 -> Centroide 71
+Punto 1742 -> Centroide 44
+Punto 1743 -> Centroide 32
+Punto 1744 -> Centroide 37
+Punto 1745 -> Centroide 21
+Punto 1746 -> Centroide 59
+Punto 1747 -> Centroide 11
+Punto 1748 -> Centroide 72
+Punto 1749 -> Centroide 43
+Punto 1750 -> Centroide 20
+Punto 1751 -> Centroide 8
+Punto 1752 -> Centroide 14
+Punto 1753 -> Centroide 45
+Punto 1754 -> Centroide 51
+Punto 1755 -> Centroide 12
+Punto 1756 -> Centroide 26
+Punto 1757 -> Centroide 20
+Punto 1758 -> Centroide 19
+Punto 1759 -> Centroide 39
+Punto 1760 -> Centroide 26
+Punto 1761 -> Centroide 29
+Punto 1762 -> Centroide 74
+Punto 1763 -> Centroide 56
+Punto 1764 -> Centroide 80
+Punto 1765 -> Centroide 45
+Punto 1766 -> Centroide 18
+Punto 1767 -> Centroide 77
+Punto 1768 -> Centroide 77
+Punto 1769 -> Centroide 91
+Punto 1770 -> Centroide 70
+Punto 1771 -> Centroide 32
+Punto 1772 -> Centroide 79
+Punto 1773 -> Centroide 46
+Punto 1774 -> Centroide 20
+Punto 1775 -> Centroide 35
+Punto 1776 -> Centroide 20
+Punto 1777 -> Centroide 46
+Punto 1778 -> Centroide 2
+Punto 1779 -> Centroide 78
+Punto 1780 -> Centroide 26
+Punto 1781 -> Centroide 83
+Punto 1782 -> Centroide 80
+Punto 1783 -> Centroide 93
+Punto 1784 -> Centroide 92
+Punto 1785 -> Centroide 73
+Punto 1786 -> Centroide 93
+Punto 1787 -> Centroide 39
+Punto 1788 -> Centroide 73
+Punto 1789 -> Centroide 63
+Punto 1790 -> Centroide 61
+Punto 1791 -> Centroide 67
+Punto 1792 -> Centroide 25
+Punto 1793 -> Centroide 50
+Punto 1794 -> Centroide 8
+Punto 1795 -> Centroide 47
+Punto 1796 -> Centroide 25
+Punto 1797 -> Centroide 25
+Punto 1798 -> Centroide 79
+Punto 1799 -> Centroide 26
+Punto 1800 -> Centroide 52
+Punto 1801 -> Centroide 73
+Punto 1802 -> Centroide 32
+Punto 1803 -> Centroide 88
+Punto 1804 -> Centroide 46
+Punto 1805 -> Centroide 69
+Punto 1806 -> Centroide 23
+Punto 1807 -> Centroide 15
+Punto 1808 -> Centroide 35
+Punto 1809 -> Centroide 41
+Punto 1810 -> Centroide 35
+Punto 1811 -> Centroide 67
+Punto 1812 -> Centroide 82
+Punto 1813 -> Centroide 46
+Punto 1814 -> Centroide 9
+Punto 1815 -> Centroide 4
+Punto 1816 -> Centroide 38
+Punto 1817 -> Centroide 20
+Punto 1818 -> Centroide 8
+Punto 1819 -> Centroide 39
+Punto 1820 -> Centroide 58
+Punto 1821 -> Centroide 20
+Punto 1822 -> Centroide 84
+Punto 1823 -> Centroide 34
+Punto 1824 -> Centroide 9
+Punto 1825 -> Centroide 59
+Punto 1826 -> Centroide 25
+Punto 1827 -> Centroide 41
+Punto 1828 -> Centroide 7
+Punto 1829 -> Centroide 18
+Punto 1830 -> Centroide 74
+Punto 1831 -> Centroide 59
+Punto 1832 -> Centroide 51
+Punto 1833 -> Centroide 39
+Punto 1834 -> Centroide 70
+Punto 1835 -> Centroide 25
+Punto 1836 -> Centroide 58
+Punto 1837 -> Centroide 8
+Punto 1838 -> Centroide 91
+Punto 1839 -> Centroide 12
+Punto 1840 -> Centroide 11
+Punto 1841 -> Centroide 54
+Punto 1842 -> Centroide 19
+Punto 1843 -> Centroide 44
+Punto 1844 -> Centroide 71
+Punto 1845 -> Centroide 7
+Punto 1846 -> Centroide 83
+Punto 1847 -> Centroide 58
+Punto 1848 -> Centroide 41
+Punto 1849 -> Centroide 20
+Punto 1850 -> Centroide 1
+Punto 1851 -> Centroide 42
+Punto 1852 -> Centroide 9
+Punto 1853 -> Centroide 36
+Punto 1854 -> Centroide 88
+Punto 1855 -> Centroide 7
+Punto 1856 -> Centroide 8
+Punto 1857 -> Centroide 27
+Punto 1858 -> Centroide 24
+Punto 1859 -> Centroide 73
+Punto 1860 -> Centroide 37
+Punto 1861 -> Centroide 15
+Punto 1862 -> Centroide 79
+Punto 1863 -> Centroide 78
+Punto 1864 -> Centroide 25
+Punto 1865 -> Centroide 65
+Punto 1866 -> Centroide 79
+Punto 1867 -> Centroide 65
+Punto 1868 -> Centroide 49
+Punto 1869 -> Centroide 2
+Punto 1870 -> Centroide 69
+Punto 1871 -> Centroide 15
+Punto 1872 -> Centroide 38
+Punto 1873 -> Centroide 9
+Punto 1874 -> Centroide 93
+Punto 1875 -> Centroide 50
+Punto 1876 -> Centroide 4
+Punto 1877 -> Centroide 37
+Punto 1878 -> Centroide 23
+Punto 1879 -> Centroide 80
+Punto 1880 -> Centroide 22
+Punto 1881 -> Centroide 58
+Punto 1882 -> Centroide 25
+Punto 1883 -> Centroide 34
+Punto 1884 -> Centroide 75
+Punto 1885 -> Centroide 38
+Punto 1886 -> Centroide 46
+Punto 1887 -> Centroide 20
+Punto 1888 -> Centroide 90
+Punto 1889 -> Centroide 76
+Punto 1890 -> Centroide 12
+Punto 1891 -> Centroide 87
+Punto 1892 -> Centroide 49
+Punto 1893 -> Centroide 71
+Punto 1894 -> Centroide 20
+Punto 1895 -> Centroide 12
+Punto 1896 -> Centroide 43
+Punto 1897 -> Centroide 37
+Punto 1898 -> Centroide 4
+Punto 1899 -> Centroide 56
+Punto 1900 -> Centroide 74
+Punto 1901 -> Centroide 78
+Punto 1902 -> Centroide 61
+Punto 1903 -> Centroide 36
+Punto 1904 -> Centroide 17
+Punto 1905 -> Centroide 36
+Punto 1906 -> Centroide 63
+Punto 1907 -> Centroide 17
+Punto 1908 -> Centroide 22
+Punto 1909 -> Centroide 82
+Punto 1910 -> Centroide 13
+Punto 1911 -> Centroide 38
+Punto 1912 -> Centroide 80
+Punto 1913 -> Centroide 75
+Punto 1914 -> Centroide 80
+Punto 1915 -> Centroide 11
+Punto 1916 -> Centroide 74
+Punto 1917 -> Centroide 18
+Punto 1918 -> Centroide 46
+Punto 1919 -> Centroide 35
+Punto 1920 -> Centroide 57
+Punto 1921 -> Centroide 9
+Punto 1922 -> Centroide 63
+Punto 1923 -> Centroide 74
+Punto 1924 -> Centroide 87
+Punto 1925 -> Centroide 4
+Punto 1926 -> Centroide 6
+Punto 1927 -> Centroide 36
+Punto 1928 -> Centroide 37
+Punto 1929 -> Centroide 26
+Punto 1930 -> Centroide 8
+Punto 1931 -> Centroide 43
+Punto 1932 -> Centroide 78
+Punto 1933 -> Centroide 66
+Punto 1934 -> Centroide 55
+Punto 1935 -> Centroide 78
+Punto 1936 -> Centroide 11
+Punto 1937 -> Centroide 23
+Punto 1938 -> Centroide 91
+Punto 1939 -> Centroide 6
+Punto 1940 -> Centroide 37
+Punto 1941 -> Centroide 92
+Punto 1942 -> Centroide 50
+Punto 1943 -> Centroide 35
+Punto 1944 -> Centroide 86
+Punto 1945 -> Centroide 66
+Punto 1946 -> Centroide 38
+Punto 1947 -> Centroide 71
+Punto 1948 -> Centroide 3
+Punto 1949 -> Centroide 1
+Punto 1950 -> Centroide 71
+Punto 1951 -> Centroide 18
+Punto 1952 -> Centroide 68
+Punto 1953 -> Centroide 29
+Punto 1954 -> Centroide 36
+Punto 1955 -> Centroide 14
+Punto 1956 -> Centroide 38
+Punto 1957 -> Centroide 7
+Punto 1958 -> Centroide 20
+Punto 1959 -> Centroide 82
+Punto 1960 -> Centroide 71
+Punto 1961 -> Centroide 36
+Punto 1962 -> Centroide 16
+Punto 1963 -> Centroide 35
+Punto 1964 -> Centroide 39
+Punto 1965 -> Centroide 83
+Punto 1966 -> Centroide 80
+Punto 1967 -> Centroide 38
+Punto 1968 -> Centroide 41
+Punto 1969 -> Centroide 90
+Punto 1970 -> Centroide 22
+Punto 1971 -> Centroide 65
+Punto 1972 -> Centroide 51
+Punto 1973 -> Centroide 80
+Punto 1974 -> Centroide 58
+Punto 1975 -> Centroide 35
+Punto 1976 -> Centroide 54
+Punto 1977 -> Centroide 5
+Punto 1978 -> Centroide 56
+Punto 1979 -> Centroide 20
+Punto 1980 -> Centroide 80
+Punto 1981 -> Centroide 37
+Punto 1982 -> Centroide 77
+Punto 1983 -> Centroide 48
+Punto 1984 -> Centroide 52
+Punto 1985 -> Centroide 8
+Punto 1986 -> Centroide 8
+Punto 1987 -> Centroide 44
+Punto 1988 -> Centroide 4
+Punto 1989 -> Centroide 66
+Punto 1990 -> Centroide 22
+Punto 1991 -> Centroide 21
+Punto 1992 -> Centroide 58
+Punto 1993 -> Centroide 69
+Punto 1994 -> Centroide 34
+Punto 1995 -> Centroide 73
+Punto 1996 -> Centroide 81
+Punto 1997 -> Centroide 83
+Punto 1998 -> Centroide 92
+Punto 1999 -> Centroide 85
+Punto 2000 -> Centroide 11
+Punto 2001 -> Centroide 57
+Punto 2002 -> Centroide 8
+Punto 2003 -> Centroide 3
+Punto 2004 -> Centroide 25
+Punto 2005 -> Centroide 53
+Punto 2006 -> Centroide 13
+Punto 2007 -> Centroide 6
+Punto 2008 -> Centroide 18
+Punto 2009 -> Centroide 38
+Punto 2010 -> Centroide 56
+Punto 2011 -> Centroide 78
+Punto 2012 -> Centroide 29
+Punto 2013 -> Centroide 27
+Punto 2014 -> Centroide 56
+Punto 2015 -> Centroide 77
+Punto 2016 -> Centroide 91
+Punto 2017 -> Centroide 90
+Punto 2018 -> Centroide 48
+Punto 2019 -> Centroide 74
+Punto 2020 -> Centroide 77
+Punto 2021 -> Centroide 0
+Punto 2022 -> Centroide 89
+Punto 2023 -> Centroide 65
+Punto 2024 -> Centroide 93
+Punto 2025 -> Centroide 6
+Punto 2026 -> Centroide 8
+Punto 2027 -> Centroide 46
+Punto 2028 -> Centroide 94
+Punto 2029 -> Centroide 75
+Punto 2030 -> Centroide 82
+Punto 2031 -> Centroide 26
+Punto 2032 -> Centroide 43
+Punto 2033 -> Centroide 7
+Punto 2034 -> Centroide 20
+Punto 2035 -> Centroide 56
+Punto 2036 -> Centroide 12
+Punto 2037 -> Centroide 59
+Punto 2038 -> Centroide 7
+Punto 2039 -> Centroide 94
+Punto 2040 -> Centroide 71
+Punto 2041 -> Centroide 87
+Punto 2042 -> Centroide 7
+Punto 2043 -> Centroide 85
+Punto 2044 -> Centroide 50
+Punto 2045 -> Centroide 42
+Punto 2046 -> Centroide 21
+Punto 2047 -> Centroide 14
+Punto 2048 -> Centroide 20
+Punto 2049 -> Centroide 7
+Punto 2050 -> Centroide 74
+Punto 2051 -> Centroide 12
+Punto 2052 -> Centroide 94
+Punto 2053 -> Centroide 72
+Punto 2054 -> Centroide 90
+Punto 2055 -> Centroide 38
+Punto 2056 -> Centroide 37
+Punto 2057 -> Centroide 92
+Punto 2058 -> Centroide 51
+Punto 2059 -> Centroide 43
+Punto 2060 -> Centroide 5
+Punto 2061 -> Centroide 59
+Punto 2062 -> Centroide 17
+Punto 2063 -> Centroide 60
+Punto 2064 -> Centroide 73
+Punto 2065 -> Centroide 72
+Punto 2066 -> Centroide 44
+Punto 2067 -> Centroide 13
+Punto 2068 -> Centroide 36
+Punto 2069 -> Centroide 15
+Punto 2070 -> Centroide 90
+Punto 2071 -> Centroide 17
+Punto 2072 -> Centroide 14
+Punto 2073 -> Centroide 62
+Punto 2074 -> Centroide 83
+Punto 2075 -> Centroide 27
+Punto 2076 -> Centroide 4
+Punto 2077 -> Centroide 14
+Punto 2078 -> Centroide 8
+Punto 2079 -> Centroide 47
+Punto 2080 -> Centroide 93
+Punto 2081 -> Centroide 83
+Punto 2082 -> Centroide 94
+Punto 2083 -> Centroide 8
+Punto 2084 -> Centroide 18
+Punto 2085 -> Centroide 25
+Punto 2086 -> Centroide 62
+Punto 2087 -> Centroide 80
+Punto 2088 -> Centroide 44
+Punto 2089 -> Centroide 54
+Punto 2090 -> Centroide 4
+Punto 2091 -> Centroide 7
+Punto 2092 -> Centroide 55
+Punto 2093 -> Centroide 85
+Punto 2094 -> Centroide 43
+Punto 2095 -> Centroide 78
+Punto 2096 -> Centroide 17
+Punto 2097 -> Centroide 55
+Punto 2098 -> Centroide 30
+Punto 2099 -> Centroide 72
+Punto 2100 -> Centroide 78
+Punto 2101 -> Centroide 49
+Punto 2102 -> Centroide 51
+Punto 2103 -> Centroide 3
+Punto 2104 -> Centroide 69
+Punto 2105 -> Centroide 58
+Punto 2106 -> Centroide 27
+Punto 2107 -> Centroide 60
+Punto 2108 -> Centroide 94
+Punto 2109 -> Centroide 63
+Punto 2110 -> Centroide 11
+Punto 2111 -> Centroide 11
+Punto 2112 -> Centroide 86
+Punto 2113 -> Centroide 67
+Punto 2114 -> Centroide 35
+Punto 2115 -> Centroide 79
+Punto 2116 -> Centroide 3
+Punto 2117 -> Centroide 7
+Punto 2118 -> Centroide 0
+Punto 2119 -> Centroide 72
+Punto 2120 -> Centroide 19
+Punto 2121 -> Centroide 81
+Punto 2122 -> Centroide 59
+Punto 2123 -> Centroide 70
+Punto 2124 -> Centroide 20
+Punto 2125 -> Centroide 57
+Punto 2126 -> Centroide 26
+Punto 2127 -> Centroide 56
+Punto 2128 -> Centroide 34
+Punto 2129 -> Centroide 18
+Punto 2130 -> Centroide 64
+Punto 2131 -> Centroide 72
+Punto 2132 -> Centroide 54
+Punto 2133 -> Centroide 91
+Punto 2134 -> Centroide 73
+Punto 2135 -> Centroide 73
+Punto 2136 -> Centroide 78
+Punto 2137 -> Centroide 39
+Punto 2138 -> Centroide 56
+Punto 2139 -> Centroide 37
+Punto 2140 -> Centroide 27
+Punto 2141 -> Centroide 20
+Punto 2142 -> Centroide 31
+Punto 2143 -> Centroide 37
+Punto 2144 -> Centroide 8
+Punto 2145 -> Centroide 82
+Punto 2146 -> Centroide 9
+Punto 2147 -> Centroide 19
+Punto 2148 -> Centroide 68
+Punto 2149 -> Centroide 18
+Punto 2150 -> Centroide 1
+Punto 2151 -> Centroide 10
+Punto 2152 -> Centroide 91
+Punto 2153 -> Centroide 35
+Punto 2154 -> Centroide 3
+Punto 2155 -> Centroide 7
+Punto 2156 -> Centroide 15
+Punto 2157 -> Centroide 3
+Punto 2158 -> Centroide 43
+Punto 2159 -> Centroide 72
+Punto 2160 -> Centroide 16
+Punto 2161 -> Centroide 71
+Punto 2162 -> Centroide 92
+Punto 2163 -> Centroide 38
+Punto 2164 -> Centroide 81
+Punto 2165 -> Centroide 88
+Punto 2166 -> Centroide 20
+Punto 2167 -> Centroide 87
+Punto 2168 -> Centroide 27
+Punto 2169 -> Centroide 14
+Punto 2170 -> Centroide 92
+Punto 2171 -> Centroide 20
+Punto 2172 -> Centroide 25
+Punto 2173 -> Centroide 31
+Punto 2174 -> Centroide 25
+Punto 2175 -> Centroide 11
+Punto 2176 -> Centroide 14
+Punto 2177 -> Centroide 19
+Punto 2178 -> Centroide 79
+Punto 2179 -> Centroide 58
+Punto 2180 -> Centroide 1
+Punto 2181 -> Centroide 74
+Punto 2182 -> Centroide 61
+Punto 2183 -> Centroide 20
+Punto 2184 -> Centroide 91
+Punto 2185 -> Centroide 81
+Punto 2186 -> Centroide 61
+Punto 2187 -> Centroide 87
+Punto 2188 -> Centroide 73
+Punto 2189 -> Centroide 62
+Punto 2190 -> Centroide 32
+Punto 2191 -> Centroide 37
+Punto 2192 -> Centroide 20
+Punto 2193 -> Centroide 74
+Punto 2194 -> Centroide 84
+Punto 2195 -> Centroide 7
+Punto 2196 -> Centroide 1
+Punto 2197 -> Centroide 35
+Punto 2198 -> Centroide 38
+Punto 2199 -> Centroide 10
+Punto 2200 -> Centroide 12
+Punto 2201 -> Centroide 22
+Punto 2202 -> Centroide 87
+Punto 2203 -> Centroide 25
+Punto 2204 -> Centroide 5
+Punto 2205 -> Centroide 11
+Punto 2206 -> Centroide 10
+Punto 2207 -> Centroide 15
+Punto 2208 -> Centroide 67
+Punto 2209 -> Centroide 86
+Punto 2210 -> Centroide 8
+Punto 2211 -> Centroide 75
+Punto 2212 -> Centroide 8
+Punto 2213 -> Centroide 23
+Punto 2214 -> Centroide 87
+Punto 2215 -> Centroide 27
+Punto 2216 -> Centroide 70
+Punto 2217 -> Centroide 33
+Punto 2218 -> Centroide 7
+Punto 2219 -> Centroide 83
+Punto 2220 -> Centroide 70
+Punto 2221 -> Centroide 91
+Punto 2222 -> Centroide 57
+Punto 2223 -> Centroide 20
+Punto 2224 -> Centroide 90
+Punto 2225 -> Centroide 27
+Punto 2226 -> Centroide 44
+Punto 2227 -> Centroide 24
+Punto 2228 -> Centroide 44
+Punto 2229 -> Centroide 43
+Punto 2230 -> Centroide 88
+Punto 2231 -> Centroide 30
+Punto 2232 -> Centroide 15
+Punto 2233 -> Centroide 86
+Punto 2234 -> Centroide 80
+Punto 2235 -> Centroide 66
+Punto 2236 -> Centroide 27
+Punto 2237 -> Centroide 80
+Punto 2238 -> Centroide 36
+Punto 2239 -> Centroide 33
+Punto 2240 -> Centroide 17
+Punto 2241 -> Centroide 8
+Punto 2242 -> Centroide 25
+Punto 2243 -> Centroide 90
+Punto 2244 -> Centroide 73
+Punto 2245 -> Centroide 43
+Punto 2246 -> Centroide 27
+Punto 2247 -> Centroide 31
+Punto 2248 -> Centroide 16
+Punto 2249 -> Centroide 6
+Punto 2250 -> Centroide 81
+Punto 2251 -> Centroide 15
+Punto 2252 -> Centroide 37
+Punto 2253 -> Centroide 89
+Punto 2254 -> Centroide 83
+Punto 2255 -> Centroide 13
+Punto 2256 -> Centroide 6
+Punto 2257 -> Centroide 20
+Punto 2258 -> Centroide 39
+Punto 2259 -> Centroide 31
+Punto 2260 -> Centroide 41
+Punto 2261 -> Centroide 2
+Punto 2262 -> Centroide 57
+Punto 2263 -> Centroide 20
+Punto 2264 -> Centroide 7
+Punto 2265 -> Centroide 59
+Punto 2266 -> Centroide 22
+Punto 2267 -> Centroide 42
+Punto 2268 -> Centroide 8
+Punto 2269 -> Centroide 90
+Punto 2270 -> Centroide 7
+Punto 2271 -> Centroide 10
+Punto 2272 -> Centroide 27
+Punto 2273 -> Centroide 82
+Punto 2274 -> Centroide 15
+Punto 2275 -> Centroide 32
+Punto 2276 -> Centroide 48
+Punto 2277 -> Centroide 71
+Punto 2278 -> Centroide 91
+Punto 2279 -> Centroide 78
+Punto 2280 -> Centroide 38
+Punto 2281 -> Centroide 27
+Punto 2282 -> Centroide 7
+Punto 2283 -> Centroide 32
+Punto 2284 -> Centroide 65
+Punto 2285 -> Centroide 39
+Punto 2286 -> Centroide 0
+Punto 2287 -> Centroide 17
+Punto 2288 -> Centroide 19
+Punto 2289 -> Centroide 30
+Punto 2290 -> Centroide 5
+Punto 2291 -> Centroide 37
+Punto 2292 -> Centroide 7
+Punto 2293 -> Centroide 36
+Punto 2294 -> Centroide 55
+Punto 2295 -> Centroide 66
+Punto 2296 -> Centroide 20
+Punto 2297 -> Centroide 21
+Punto 2298 -> Centroide 7
+Punto 2299 -> Centroide 21
+Punto 2300 -> Centroide 31
+Punto 2301 -> Centroide 92
+Punto 2302 -> Centroide 79
+Punto 2303 -> Centroide 48
+Punto 2304 -> Centroide 66
+Punto 2305 -> Centroide 60
+Punto 2306 -> Centroide 25
+Punto 2307 -> Centroide 22
+Punto 2308 -> Centroide 48
+Punto 2309 -> Centroide 12
+Punto 2310 -> Centroide 54
+Punto 2311 -> Centroide 51
+Punto 2312 -> Centroide 80
+Punto 2313 -> Centroide 46
+Punto 2314 -> Centroide 80
+Punto 2315 -> Centroide 35
+Punto 2316 -> Centroide 72
+Punto 2317 -> Centroide 11
+Punto 2318 -> Centroide 3
+Punto 2319 -> Centroide 25
+Punto 2320 -> Centroide 63
+Punto 2321 -> Centroide 37
+Punto 2322 -> Centroide 38
+Punto 2323 -> Centroide 77
+Punto 2324 -> Centroide 91
+Punto 2325 -> Centroide 87
+Punto 2326 -> Centroide 25
+Punto 2327 -> Centroide 13
+Punto 2328 -> Centroide 46
+Punto 2329 -> Centroide 22
+Punto 2330 -> Centroide 74
+Punto 2331 -> Centroide 27
+Punto 2332 -> Centroide 58
+Punto 2333 -> Centroide 59
+Punto 2334 -> Centroide 79
+Punto 2335 -> Centroide 41
+Punto 2336 -> Centroide 73
+Punto 2337 -> Centroide 12
+Punto 2338 -> Centroide 10
+Punto 2339 -> Centroide 65
+Punto 2340 -> Centroide 8
+Punto 2341 -> Centroide 84
+Punto 2342 -> Centroide 8
+Punto 2343 -> Centroide 26
+Punto 2344 -> Centroide 11
+Punto 2345 -> Centroide 74
+Punto 2346 -> Centroide 34
+Punto 2347 -> Centroide 58
+Punto 2348 -> Centroide 29
+Punto 2349 -> Centroide 29
+Punto 2350 -> Centroide 83
+Punto 2351 -> Centroide 0
+Punto 2352 -> Centroide 21
+Punto 2353 -> Centroide 20
+Punto 2354 -> Centroide 8
+Punto 2355 -> Centroide 72
+Punto 2356 -> Centroide 92
+Punto 2357 -> Centroide 59
+Punto 2358 -> Centroide 14
+Punto 2359 -> Centroide 48
+Punto 2360 -> Centroide 48
+Punto 2361 -> Centroide 80
+Punto 2362 -> Centroide 21
+Punto 2363 -> Centroide 27
+Punto 2364 -> Centroide 49
+Punto 2365 -> Centroide 37
+Punto 2366 -> Centroide 79
+Punto 2367 -> Centroide 20
+Punto 2368 -> Centroide 91
+Punto 2369 -> Centroide 21
+Punto 2370 -> Centroide 18
+Punto 2371 -> Centroide 11
+Punto 2372 -> Centroide 0
+Punto 2373 -> Centroide 79
+Punto 2374 -> Centroide 86
+Punto 2375 -> Centroide 58
+Punto 2376 -> Centroide 74
+Punto 2377 -> Centroide 27
+Punto 2378 -> Centroide 50
+Punto 2379 -> Centroide 35
+Punto 2380 -> Centroide 26
+Punto 2381 -> Centroide 49
+Punto 2382 -> Centroide 29
+Punto 2383 -> Centroide 20
+Punto 2384 -> Centroide 46
+Punto 2385 -> Centroide 79
+Punto 2386 -> Centroide 18
+Punto 2387 -> Centroide 39
+Punto 2388 -> Centroide 71
+Punto 2389 -> Centroide 94
+Punto 2390 -> Centroide 24
+Punto 2391 -> Centroide 86
+Punto 2392 -> Centroide 58
+Punto 2393 -> Centroide 8
+Punto 2394 -> Centroide 37
+Punto 2395 -> Centroide 59
+Punto 2396 -> Centroide 27
+Punto 2397 -> Centroide 43
+Punto 2398 -> Centroide 43
+Punto 2399 -> Centroide 19
